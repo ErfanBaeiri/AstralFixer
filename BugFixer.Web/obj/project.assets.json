@@ -10249,11 +10249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\BugFixer.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\BugFixer.Web.csproj",
       "projectName": "BugFixer.Web",
-      "projectPath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\BugFixer.Web.csproj",
+      "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\BugFixer.Web.csproj",
       "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\",
+      "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -10275,14 +10275,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj"
+            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj"
             },
-            "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj"
+            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj"
             },
-            "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj"
+            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj"
             }
           }
         }

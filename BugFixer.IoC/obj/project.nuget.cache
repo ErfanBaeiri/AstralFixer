@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6TuqL0a/xQR7FLglh4+wOS2yqC3OEYWit+fcULgCLBfpnKfJppyGxTa6j1z/WrcE3hhXGqwwAFop+mbfNw8IrQ==",
+  "dgSpecHash": "cq5HM1sX9NPEcwlh3lwmiR1Ohxsaf8WYgQH4EbVUIc/2Is14zAxcGYPF4pdCQuOHnNebfgfuA5xqP727YBb+Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp.css\\0.16.1\\anglesharp.css.0.16.1.nupkg.sha512",

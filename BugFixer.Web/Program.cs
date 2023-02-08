@@ -4,6 +4,7 @@ using BugFixer.DataLayer.Context;
 using BugFixer.IoC;
 using GoogleReCaptcha.V3;
 using GoogleReCaptcha.V3.Interface;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -20,6 +21,23 @@ builder.Services.AddHttpClient<ICaptchaValidator, GoogleReCaptchaValidator>();
 builder.Services.AddDbContext<BugFixerDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection"))
 );
+
+#endregion
+
+#region Authentication
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+}).AddCookie(options =>
+{
+    options.LoginPath = "/Login";
+    options.LogoutPath = "/Logout";
+    options.ExpireTimeSpan = TimeSpan.FromDays(30);
+});
 
 #endregion
 
@@ -55,6 +73,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

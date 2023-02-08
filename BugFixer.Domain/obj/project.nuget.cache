@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7fSEUbWfIwJe+IGUec4pBPgTIRt7tWY81VEG2A6lVEweYWknkxM0ea9rDpk9EZgge1vK73MCmYErWQS+MnlWQ==",
+  "dgSpecHash": "uVrflQ5plKKhEkxvZ5UFNdz4J/HuMDi1QdJp2z3K/0NaeMTF50KjrwAx2Yoo11e2Lluj3iyoTdhnRLy4ZtXpoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tolu\\Desktop\\Learning\\BugFixerMovie\\BugFixer(Zamimeh)\\07_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

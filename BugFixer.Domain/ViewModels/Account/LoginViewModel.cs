@@ -1,11 +1,10 @@
-﻿using BugFixer.Domain.ViewModels.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
+using BugFixer.Domain.ViewModels.Common;
 
 namespace BugFixer.Domain.ViewModels.Account
 {
@@ -22,7 +21,9 @@ namespace BugFixer.Domain.ViewModels.Account
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         public string Password { get; set; }
 
-        public bool Remember { get; set; }
+        public string? ReturnUrl { get; set; }
+
+        public bool RememberMe { get; set; }
     }
 
     public enum LoginResult
