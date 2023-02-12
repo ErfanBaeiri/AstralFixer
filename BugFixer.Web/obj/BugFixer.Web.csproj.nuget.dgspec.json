@@ -52,6 +52,10 @@
             "HtmlSanitizer": {
               "target": "Package",
               "version": "[6.0.453, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -358,7 +362,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.11, )"
             }
           },
           "imports": [

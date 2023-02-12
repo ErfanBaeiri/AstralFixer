@@ -52,6 +52,10 @@
             "HtmlSanitizer": {
               "target": "Package",
               "version": "[6.0.453, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

@@ -10,6 +10,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace BugFixer.Application.Services.Implementations
 {
@@ -18,10 +22,12 @@ namespace BugFixer.Application.Services.Implementations
         #region Ctor
 
         private readonly IUserRepository _userRepository;
+        private IEmailService _emailService;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IEmailService emailService)
         {
             _userRepository = userRepository;
+            _emailService = emailService;
         }
 
         #endregion
@@ -54,7 +60,12 @@ namespace BugFixer.Application.Services.Implementations
 
             #region Send Activation Email
 
-            // todo send email
+            var body = $@"
+                <div> برای فعالسازی حساب کاربری خود روی لینک زیر کلیک کنید . </div>
+                <a href='{PathTools.SiteAddress}/Activate-Email/{user.EmailActivationCode}'>فعالسازی حساب کاربری</a>
+                ";
+
+            await _emailService.SendEmail(user.Email, "فعالسازی حساب کاربری", body);
 
             #endregion
 
@@ -111,6 +122,72 @@ namespace BugFixer.Application.Services.Implementations
             await _userRepository.Save();
 
             return true;
+        }
+
+        #endregion
+
+        #region Forgot Password
+
+        public async Task<ForgotPasswordResult> ForgotPassword(ForgotPasswordViewModel forgotPassword)
+        {
+            var email = forgotPassword.Email.SanitizeText().Trim().ToLower();
+
+            var user = await _userRepository.GetUserByEmail(email);
+
+            if (user == null || user.IsDelete) return ForgotPasswordResult.UserNotFound;
+
+            if (user.IsBan) return ForgotPasswordResult.UserBan;
+
+            #region Send Activation Email
+
+            var body = $@"
+                <div> برای فراموشی کلمه عبور روی لینک زیر کلیک کنید . </div>
+                <a href='{PathTools.SiteAddress}/Reset-Password/{user.EmailActivationCode}'>فراموشی کلمه عبور</a>
+                ";
+
+            await _emailService.SendEmail(user.Email, "فراموشی کلمه عبور", body);
+
+            #endregion
+
+            return ForgotPasswordResult.Success;
+        }
+
+        #endregion
+
+        #region Reset Password
+
+        public async Task<ResetPasswordResult> ResetPassword(ResetPasswordViewModel reset)
+        {
+            var user = await _userRepository.GetUserByActivationCode(reset.EmailActivationCode.SanitizeText());
+
+            if (user == null || user.IsDelete) return ResetPasswordResult.UserNotFound;
+
+            if (user.IsBan) return ResetPasswordResult.UserIsBan;
+
+            var password = PasswordHelper.EncodePasswordMd5(reset.Password.SanitizeText());
+
+            user.Password = password;
+            user.IsEmailConfirmed = true;
+            user.EmailActivationCode = CodeGenerator.CreateActivationCode();
+
+            await _userRepository.UpdateUser(user);
+            await _userRepository.Save();
+
+            return ResetPasswordResult.Success;
+        }
+
+        public async Task<User> GetUserByActivationCode(string activationCode)
+        {
+            return await _userRepository.GetUserByActivationCode(activationCode.SanitizeText());
+        }
+
+
+        #endregion
+
+        #region User Panel
+        public async Task<User?> GetUserById(long userId)
+        {
+            return await _userRepository.GetUserById(userId);
         }
 
         #endregion

@@ -16,6 +16,7 @@ namespace BugFixer.Domain.Interfaces
         Task UpdateUser(User user);
 
         Task<User> GetUserByEmail(string email);
+        Task<User?> GetUserById(long id);
 
         Task<User> GetUserByActivationCode(string activationCode);
 

@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace BugFixer.Web.Controllers
 {
@@ -178,6 +181,99 @@ namespace BugFixer.Web.Controllers
             }
 
             return RedirectToAction("Login", "Account");
+        }
+
+        #endregion
+
+        #region Forgot Password
+
+        [HttpGet("Forgot-Password")]
+        public async Task<IActionResult> ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost("Forgot-Password"), ValidateAntiForgeryToken]
+        [RedirectHomeIfLoggedInActionFilter]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel forgot)
+        {
+            if (!await _captchaValidator.IsCaptchaPassedAsync(forgot.Captcha))
+            {
+                TempData[ErrorMessage] = "اعتبار سنجی Captcha با خطا مواجه شد لطفا مجدد تلاش کنید .";
+                return View(forgot);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(forgot);
+            }
+
+            var result = await _userService.ForgotPassword(forgot);
+
+            switch (result)
+            {
+                case ForgotPasswordResult.UserBan:
+                    TempData[WarningMessage] = "دسترسی شما به حساب کاربری مسدود می باشد .";
+                    break;
+                case ForgotPasswordResult.UserNotFound:
+                    TempData[ErrorMessage] = "کاربری با مشخصات وارد شده یافت نشد .";
+                    break;
+                case ForgotPasswordResult.Success:
+                    TempData[InfoMessage] = "لینک بازیابی رمز عبور به ایمیل شما ارسال شد .";
+                    return RedirectToAction("Login", "Account");
+            }
+
+            return View(forgot);
+        }
+
+        #endregion
+
+        #region Reset Password
+
+        [HttpGet("Reset-Password/{emailActivationCode}")]
+        public async Task<IActionResult> ResetPassword(string emailActivationCode)
+        {
+            var user = await _userService.GetUserByActivationCode(emailActivationCode);
+
+            if (user == null || user.IsBan || user.IsDelete) return NotFound();
+
+            return View(new ResetPasswordViewModel
+            {
+                EmailActivationCode = user.EmailActivationCode
+            });
+        }
+
+        [HttpPost("Reset-Password/{emailActivationCode}"), ValidateAntiForgeryToken]
+        [RedirectHomeIfLoggedInActionFilter]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel reset)
+        {
+            if (!await _captchaValidator.IsCaptchaPassedAsync(reset.Captcha))
+            {
+                TempData[ErrorMessage] = "اعتبار سنجی Captcha با خطا مواجه شد لطفا مجدد تلاش کنید .";
+                return View(reset);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(reset);
+            }
+
+            var result = await _userService.ResetPassword(reset);
+
+            switch (result)
+            {
+                case ResetPasswordResult.Success:
+                    TempData[SuccessMessage] = "عملیات با موفقیت انجام شد .";
+                    return RedirectToAction("Login", "Account");
+                case ResetPasswordResult.UserNotFound:
+                    TempData[ErrorMessage] = "کاربر مورد نظر یافت نشد .";
+                    break;
+                case ResetPasswordResult.UserIsBan:
+                    TempData[WarningMessage] = "دسترسی شما به سایت مسدود می باشد .";
+                    break;
+            }
+
+            return View(reset);
         }
 
         #endregion
