@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XN8admENEafNhDLLQStCt/9J8QY8lPXSOUI+ndnCk1XUPKb7ozmU1ej6xf10NBrWqgMXktEiVqdsVJPvehO2ZQ==",
+  "dgSpecHash": "tyD+bFNR/EwmEjCiznDOi/xtUjUp+cpLoJOoTm0Usyu7SFa5lMpQOcWJQAvXLpeCQu7ZDEBI5Qtei98DhJUzMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj",
+  "projectFilePath": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

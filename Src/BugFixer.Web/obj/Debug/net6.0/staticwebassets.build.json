@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hF4FI+98nWLehGrK1lPlUSQ1QPFkMsAeAjqTlJ7C0iI=",
+  "Hash": "WUMqNvXS52VEVCwF4cTn679qZQDlATZFQmjYy1LeYvQ=",
   "Source": "BugFixer.Web",
   "BasePath": "_content/BugFixer.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BugFixer.Web\\wwwroot",
       "Source": "BugFixer.Web",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "BugFixer.Web.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css"
+      "OriginalItemSpec": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "BugFixer.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/custom/custom.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\common\\custom\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/custom/custom.js",
       "AssetKind": "All",
@@ -85,27 +85,10 @@
       "OriginalItemSpec": "wwwroot\\common\\custom\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\StyleSheet.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
-      "BasePath": "_content/BugFixer.Web",
-      "RelativePath": "common/custom/StyleSheet.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\common\\custom\\StyleSheet.css"
-    },
-    {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
-      "SourceId": "BugFixer.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -119,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -136,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.js",
       "AssetKind": "All",
@@ -153,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.min.js",
       "AssetKind": "All",
@@ -170,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -187,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -204,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/sweetalert/sweetalert.js",
       "AssetKind": "All",
@@ -221,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\common\\sweetalert\\sweetalert.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/waitme/waitMe.min.css",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\common\\waitme\\waitMe.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/waitme/waitMe.min.js",
       "AssetKind": "All",
@@ -255,10 +238,112 @@
       "OriginalItemSpec": "wwwroot\\common\\waitme\\waitMe.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\DefaultAvatar.png",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\08060cd0-46a9-4f74-be2d-e7d366a9faa7.png",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/08060cd0-46a9-4f74-be2d-e7d366a9faa7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\08060cd0-46a9-4f74-be2d-e7d366a9faa7.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\5d154041-bc24-47d5-a432-61048afed182.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/5d154041-bc24-47d5-a432-61048afed182.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\5d154041-bc24-47d5-a432-61048afed182.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\80d772ff-3918-4a96-b2f9-22eafe5ba281.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/80d772ff-3918-4a96-b2f9-22eafe5ba281.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\80d772ff-3918-4a96-b2f9-22eafe5ba281.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\c0fbfd55-5d36-493f-a1ee-37f7f63f34af.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/c0fbfd55-5d36-493f-a1ee-37f7f63f34af.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\c0fbfd55-5d36-493f-a1ee-37f7f63f34af.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\c39f47ed-2300-4106-a52f-245e54ddb4d3.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/c39f47ed-2300-4106-a52f-245e54ddb4d3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\c39f47ed-2300-4106-a52f-245e54ddb4d3.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\d7667005-9859-4c18-a45c-91c03f40a1c7.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/d7667005-9859-4c18-a45c-91c03f40a1c7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\d7667005-9859-4c18-a45c-91c03f40a1c7.png"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\DefaultAvatar.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "content/user/DefaultAvatar.png",
       "AssetKind": "All",
@@ -272,10 +357,27 @@
       "OriginalItemSpec": "wwwroot\\content\\user\\DefaultAvatar.png"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\f3c50cb2-d853-4e25-9f43-79d55f8c5108.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/f3c50cb2-d853-4e25-9f43-79d55f8c5108.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\f3c50cb2-d853-4e25-9f43-79d55f8c5108.jpg"
+    },
+    {
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/account.css",
       "AssetKind": "All",
@@ -289,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -306,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/bootstrap-rtl.min.css",
       "AssetKind": "All",
@@ -323,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/bugfixer.css",
       "AssetKind": "All",
@@ -340,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bugfixer.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\faq.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/faq.css",
       "AssetKind": "All",
@@ -357,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\css\\faq.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer.eot",
       "AssetKind": "All",
@@ -374,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer.svg",
       "AssetKind": "All",
@@ -391,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer.ttf",
       "AssetKind": "All",
@@ -408,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer.woff",
       "AssetKind": "All",
@@ -425,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum).eot",
       "AssetKind": "All",
@@ -442,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum).ttf",
       "AssetKind": "All",
@@ -459,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum).woff",
       "AssetKind": "All",
@@ -476,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum).woff2",
       "AssetKind": "All",
@@ -493,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb.eot",
       "AssetKind": "All",
@@ -510,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb.ttf",
       "AssetKind": "All",
@@ -527,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb.woff",
       "AssetKind": "All",
@@ -544,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb.woff2",
       "AssetKind": "All",
@@ -561,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\form.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -578,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\home.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -595,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\page.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/page.css",
       "AssetKind": "All",
@@ -612,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\css\\page.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\public.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/public.css",
       "AssetKind": "All",
@@ -629,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\public.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\question.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/question.css",
       "AssetKind": "All",
@@ -646,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\css\\question.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\tags.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/tags.css",
       "AssetKind": "All",
@@ -663,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tags.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\css\\user.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/user.css",
       "AssetKind": "All",
@@ -680,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\css\\user.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/bugfixer.css",
       "AssetKind": "All",
@@ -697,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\bugfixer.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/bugfixer.html",
       "AssetKind": "All",
@@ -714,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\bugfixer.html"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer.eot",
       "AssetKind": "All",
@@ -731,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer.svg",
       "AssetKind": "All",
@@ -748,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer.ttf",
       "AssetKind": "All",
@@ -765,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer.woff",
       "AssetKind": "All",
@@ -782,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum).eot",
       "AssetKind": "All",
@@ -799,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum).ttf",
       "AssetKind": "All",
@@ -816,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum).woff",
       "AssetKind": "All",
@@ -833,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum).woff2",
       "AssetKind": "All",
@@ -850,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb.eot",
       "AssetKind": "All",
@@ -867,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb.ttf",
       "AssetKind": "All",
@@ -884,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb.woff",
       "AssetKind": "All",
@@ -901,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb.woff2",
       "AssetKind": "All",
@@ -918,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\404.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/404.svg",
       "AssetKind": "All",
@@ -935,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\images\\404.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner.jpg",
       "AssetKind": "All",
@@ -952,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner-2.jpg",
       "AssetKind": "All",
@@ -969,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner-4.jpg",
       "AssetKind": "All",
@@ -986,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/landing.jpg",
       "AssetKind": "All",
@@ -1003,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\images\\landing.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -1020,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/logo-dark.svg",
       "AssetKind": "All",
@@ -1037,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar.jpg",
       "AssetKind": "All",
@@ -1054,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar-2.jpg",
       "AssetKind": "All",
@@ -1071,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar-3.jpg",
       "AssetKind": "All",
@@ -1088,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/thumb.jpg",
       "AssetKind": "All",
@@ -1105,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\account.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/account.js",
       "AssetKind": "All",
@@ -1122,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\js\\account.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1139,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/clipboard.min.js",
       "AssetKind": "All",
@@ -1156,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\clipboard.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\faq.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/faq.js",
       "AssetKind": "All",
@@ -1173,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\faq.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\home.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/home.js",
       "AssetKind": "All",
@@ -1190,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -1207,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/modernizr.js",
       "AssetKind": "All",
@@ -1224,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\page.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/page.js",
       "AssetKind": "All",
@@ -1241,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\page.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\progress.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/progress.js",
       "AssetKind": "All",
@@ -1258,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\progress.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\public.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/public.js",
       "AssetKind": "All",
@@ -1275,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\js\\public.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\question.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/question.js",
       "AssetKind": "All",
@@ -1292,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\js\\question.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/slimscroll.js",
       "AssetKind": "All",
@@ -1309,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\js\\slimscroll.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "Identity": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\js\\user.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Learning\\BugFixer\\E16\\BugFixer\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/user.js",
       "AssetKind": "All",
