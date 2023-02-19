@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BugFixer.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "PackagePath": "staticwebassets\\Font package\\bugfixer.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "PackagePath": "staticwebassets\\Font package\\bugfixer.html"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\common\\custom\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "PackagePath": "staticwebassets\\common\\custom\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "PackagePath": "staticwebassets\\common\\custom\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "PackagePath": "staticwebassets\\common\\sweetalert\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\DefaultAvatar.png",
+      "PackagePath": "staticwebassets\\content\\user\\DefaultAvatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "PackagePath": "staticwebassets\\css\\bugfixer.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "PackagePath": "staticwebassets\\css\\faq.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "PackagePath": "staticwebassets\\css\\page.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "PackagePath": "staticwebassets\\css\\public.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "PackagePath": "staticwebassets\\css\\question.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "PackagePath": "staticwebassets\\css\\tags.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "PackagePath": "staticwebassets\\css\\user.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "PackagePath": "staticwebassets\\images\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "PackagePath": "staticwebassets\\images\\landing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\pic\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\pic\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\pic\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "PackagePath": "staticwebassets\\images\\pic\\thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\js\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "PackagePath": "staticwebassets\\js\\faq.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "PackagePath": "staticwebassets\\js\\page.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "PackagePath": "staticwebassets\\js\\progress.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "PackagePath": "staticwebassets\\js\\public.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "PackagePath": "staticwebassets\\js\\question.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "PackagePath": "staticwebassets\\js\\slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BugFixer.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BugFixer.Web.props",
+      "PackagePath": "build\\BugFixer.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BugFixer.Web.props",
+      "PackagePath": "buildMultiTargeting\\BugFixer.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BugFixer.Web.props",
+      "PackagePath": "buildTransitive\\BugFixer.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
