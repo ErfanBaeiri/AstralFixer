@@ -61,6 +61,14 @@
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.woff"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\DatePicker\\kamadatepicker.min.css",
+      "PackagePath": "staticwebassets\\common\\DatePicker\\kamadatepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\DatePicker\\kamadatepicker.min.js",
+      "PackagePath": "staticwebassets\\common\\DatePicker\\kamadatepicker.min.js"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\StyleSheet.css",
       "PackagePath": "staticwebassets\\common\\custom\\StyleSheet.css"
     },
@@ -107,6 +115,10 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\182f8548-1ff9-4c4e-aca3-1b4d434b613e.png",
+      "PackagePath": "staticwebassets\\content\\user\\182f8548-1ff9-4c4e-aca3-1b4d434b613e.png"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\DefaultAvatar.png",

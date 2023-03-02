@@ -6,12 +6,12 @@
 @section Styles
 {
     @await RenderSectionAsync("Styles", false)
-<link rel="stylesheet" type="text/css" href="/css/account.css">
+   <link rel="stylesheet" type="text/css" href="/css/account.css">
 }
 
 @section Header
 {
-    @await RenderSectionAsync("Header", true)
+    <partial name="_Header" />
 }
 
 @section Scripts

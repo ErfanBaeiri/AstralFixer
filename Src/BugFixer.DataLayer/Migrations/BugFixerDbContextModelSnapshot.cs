@@ -34,6 +34,18 @@ namespace BugFixer.DataLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long?>("CityId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("CountryId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("CoutryId")
+                        .HasColumnType("bigint");
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
@@ -52,6 +64,9 @@ namespace BugFixer.DataLayer.Migrations
                     b.Property<string>("FirstName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("GetNewsLetter")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsAdmin")
                         .HasColumnType("bit");
@@ -80,7 +95,40 @@ namespace BugFixer.DataLayer.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("CountryId");
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long?>("ParentId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("States");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.SiteSetting.EmailSetting", b =>
@@ -140,6 +188,37 @@ namespace BugFixer.DataLayer.Migrations
                             Port = 587,
                             SMTP = "smtp.gmail.com"
                         });
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Account.User", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Location.State", "City")
+                        .WithMany("UserCities")
+                        .HasForeignKey("CityId");
+
+                    b.HasOne("BugFixer.Domain.Entities.Location.State", "Country")
+                        .WithMany("UserCountries")
+                        .HasForeignKey("CountryId");
+
+                    b.Navigation("City");
+
+                    b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Location.State", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
+                {
+                    b.Navigation("UserCities");
+
+                    b.Navigation("UserCountries");
                 });
 #pragma warning restore 612, 618
         }

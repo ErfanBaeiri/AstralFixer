@@ -5,6 +5,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.Entities.Location;
 using BugFixer.Domain.Entities.SiteSetting;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,7 +17,7 @@ namespace BugFixer.DataLayer.Context
 
         public BugFixerDbContext(DbContextOptions<BugFixerDbContext> options) : base(options)
         {
-            
+
         }
 
         #endregion
@@ -26,6 +27,8 @@ namespace BugFixer.DataLayer.Context
         public DbSet<User> Users { get; set; }
 
         public DbSet<EmailSetting> EmailSettings { get; set; }
+
+        public DbSet<State> States { get; set; }
 
         #endregion
 

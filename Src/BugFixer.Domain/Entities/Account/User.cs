@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BugFixer.Domain.Entities.Common;
+using BugFixer.Domain.Entities.Location;
 
 namespace BugFixer.Domain.Entities.Account
 {
@@ -37,6 +39,12 @@ namespace BugFixer.Domain.Entities.Account
 
         [Display(Name = "توضیحات")]
         public string? Description { get; set; }
+        [Display(Name = "تاریخ تولد")]
+        public DateTime? BirthDate { get; set; }
+
+        public long? CoutryId { get; set; }
+        public long? CityId { get; set; }
+        public bool GetNewsLetter { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
 
@@ -49,11 +57,11 @@ namespace BugFixer.Domain.Entities.Account
         public string Avatar { get; set; }
 
         #endregion
-
+        [InverseProperty("UserCountries")]
         #region Relations
-
-        
-
+        public State? Country { get; set; }
+        [InverseProperty("UserCities")]
+        public State? City { get; set; }
         #endregion
     }
 }
