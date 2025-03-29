@@ -20,7 +20,7 @@ function UploadUserAvatar(url) {
             data: formData,
             contentType: false,
             processData: false,
-            beforeSend: function () {
+            beforeSend: function() {
                 StartLoading('#UserInfoBox');
             },
             success: function (response) {
@@ -63,7 +63,6 @@ function EndLoading(selector = 'body') {
     $(selector).waitMe('hide');
 }
 
-
 $("#CountryId").on("change", function () {
     var countryId = $("#CountryId").val();
     if (countryId !== '' && countryId.length) {
@@ -101,7 +100,6 @@ $("#CountryId").on("change", function () {
     }
 });
 
-
 var datepickers = document.querySelectorAll(".datepicker");
 if (datepickers.length) {
     for (datepicker of datepickers) {
@@ -119,3 +117,11 @@ if (datepickers.length) {
         });
     }
 }
+
+$(function() {
+
+    if ($("#CountryId").val() === '') {
+        $("#CityId").prop("disabled", true);
+    }
+
+});

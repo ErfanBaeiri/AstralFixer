@@ -1,0 +1,78 @@
+wwwroot\common\custom\custom.css
+wwwroot\common\custom\custom.js
+wwwroot\common\datepicker\kamadatepicker.min.css
+wwwroot\common\datepicker\kamadatepicker.min.js
+wwwroot\common\jquery-validation\jquery.unobtrusive-ajax.js
+wwwroot\common\jquery-validation\jquery.unobtrusive-ajax.min.js
+wwwroot\common\jquery-validation\jquery.validate.js
+wwwroot\common\jquery-validation\jquery.validate.min.js
+wwwroot\common\jquery-validation\jquery.validate.unobtrusive.js
+wwwroot\common\jquery-validation\jquery.validate.unobtrusive.min.js
+wwwroot\common\sweetalert\sweetalert.js
+wwwroot\common\waitme\waitMe.min.css
+wwwroot\common\waitme\waitMe.min.js
+wwwroot\content\user\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png
+wwwroot\content\user\2cc21c79-c215-4554-8e93-26459ef44ced.png
+wwwroot\content\user\6bde715c-2368-4c66-8975-11954e9993e6.png
+wwwroot\css\account.css
+wwwroot\css\bootstrap.min.css
+wwwroot\css\bootstrap-rtl.min.css
+wwwroot\css\bugfixer.css
+wwwroot\css\faq.css
+wwwroot\css\fonts\bugfixer.eot
+wwwroot\css\fonts\bugfixer.svg
+wwwroot\css\fonts\bugfixer.ttf
+wwwroot\css\fonts\bugfixer.woff
+wwwroot\css\fonts\IRANSansWeb(FaNum).eot
+wwwroot\css\fonts\IRANSansWeb(FaNum).ttf
+wwwroot\css\fonts\IRANSansWeb(FaNum).woff
+wwwroot\css\fonts\IRANSansWeb(FaNum).woff2
+wwwroot\css\fonts\IRANSansWeb.eot
+wwwroot\css\fonts\IRANSansWeb.ttf
+wwwroot\css\fonts\IRANSansWeb.woff
+wwwroot\css\fonts\IRANSansWeb.woff2
+wwwroot\css\form.css
+wwwroot\css\home.css
+wwwroot\css\page.css
+wwwroot\css\public.css
+wwwroot\css\question.css
+wwwroot\css\tags.css
+wwwroot\css\user.css
+wwwroot\Font package\bugfixer.css
+wwwroot\Font package\bugfixer.html
+wwwroot\Font package\fonts\bugfixer.eot
+wwwroot\Font package\fonts\bugfixer.svg
+wwwroot\Font package\fonts\bugfixer.ttf
+wwwroot\Font package\fonts\bugfixer.woff
+wwwroot\Font package\fonts\IRANSansWeb(FaNum).eot
+wwwroot\Font package\fonts\IRANSansWeb(FaNum).ttf
+wwwroot\Font package\fonts\IRANSansWeb(FaNum).woff
+wwwroot\Font package\fonts\IRANSansWeb(FaNum).woff2
+wwwroot\Font package\fonts\IRANSansWeb.eot
+wwwroot\Font package\fonts\IRANSansWeb.ttf
+wwwroot\Font package\fonts\IRANSansWeb.woff
+wwwroot\Font package\fonts\IRANSansWeb.woff2
+wwwroot\images\404.svg
+wwwroot\images\banner.jpg
+wwwroot\images\banner-2.jpg
+wwwroot\images\banner-4.jpg
+wwwroot\images\landing.jpg
+wwwroot\images\logo.svg
+wwwroot\images\logo-dark.svg
+wwwroot\images\pic\avatar.jpg
+wwwroot\images\pic\avatar-2.jpg
+wwwroot\images\pic\avatar-3.jpg
+wwwroot\images\pic\thumb.jpg
+wwwroot\js\account.js
+wwwroot\js\bootstrap.min.js
+wwwroot\js\clipboard.min.js
+wwwroot\js\faq.js
+wwwroot\js\home.js
+wwwroot\js\jquery.min.js
+wwwroot\js\modernizr.js
+wwwroot\js\page.js
+wwwroot\js\progress.js
+wwwroot\js\public.js
+wwwroot\js\question.js
+wwwroot\js\slimscroll.js
+wwwroot\js\user.js

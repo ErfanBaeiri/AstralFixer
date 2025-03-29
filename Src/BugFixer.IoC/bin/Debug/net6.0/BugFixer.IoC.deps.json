@@ -1898,7 +1898,10 @@
           "Microsoft.AspNetCore.Mvc.Razor": "2.2.0"
         },
         "runtime": {
-          "BugFixer.Application.dll": {}
+          "BugFixer.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BugFixer.DataLayer/1.0.0": {
@@ -1908,12 +1911,18 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
-          "BugFixer.DataLayer.dll": {}
+          "BugFixer.DataLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BugFixer.Domain/1.0.0": {
         "runtime": {
-          "BugFixer.Domain.dll": {}
+          "BugFixer.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

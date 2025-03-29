@@ -43,9 +43,6 @@ namespace BugFixer.DataLayer.Migrations
                     b.Property<long?>("CountryId")
                         .HasColumnType("bigint");
 
-                    b.Property<long?>("CoutryId")
-                        .HasColumnType("bigint");
-
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
@@ -181,10 +178,10 @@ namespace BugFixer.DataLayer.Migrations
                             CreateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DisplayName = "BugFixer",
                             EnableSSL = true,
-                            From = "bugfixer.toplearn@gmail.com",
+                            From = "astralanswer@gmail.com",
                             IsDefault = true,
                             IsDelete = false,
-                            Password = "strong@password",
+                            Password = "iapy ykva kedv torx",
                             Port = 587,
                             SMTP = "smtp.gmail.com"
                         });

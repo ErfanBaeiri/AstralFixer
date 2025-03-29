@@ -7790,11 +7790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
       "projectName": "BugFixer.Application",
-      "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj",
+      "projectPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
       "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\obj\\",
+      "outputPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7816,8 +7816,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj"
+            "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj"
             }
           }
         }
@@ -7826,7 +7826,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -7857,8 +7863,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlSanitizer' 6.0.453 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-43cp-6p3q-2pc4",
+      "libraryId": "HtmlSanitizer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

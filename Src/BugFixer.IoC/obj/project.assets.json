@@ -8864,11 +8864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
       "projectName": "BugFixer.IoC",
-      "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj",
+      "projectPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
       "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\obj\\",
+      "outputPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8890,11 +8890,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj"
+            "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj"
             },
-            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj"
+            "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj"
             }
           }
         }
@@ -8903,7 +8903,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -8930,7 +8936,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

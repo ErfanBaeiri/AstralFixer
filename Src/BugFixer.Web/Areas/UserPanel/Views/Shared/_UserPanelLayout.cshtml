@@ -6,20 +6,20 @@
 @section Styles
 {
     @await RenderSectionAsync("Styles", false)
-   <link rel="stylesheet" type="text/css" href="/css/account.css">
+<link rel="stylesheet" type="text/css" href="/css/account.css">
 }
 
 @section Header
 {
-    <partial name="_Header" />
+<partial name="_Header" />
 }
 
 @section Scripts
 {
     @await RenderSectionAsync("Scripts", false)
-    <script src="/js/account.js"></script>
-    <script src="/js/slimscroll.js"></script>
-    <script src="/js/progress.js"></script>
+<script src="/js/account.js"></script>
+<script src="/js/slimscroll.js"></script>
+<script src="/js/progress.js"></script>
 }
 
 <div class="user-page-style">
@@ -36,7 +36,7 @@
 
     <div class="account-layer">
         <div class="container">
-            
+
             @await Component.InvokeAsync("UserSideBar")
 
             <div class="left-side">

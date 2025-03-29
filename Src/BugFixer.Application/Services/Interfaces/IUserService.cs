@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.ViewModels.UserPanel.Account;
 
 namespace BugFixer.Application.Services.Interfaces
 {
@@ -49,6 +50,10 @@ namespace BugFixer.Application.Services.Interfaces
         Task<User?> GetUserById(long userId);
 
         Task ChangeUserAvatar(long userId, string fileName);
+
+        Task<EditUserViewModel> FillEditUserViewModel(long userId);
+
+        Task<EditUserInfoResult> EditUserInfo(EditUserViewModel editUserViewModel, long userId);
 
         #endregion
     }

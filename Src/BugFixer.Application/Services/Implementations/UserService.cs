@@ -10,10 +10,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BugFixer.Application.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using BugFixer.Domain.ViewModels.UserPanel.Account;
 
 namespace BugFixer.Application.Services.Implementations
 {
@@ -198,6 +200,57 @@ namespace BugFixer.Application.Services.Implementations
 
             await _userRepository.UpdateUser(user);
             await _userRepository.Save();
+        }
+
+        public async Task<EditUserViewModel> FillEditUserViewModel(long userId)
+        {
+            var user = await GetUserById(userId);
+
+            var result = new EditUserViewModel
+            {
+                BirthDate = user.BirthDate != null ? user.BirthDate.Value.ToShamsi() : string.Empty,
+                CityId = user.CityId,
+                CountryId = user.CountryId,
+                Description = user.Description,
+                FirstName = user.FirstName ?? string.Empty,
+                LastName = user.LastName ?? string.Empty,
+                GetNewsLetter = user.GetNewsLetter,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            return result;
+        }
+
+        public async Task<EditUserInfoResult> EditUserInfo(EditUserViewModel editUserViewModel, long userId)
+        {
+            var user = await GetUserById(userId);
+
+            if (!string.IsNullOrEmpty(editUserViewModel.BirthDate))
+            {
+                try
+                {
+                    var date = editUserViewModel.BirthDate.ToMiladi();
+
+                    user.BirthDate = date;
+                }
+                catch (Exception exception)
+                {
+                    return EditUserInfoResult.NotValidDate;
+                }
+            }
+
+            user.FirstName = editUserViewModel.FirstName;
+            user.LastName = editUserViewModel.LastName;
+            user.Description = editUserViewModel.Description;
+            user.PhoneNumber = editUserViewModel.PhoneNumber;
+            user.GetNewsLetter = editUserViewModel.GetNewsLetter;
+            user.CountryId = editUserViewModel.CountryId;
+            user.CityId = editUserViewModel.CityId;
+
+            await _userRepository.UpdateUser(user);
+            await _userRepository.Save();
+
+            return EditUserInfoResult.Success;
         }
 
         #endregion

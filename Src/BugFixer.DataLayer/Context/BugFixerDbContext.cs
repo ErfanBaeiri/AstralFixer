@@ -17,7 +17,7 @@ namespace BugFixer.DataLayer.Context
 
         public BugFixerDbContext(DbContextOptions<BugFixerDbContext> options) : base(options)
         {
-
+            
         }
 
         #endregion
@@ -43,11 +43,11 @@ namespace BugFixer.DataLayer.Context
                 CreateDate = date,
                 DisplayName = "BugFixer",
                 EnableSSL = true,
-                From = "bugfixer.toplearn@gmail.com",
+                From = "astralanswer@gmail.com",
                 Id = 1,
                 IsDefault = true,
                 IsDelete = false,
-                Password = "strong@password",
+                Password = "iapy ykva kedv torx",
                 Port = 587,
                 SMTP = "smtp.gmail.com"
             });
