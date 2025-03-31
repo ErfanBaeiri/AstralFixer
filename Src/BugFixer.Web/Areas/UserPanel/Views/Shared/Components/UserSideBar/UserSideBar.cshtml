@@ -7,7 +7,7 @@
     <!-- avatar -->
     <div class="quick-access layer-style" id="UserInfoBox">
         <div class="img-layer">
-            <input type="file" onchange="UploadUserAvatar('@Url.Action("ChangeUserAvatar", "Home", new {area = "UserPanel"})')" name="UserAvatar" id="UserAvatar" accept=".png, .jpg, .jpeg" class="display-none"/>
+            <input type="file" onchange="UploadUserAvatar('@Url.Action("ChangeUserAvatar", "Home", new {area = "UserPanel"})')" name="UserAvatar" id="UserAvatar" accept=".png, .jpg, .jpeg" class="display-none" />
             <a onclick="OpenAvatarInput()" class="change-image"><i class="icon-pencil-edit"></i></a>
             <img src="@PathTools.UserAvatarPath@Model.Avatar">
         </div>
@@ -18,7 +18,7 @@
         <ul>
             <li><a asp-action="Index" asp-controller="Home" asp-area="UserPanel" data-toggle="tooltip" data-placement="top" title=" داشبورد "><i class="icon-settings"></i></a></li>
             <li><a asp-action="EditInfo" asp-controller="Account" asp-area="UserPanel" data-toggle="tooltip" data-placement="top" title=" ویرایش اطلاعات "><i class="icon-profile"></i></a></li>
-            <li><a href="" data-toggle="tooltip" data-placement="top" title=" تغییر رمز عبور "><i class="icon-safe"></i></a></li>
+            <li><a asp-action="changeUserPassword" asp-controller="Account" asp-area="UserPanel" data-toggle="tooltip" data-placement="top" title=" تغییر رمز عبور "><i class="icon-safe"></i></a></li>
             <li><a asp-action="Logout" asp-controller="Account" data-toggle="tooltip" data-placement="top" title=" خروج از حساب "><i class="icon-power-symbol"></i></a></li>
         </ul>
     </div>
@@ -30,6 +30,7 @@
             <ul>
                 <li><a asp-action="Index" asp-controller="Home" asp-area="UserPanel"> داشبورد  </a>  </li>
                 <li><a asp-action="EditInfo" asp-controller="Account" asp-area="UserPanel"> ویرایش اطلاعات کاربری  </a>  </li>
+                <li><a asp-action="changeUserPassword" asp-controller="Account" asp-area="UserPanel"> تغییر کلمه عبور  </a>  </li>
                 <li><a asp-action="Logout" asp-controller="Account"> خروج  </a>  </li>
             </ul>
         </div>

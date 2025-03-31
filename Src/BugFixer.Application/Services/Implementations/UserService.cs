@@ -229,7 +229,7 @@ namespace BugFixer.Application.Services.Implementations
             {
                 try
                 {
-                    var date = editUserViewModel.BirthDate.ToMiladi();
+                    var date = editUserViewModel.BirthDate.SanitizeText().ToMiladi();
 
                     user.BirthDate = date;
                 }
@@ -239,10 +239,10 @@ namespace BugFixer.Application.Services.Implementations
                 }
             }
 
-            user.FirstName = editUserViewModel.FirstName;
-            user.LastName = editUserViewModel.LastName;
-            user.Description = editUserViewModel.Description;
-            user.PhoneNumber = editUserViewModel.PhoneNumber;
+            user.FirstName = editUserViewModel.FirstName.SanitizeText();
+            user.LastName = editUserViewModel.LastName.SanitizeText();
+            user.Description = editUserViewModel.Description.SanitizeText();
+            user.PhoneNumber = editUserViewModel.PhoneNumber.SanitizeText();
             user.GetNewsLetter = editUserViewModel.GetNewsLetter;
             user.CountryId = editUserViewModel.CountryId;
             user.CityId = editUserViewModel.CityId;
@@ -253,6 +253,25 @@ namespace BugFixer.Application.Services.Implementations
             return EditUserInfoResult.Success;
         }
 
+        public async Task<ChangeUserPasswordResult> ChangeUserPassword(long userId, ChangeUserPasswordViewModel changeUserPassword)
+        {
+            var user = await GetUserById(userId);
+
+            var password = PasswordHelper.EncodePasswordMd5(changeUserPassword.OldPassword.SanitizeText());
+
+            if (password != user.Password) return ChangeUserPasswordResult.OldPasswordIsNotValid;
+
+            user.Password = PasswordHelper.EncodePasswordMd5(changeUserPassword.Password.SanitizeText());
+
+            await _userRepository.UpdateUser(user);
+            await _userRepository.Save();
+
+            return ChangeUserPasswordResult.Success;
+
+        }
+
         #endregion
+
+
     }
 }

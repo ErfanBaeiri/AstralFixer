@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "BugFixer.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\appsettings.json",
-              "RelativeToolTip": "BugFixer.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T18:10:36.142Z",
-              "EditorCaption": ""
             }
           ]
         }

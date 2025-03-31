@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yXxs9sOEZIzQpRMScCTp7ANa4An+0Q72UWT/GSGxHoA=",
+  "Hash": "GeaaGCRmIoTv2pGSn8BbeQkC6IQJ9zVbkIzvpHTh6LM=",
   "Source": "BugFixer.Web",
   "BasePath": "_content/BugFixer.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BugFixer.Web\\wwwroot",
       "Source": "BugFixer.Web",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "BugFixer.Web#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "Kh61vdOqCnFnu9+W9x2tx6rX55PHAXsvSmlX8a3OVxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "BugFixer.Web#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "Kh61vdOqCnFnu9+W9x2tx6rX55PHAXsvSmlX8a3OVxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/custom/custom#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\common\\custom\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/custom/custom#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\common\\custom\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/datepicker/kamadatepicker.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\common\\datepicker\\kamadatepicker.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/datepicker/kamadatepicker.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\common\\datepicker\\kamadatepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.unobtrusive-ajax#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.unobtrusive-ajax.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/jquery-validation/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/sweetalert/sweetalert#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\common\\sweetalert\\sweetalert.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/waitme/waitMe.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\common\\waitme\\waitMe.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "common/waitme/waitMe.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -332,10 +332,31 @@
       "OriginalItemSpec": "wwwroot\\common\\waitme\\waitMe.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/04acd10c-0ed5-4de3-b234-a8364e427b78#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u9jme9owaw",
+      "Integrity": "7uKtfY9aiqPKz9fnZCWzsnA7fX/u+gKFX/sOrJFjozs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "content/user/218d9086-629c-4bc0-ba66-6e31d3b5a35a#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -353,10 +374,31 @@
       "OriginalItemSpec": "wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9no80ropl",
+      "Integrity": "w0NoOLKQmoRQGH8Xco4ggEGtpMo+8zHVywMVBH9+3Rg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "content/user/2cc21c79-c215-4554-8e93-26459ef44ced#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "content/user/6bde715c-2368-4c66-8975-11954e9993e6#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/account#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,12 +458,54 @@
       "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46ein0sx1k",
+      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pk9g2wxc8p",
+      "Integrity": "h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3.min.css",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "css/bootstrapV3.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -434,15 +518,15 @@
       "Integrity": "I3uCBmSC9voutN0vJNyi3sEJJIu300UT+JYGzoyibuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrapV3.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3-rtl.min.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
-      "RelativePath": "css/bootstrap-rtl.min#[.{fingerprint}]?.css",
+      "RelativePath": "css/bootstrapV3-rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -455,13 +539,13 @@
       "Integrity": "QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap-rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrapV3-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/bugfixer#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bugfixer.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/faq#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\css\\faq.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -521,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -542,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -563,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/bugfixer#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -584,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\bugfixer.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -605,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -626,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -647,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -668,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -689,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -710,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -731,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/fonts/IRANSansWeb#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -752,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/form#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/home#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\css\\page.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/public#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\css\\public.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/question#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\css\\question.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/tags#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tags.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "css/user#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -899,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\css\\user.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/bugfixer#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\bugfixer.css"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/bugfixer#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -941,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\bugfixer.html"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -962,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -983,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -1004,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/bugfixer#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -1025,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\bugfixer.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -1046,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -1067,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -1088,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb(FaNum)#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -1109,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -1130,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -1151,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -1172,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "Font package/fonts/IRANSansWeb#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -1193,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\Font package\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/404#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1214,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\images\\404.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1235,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1256,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/banner-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1277,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/landing#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1298,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\images\\landing.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/logo#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1319,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/logo-dark#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1340,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1361,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1382,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/avatar-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1403,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "images/pic/thumb#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1424,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/account#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1445,12 +1529,33 @@
       "OriginalItemSpec": "wwwroot\\js\\account.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63fj8s7r0e",
+      "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrapV3.min.js",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "js/bootstrapV3.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1463,13 +1568,13 @@
       "Integrity": "Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrapV3.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/clipboard.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\js\\clipboard.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/faq#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1508,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\js\\faq.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/home#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1529,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/modernizr#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/page#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\page.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/progress#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1613,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\js\\progress.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/public#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1634,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\js\\public.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/question#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\js\\question.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/slimscroll#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1676,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\js\\slimscroll.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\",
       "BasePath": "_content/BugFixer.Web",
       "RelativePath": "js/user#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1700,7 +1805,7 @@
   "Endpoints": [
     {
       "Route": "BugFixer.Web.22mimedlw0.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1745,7 +1850,7 @@
     },
     {
       "Route": "BugFixer.Web.22mimedlw0.styles.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1790,7 +1895,7 @@
     },
     {
       "Route": "BugFixer.Web.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1827,7 +1932,7 @@
     },
     {
       "Route": "BugFixer.Web.styles.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BugFixer.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1864,7 +1969,7 @@
     },
     {
       "Route": "common/custom/custom.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1901,7 +2006,7 @@
     },
     {
       "Route": "common/custom/custom.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1938,7 +2043,7 @@
     },
     {
       "Route": "common/custom/custom.lplnvmsqex.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1983,7 +2088,7 @@
     },
     {
       "Route": "common/custom/custom.vf0l326g4b.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2028,7 +2133,7 @@
     },
     {
       "Route": "common/datepicker/kamadatepicker.min.cbloay859y.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2073,7 +2178,7 @@
     },
     {
       "Route": "common/datepicker/kamadatepicker.min.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2110,7 +2215,7 @@
     },
     {
       "Route": "common/datepicker/kamadatepicker.min.dyio5mzwp0.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2155,7 +2260,7 @@
     },
     {
       "Route": "common/datepicker/kamadatepicker.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2192,7 +2297,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.unobtrusive-ajax.i3lhatxvd5.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2237,7 +2342,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.unobtrusive-ajax.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2274,7 +2379,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.unobtrusive-ajax.min.hmpa5ufr65.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2319,7 +2424,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.unobtrusive-ajax.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2356,7 +2461,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2393,7 +2498,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.min.j2gnyvnlbk.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2438,7 +2543,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2475,7 +2580,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.na86mrux1b.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2520,7 +2625,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2557,7 +2662,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.unobtrusive.kbdzo3hkc8.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2602,7 +2707,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2639,7 +2744,7 @@
     },
     {
       "Route": "common/jquery-validation/jquery.validate.unobtrusive.min.xskn1qi7ch.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2684,7 +2789,7 @@
     },
     {
       "Route": "common/sweetalert/sweetalert.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2721,7 +2826,7 @@
     },
     {
       "Route": "common/sweetalert/sweetalert.yd4dr6eebi.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2766,7 +2871,7 @@
     },
     {
       "Route": "common/waitme/waitMe.min.7xly46z0hx.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2811,7 +2916,7 @@
     },
     {
       "Route": "common/waitme/waitMe.min.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2848,7 +2953,7 @@
     },
     {
       "Route": "common/waitme/waitMe.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2885,7 +2990,7 @@
     },
     {
       "Route": "common/waitme/waitMe.min.w4henidgxn.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2929,8 +3034,90 @@
       ]
     },
     {
+      "Route": "content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uKtfY9aiqPKz9fnZCWzsnA7fX/u+gKFX/sOrJFjozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uKtfY9aiqPKz9fnZCWzsnA7fX/u+gKFX/sOrJFjozs="
+        }
+      ]
+    },
+    {
+      "Route": "content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.u9jme9owaw.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uKtfY9aiqPKz9fnZCWzsnA7fX/u+gKFX/sOrJFjozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u9jme9owaw"
+        },
+        {
+          "Name": "label",
+          "Value": "content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uKtfY9aiqPKz9fnZCWzsnA7fX/u+gKFX/sOrJFjozs="
+        }
+      ]
+    },
+    {
       "Route": "content/user/218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2967,7 +3154,7 @@
     },
     {
       "Route": "content/user/218d9086-629c-4bc0-ba66-6e31d3b5a35a.r3dtqstju0.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3011,8 +3198,90 @@
       ]
     },
     {
+      "Route": "content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.f9no80ropl.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0NoOLKQmoRQGH8Xco4ggEGtpMo+8zHVywMVBH9+3Rg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 10:03:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9no80ropl"
+        },
+        {
+          "Name": "label",
+          "Value": "content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0NoOLKQmoRQGH8Xco4ggEGtpMo+8zHVywMVBH9+3Rg="
+        }
+      ]
+    },
+    {
+      "Route": "content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0NoOLKQmoRQGH8Xco4ggEGtpMo+8zHVywMVBH9+3Rg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 10:03:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0NoOLKQmoRQGH8Xco4ggEGtpMo+8zHVywMVBH9+3Rg="
+        }
+      ]
+    },
+    {
       "Route": "content/user/2cc21c79-c215-4554-8e93-26459ef44ced.18r430xv0r.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3057,7 +3326,7 @@
     },
     {
       "Route": "content/user/2cc21c79-c215-4554-8e93-26459ef44ced.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3094,7 +3363,7 @@
     },
     {
       "Route": "content/user/6bde715c-2368-4c66-8975-11954e9993e6.a4s5q5lei0.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3139,7 +3408,7 @@
     },
     {
       "Route": "content/user/6bde715c-2368-4c66-8975-11954e9993e6.png",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3176,7 +3445,7 @@
     },
     {
       "Route": "css/account.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3213,7 +3482,7 @@
     },
     {
       "Route": "css/account.mu6f2obb4u.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3257,8 +3526,172 @@
       ]
     },
     {
+      "Route": "css/bootstrap.min.46ein0sx1k.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46ein0sx1k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
       "Route": "css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.pk9g2wxc8p.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk9g2wxc8p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrapV3.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3294,8 +3727,8 @@
       ]
     },
     {
-      "Route": "css/bootstrap.min.jc64qq41i1.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Route": "css/bootstrapV3.min.jc64qq41i1.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3330,7 +3763,7 @@
         },
         {
           "Name": "label",
-          "Value": "css/bootstrap.min.css"
+          "Value": "css/bootstrapV3.min.css"
         },
         {
           "Name": "integrity",
@@ -3339,8 +3772,8 @@
       ]
     },
     {
-      "Route": "css/bootstrap-rtl.min.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Route": "css/bootstrapV3-rtl.min.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3-rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3376,8 +3809,8 @@
       ]
     },
     {
-      "Route": "css/bootstrap-rtl.min.rl3anscsok.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Route": "css/bootstrapV3-rtl.min.rl3anscsok.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3-rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3412,7 +3845,7 @@
         },
         {
           "Name": "label",
-          "Value": "css/bootstrap-rtl.min.css"
+          "Value": "css/bootstrapV3-rtl.min.css"
         },
         {
           "Name": "integrity",
@@ -3422,7 +3855,7 @@
     },
     {
       "Route": "css/bugfixer.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3459,7 +3892,7 @@
     },
     {
       "Route": "css/bugfixer.easywgpcch.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3504,7 +3937,7 @@
     },
     {
       "Route": "css/faq.apbfhyyvb8.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3549,7 +3982,7 @@
     },
     {
       "Route": "css/faq.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3586,7 +4019,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.59ox5evvms.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3631,7 +4064,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.7915yo20xs.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3676,7 +4109,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3713,7 +4146,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.fympe84m2q.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,7 +4191,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.ptm43782yq.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3803,7 +4236,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3840,7 +4273,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3877,7 +4310,7 @@
     },
     {
       "Route": "css/fonts/bugfixer.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3914,7 +4347,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3951,7 +4384,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).gzg95cp57u.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3996,7 +4429,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).kkzqbb75k1.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4041,7 +4474,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).sy77vadsg6.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4086,7 +4519,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4123,7 +4556,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4160,7 +4593,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4197,7 +4630,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb(FaNum).wwe15b8vnf.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4242,7 +4675,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.2pux6u05x7.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4287,7 +4720,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.aeape8k8el.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4332,7 +4765,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4369,7 +4802,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.okknkmrpq0.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4414,7 +4847,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.qqzbnt8keh.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4459,7 +4892,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4496,7 +4929,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4533,7 +4966,7 @@
     },
     {
       "Route": "css/fonts/IRANSansWeb.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4570,7 +5003,7 @@
     },
     {
       "Route": "css/form.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4607,7 +5040,7 @@
     },
     {
       "Route": "css/form.okwcr2wkua.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4652,7 +5085,7 @@
     },
     {
       "Route": "css/home.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4689,7 +5122,7 @@
     },
     {
       "Route": "css/home.mquzjx28fy.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4734,7 +5167,7 @@
     },
     {
       "Route": "css/page.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4771,7 +5204,7 @@
     },
     {
       "Route": "css/page.xlbp7gzsja.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4816,7 +5249,7 @@
     },
     {
       "Route": "css/public.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4853,7 +5286,7 @@
     },
     {
       "Route": "css/public.xmdnok2zge.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4898,7 +5331,7 @@
     },
     {
       "Route": "css/question.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4935,7 +5368,7 @@
     },
     {
       "Route": "css/question.kshy4r6jou.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4980,7 +5413,7 @@
     },
     {
       "Route": "css/tags.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5017,7 +5450,7 @@
     },
     {
       "Route": "css/tags.phaa95sppk.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5062,7 +5495,7 @@
     },
     {
       "Route": "css/user.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5099,7 +5532,7 @@
     },
     {
       "Route": "css/user.ssvwhh9zdw.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5144,7 +5577,7 @@
     },
     {
       "Route": "Font package/bugfixer.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5181,7 +5614,7 @@
     },
     {
       "Route": "Font package/bugfixer.html",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5218,7 +5651,7 @@
     },
     {
       "Route": "Font package/bugfixer.lkpmldwvy9.html",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5263,7 +5696,7 @@
     },
     {
       "Route": "Font package/bugfixer.ynscjrqpl2.css",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5308,7 +5741,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.59ox5evvms.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5353,7 +5786,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.7915yo20xs.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5398,7 +5831,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5435,7 +5868,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.fympe84m2q.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5480,7 +5913,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.ptm43782yq.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5525,7 +5958,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5562,7 +5995,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5599,7 +6032,7 @@
     },
     {
       "Route": "Font package/fonts/bugfixer.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5636,7 +6069,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5673,7 +6106,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).gzg95cp57u.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5718,7 +6151,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).kkzqbb75k1.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5763,7 +6196,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).sy77vadsg6.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5808,7 +6241,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5845,7 +6278,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5882,7 +6315,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5919,7 +6352,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb(FaNum).wwe15b8vnf.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5964,7 +6397,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.2pux6u05x7.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6009,7 +6442,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.aeape8k8el.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6054,7 +6487,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.eot",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6091,7 +6524,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.okknkmrpq0.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6136,7 +6569,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.qqzbnt8keh.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6181,7 +6614,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.ttf",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6218,7 +6651,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.woff",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6255,7 +6688,7 @@
     },
     {
       "Route": "Font package/fonts/IRANSansWeb.woff2",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6292,7 +6725,7 @@
     },
     {
       "Route": "images/404.b99g3bnr8m.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +6770,7 @@
     },
     {
       "Route": "images/404.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6374,7 +6807,7 @@
     },
     {
       "Route": "images/banner.108g4w0a3m.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6419,7 +6852,7 @@
     },
     {
       "Route": "images/banner.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6456,7 +6889,7 @@
     },
     {
       "Route": "images/banner-2.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6493,7 +6926,7 @@
     },
     {
       "Route": "images/banner-2.t2elycl8ui.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6538,7 +6971,7 @@
     },
     {
       "Route": "images/banner-4.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6575,7 +7008,7 @@
     },
     {
       "Route": "images/banner-4.ki9ms82abr.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6620,7 +7053,7 @@
     },
     {
       "Route": "images/landing.35akr8usqp.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6665,7 +7098,7 @@
     },
     {
       "Route": "images/landing.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6702,7 +7135,7 @@
     },
     {
       "Route": "images/logo.r49uow0gn2.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6747,7 +7180,7 @@
     },
     {
       "Route": "images/logo.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6784,7 +7217,7 @@
     },
     {
       "Route": "images/logo-dark.p2qomxur2f.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6829,7 +7262,7 @@
     },
     {
       "Route": "images/logo-dark.svg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6866,7 +7299,7 @@
     },
     {
       "Route": "images/pic/avatar.fcv8qneoeq.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6911,7 +7344,7 @@
     },
     {
       "Route": "images/pic/avatar.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6948,7 +7381,7 @@
     },
     {
       "Route": "images/pic/avatar-2.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6985,7 +7418,7 @@
     },
     {
       "Route": "images/pic/avatar-2.smz1qr7ny8.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7030,7 +7463,7 @@
     },
     {
       "Route": "images/pic/avatar-3.fw1zczyq1u.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7075,7 +7508,7 @@
     },
     {
       "Route": "images/pic/avatar-3.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7112,7 +7545,7 @@
     },
     {
       "Route": "images/pic/thumb.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7149,7 +7582,7 @@
     },
     {
       "Route": "images/pic/thumb.z7cbt71kp8.jpg",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7194,7 +7627,7 @@
     },
     {
       "Route": "js/account.2b0qjiuogz.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7239,7 +7672,7 @@
     },
     {
       "Route": "js/account.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7275,8 +7708,90 @@
       ]
     },
     {
+      "Route": "js/bootstrap.min.63fj8s7r0e.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63fj8s7r0e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
       "Route": "js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 15:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrapV3.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrapV3.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7312,8 +7827,8 @@
       ]
     },
     {
-      "Route": "js/bootstrap.min.ufd1z0xlt3.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Route": "js/bootstrapV3.min.ufd1z0xlt3.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrapV3.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7348,7 +7863,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/bootstrap.min.js"
+          "Value": "js/bootstrapV3.min.js"
         },
         {
           "Name": "integrity",
@@ -7358,7 +7873,7 @@
     },
     {
       "Route": "js/clipboard.min.f5rijn5gvr.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7403,7 +7918,7 @@
     },
     {
       "Route": "js/clipboard.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7440,7 +7955,7 @@
     },
     {
       "Route": "js/faq.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7477,7 +7992,7 @@
     },
     {
       "Route": "js/faq.zuo25fl13t.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7522,7 +8037,7 @@
     },
     {
       "Route": "js/home.3422a0kqwt.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7567,7 +8082,7 @@
     },
     {
       "Route": "js/home.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7604,7 +8119,7 @@
     },
     {
       "Route": "js/jquery.min.hc7330kktn.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7649,7 +8164,7 @@
     },
     {
       "Route": "js/jquery.min.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7686,7 +8201,7 @@
     },
     {
       "Route": "js/modernizr.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7723,7 +8238,7 @@
     },
     {
       "Route": "js/modernizr.rvwd6lc1hx.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7768,7 +8283,7 @@
     },
     {
       "Route": "js/page.6gg025ywzi.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7813,7 +8328,7 @@
     },
     {
       "Route": "js/page.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7850,7 +8365,7 @@
     },
     {
       "Route": "js/progress.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7887,7 +8402,7 @@
     },
     {
       "Route": "js/progress.ll1nz014uv.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7932,7 +8447,7 @@
     },
     {
       "Route": "js/public.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7969,7 +8484,7 @@
     },
     {
       "Route": "js/public.o8ro962c8l.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8014,7 +8529,7 @@
     },
     {
       "Route": "js/question.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8051,7 +8566,7 @@
     },
     {
       "Route": "js/question.o2ty9449om.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8096,7 +8611,7 @@
     },
     {
       "Route": "js/slimscroll.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8133,7 +8648,7 @@
     },
     {
       "Route": "js/slimscroll.w4zgld57u7.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8178,7 +8693,7 @@
     },
     {
       "Route": "js/user.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8215,7 +8730,7 @@
     },
     {
       "Route": "js/user.vuv4ex3hok.js",
-      "AssetFile": "C:\\Users\\Tolu\\Desktop\\21_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
       "Selectors": [],
       "ResponseHeaders": [
         {

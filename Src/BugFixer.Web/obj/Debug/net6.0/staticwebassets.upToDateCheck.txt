@@ -11,12 +11,16 @@ wwwroot\common\jquery-validation\jquery.validate.unobtrusive.min.js
 wwwroot\common\sweetalert\sweetalert.js
 wwwroot\common\waitme\waitMe.min.css
 wwwroot\common\waitme\waitMe.min.js
+wwwroot\content\user\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg
 wwwroot\content\user\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png
+wwwroot\content\user\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg
 wwwroot\content\user\2cc21c79-c215-4554-8e93-26459ef44ced.png
 wwwroot\content\user\6bde715c-2368-4c66-8975-11954e9993e6.png
 wwwroot\css\account.css
 wwwroot\css\bootstrap.min.css
-wwwroot\css\bootstrap-rtl.min.css
+wwwroot\css\bootstrap.rtl.min.css
+wwwroot\css\bootstrapV3.min.css
+wwwroot\css\bootstrapV3-rtl.min.css
 wwwroot\css\bugfixer.css
 wwwroot\css\faq.css
 wwwroot\css\fonts\bugfixer.eot
@@ -65,6 +69,7 @@ wwwroot\images\pic\avatar-3.jpg
 wwwroot\images\pic\thumb.jpg
 wwwroot\js\account.js
 wwwroot\js\bootstrap.min.js
+wwwroot\js\bootstrapV3.min.js
 wwwroot\js\clipboard.min.js
 wwwroot\js\faq.js
 wwwroot\js\home.js
