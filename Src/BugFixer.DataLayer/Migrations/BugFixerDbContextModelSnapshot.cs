@@ -81,6 +81,9 @@ namespace BugFixer.DataLayer.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int?>("Medal")
+                        .HasColumnType("int");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -90,6 +93,9 @@ namespace BugFixer.DataLayer.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CityId");
@@ -97,6 +103,32 @@ namespace BugFixer.DataLayer.Migrations
                     b.HasIndex("CountryId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Account.UserQuestionBookmark", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<long>("QuestionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserIdP")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Bookmarks");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
@@ -126,6 +158,138 @@ namespace BugFixer.DataLayer.Migrations
                     b.HasIndex("ParentId");
 
                     b.ToTable("States");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Answer", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsTrue")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("QuestionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Answers");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Question", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsChecked")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("ViewCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Questions");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionView", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("QuestionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("UserIP")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("QuestionViews");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.SelectQuestionTag", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<long>("QuestionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("TagId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("SelectQuestionTags");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.SiteSetting.EmailSetting", b =>
@@ -187,28 +351,188 @@ namespace BugFixer.DataLayer.Migrations
                         });
                 });
 
+            modelBuilder.Entity("BugFixer.Domain.Entities.Tags.RequestTag", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RequestTags");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Tags.Tag", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
             modelBuilder.Entity("BugFixer.Domain.Entities.Account.User", b =>
                 {
                     b.HasOne("BugFixer.Domain.Entities.Location.State", "City")
                         .WithMany("UserCities")
-                        .HasForeignKey("CityId");
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("BugFixer.Domain.Entities.Location.State", "Country")
                         .WithMany("UserCountries")
-                        .HasForeignKey("CountryId");
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("City");
 
                     b.Navigation("Country");
                 });
 
+            modelBuilder.Entity("BugFixer.Domain.Entities.Account.UserQuestionBookmark", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
+                        .WithMany("UserQuestionBookmark")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
+                        .WithMany("UserQuestionBookmark")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
                 {
                     b.HasOne("BugFixer.Domain.Entities.Location.State", "Parent")
                         .WithMany()
-                        .HasForeignKey("ParentId");
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Answer", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
+                        .WithMany("Answers")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
+                        .WithMany("Answers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Question", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
+                        .WithMany("Questions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionView", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
+                        .WithMany("QuestionViews")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.SelectQuestionTag", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
+                        .WithMany("SelectQuestionTags")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("BugFixer.Domain.Entities.Tags.Tag", "Tag")
+                        .WithMany("SelectQuestionTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+
+                    b.Navigation("Tag");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Tags.RequestTag", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
+                        .WithMany("RequestTags")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Account.User", b =>
+                {
+                    b.Navigation("Answers");
+
+                    b.Navigation("Questions");
+
+                    b.Navigation("RequestTags");
+
+                    b.Navigation("UserQuestionBookmark");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
@@ -216,6 +540,22 @@ namespace BugFixer.DataLayer.Migrations
                     b.Navigation("UserCities");
 
                     b.Navigation("UserCountries");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Question", b =>
+                {
+                    b.Navigation("Answers");
+
+                    b.Navigation("QuestionViews");
+
+                    b.Navigation("SelectQuestionTags");
+
+                    b.Navigation("UserQuestionBookmark");
+                });
+
+            modelBuilder.Entity("BugFixer.Domain.Entities.Tags.Tag", b =>
+                {
+                    b.Navigation("SelectQuestionTags");
                 });
 #pragma warning restore 612, 618
         }

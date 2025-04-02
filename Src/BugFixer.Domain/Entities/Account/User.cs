@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BugFixer.Domain.Entities.Common;
 using BugFixer.Domain.Entities.Location;
+using BugFixer.Domain.Entities.Questions;
+using BugFixer.Domain.Entities.Tags;
+using BugFixer.Domain.Enums;
 
 namespace BugFixer.Domain.Entities.Account
 {
@@ -59,6 +57,12 @@ namespace BugFixer.Domain.Entities.Account
 
         public string Avatar { get; set; }
 
+        [Display(Name = "امتیاز")]
+        public int Score { get; set; } = 0;
+
+        [Display(Name = "مدال")]
+        public UserMedal? Medal { get; set; }
+
         #endregion
 
         #region Relations
@@ -68,6 +72,14 @@ namespace BugFixer.Domain.Entities.Account
 
         [InverseProperty("UserCities")]
         public State? City { get; set; }
+
+        public ICollection<Question> Questions { get; set; }
+
+        public ICollection<RequestTag> RequestTags { get; set; }
+
+        public ICollection<Answer> Answers { get; set; }
+
+        public ICollection<UserQuestionBookmark> UserQuestionBookmark { get; set; }
 
         #endregion
     }
