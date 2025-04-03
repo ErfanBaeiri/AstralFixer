@@ -57,6 +57,11 @@ namespace BugFixer.Web.Areas.UserPanel.Controllers
             }
 
             ViewData["States"] = await _stateService.GetAllStates();
+            // If the user has selected a country, load the cities for that country
+            if (editUserView.CountryId.HasValue)
+            {
+                ViewData["Cities"] = await _stateService.GetAllStates(editUserView.CountryId.Value);
+            }
 
             return View(editUserView);
         }

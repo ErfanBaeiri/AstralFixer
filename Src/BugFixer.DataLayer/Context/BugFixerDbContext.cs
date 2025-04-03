@@ -35,6 +35,7 @@ namespace BugFixer.DataLayer.Context
         public DbSet<SelectQuestionTag> SelectQuestionTags { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<RequestTag> RequestTags { get; set; }
+        public DbSet<QuestionUserScore> QuestionUserScores { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

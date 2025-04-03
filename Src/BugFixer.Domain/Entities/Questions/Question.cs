@@ -38,6 +38,8 @@ namespace BugFixer.Domain.Entities.Questions
 
         public ICollection<UserQuestionBookmark> UserQuestionBookmark { get; set; }
 
+        public ICollection<QuestionUserScore> QuestionUserScore { get; set; }
+
         #endregion
     }
 }

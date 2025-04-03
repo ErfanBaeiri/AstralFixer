@@ -241,6 +241,38 @@ namespace BugFixer.DataLayer.Migrations
                     b.ToTable("Questions");
                 });
 
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionUserScore", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("QuestionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("QuestionUserScores");
+                });
+
             modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionView", b =>
                 {
                     b.Property<long>("Id")
@@ -483,6 +515,25 @@ namespace BugFixer.DataLayer.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionUserScore", b =>
+                {
+                    b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
+                        .WithMany("QuestionUserScore")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
+                        .WithMany("QuestionUserScore")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionView", b =>
                 {
                     b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
@@ -528,6 +579,8 @@ namespace BugFixer.DataLayer.Migrations
                 {
                     b.Navigation("Answers");
 
+                    b.Navigation("QuestionUserScore");
+
                     b.Navigation("Questions");
 
                     b.Navigation("RequestTags");
@@ -545,6 +598,8 @@ namespace BugFixer.DataLayer.Migrations
             modelBuilder.Entity("BugFixer.Domain.Entities.Questions.Question", b =>
                 {
                     b.Navigation("Answers");
+
+                    b.Navigation("QuestionUserScore");
 
                     b.Navigation("QuestionViews");
 
