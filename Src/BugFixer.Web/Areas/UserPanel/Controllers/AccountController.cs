@@ -49,7 +49,7 @@ namespace BugFixer.Web.Areas.UserPanel.Controllers
                 {
                     case EditUserInfoResult.Success:
                         TempData[SuccessMessage] = "عملیات با موفقیت انجام شد .";
-                        return RedirectToAction("EditInfo", "Account", new { area = "UserPanel" });
+                        return RedirectToAction("EditInfo", "Account", new {area = "UserPanel"});
                     case EditUserInfoResult.NotValidDate:
                         TempData[ErrorMessage] = "تاریخ وارد شده معتبر نمی باشد .";
                         break;
@@ -57,7 +57,7 @@ namespace BugFixer.Web.Areas.UserPanel.Controllers
             }
 
             ViewData["States"] = await _stateService.GetAllStates();
-            // If the user has selected a country, load the cities for that country
+
             if (editUserView.CountryId.HasValue)
             {
                 ViewData["Cities"] = await _stateService.GetAllStates(editUserView.CountryId.Value);
@@ -80,11 +80,13 @@ namespace BugFixer.Web.Areas.UserPanel.Controllers
         #endregion
 
         #region Change User Password
+
         [HttpGet]
         public async Task<IActionResult> changeUserPassword()
         {
             return View();
         }
+
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> changeUserPassword(ChangeUserPasswordViewModel changeUserPassword)
         {
@@ -95,18 +97,18 @@ namespace BugFixer.Web.Areas.UserPanel.Controllers
                 switch (result)
                 {
                     case ChangeUserPasswordResult.Success:
-                        TempData[SuccessMessage] = "عملیات با موفقیت انجام شد.";
+                        TempData[SuccessMessage] = "عملیات با موفقیت انجام شد .";
                         await HttpContext.SignOutAsync();
-                        return RedirectToAction("Login", "Account", new { area = "" });
+                        return RedirectToAction("Login", "Account", new {area = ""});
                     case ChangeUserPasswordResult.OldPasswordIsNotValid:
-                        ModelState.AddModelError("OldPassword", "کلمه عبور وارد شده اشتباه است.");
+                        ModelState.AddModelError("OldPassword", "کلمه عبور وارد شده اشتباه است .");
                         break;
-
                 }
             }
-            return View(changeUserPassword);
 
+            return View(changeUserPassword);
         }
+
         #endregion
     }
 }

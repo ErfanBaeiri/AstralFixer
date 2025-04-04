@@ -1,10 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BugFixer.Domain.ViewModels.UserPanel.Account
 {
     public class ChangeUserPasswordViewModel
     {
-        [Display(Name = "کلمه عبور قبلی")]
+        [Display(Name = "کلمه عبور فعلی")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         public string OldPassword { get; set; }
@@ -20,6 +25,7 @@ namespace BugFixer.Domain.ViewModels.UserPanel.Account
         [Compare("Password", ErrorMessage = "کلمه های عبور مغایرت دارند .")]
         public string RePassword { get; set; }
     }
+
     public enum ChangeUserPasswordResult
     {
         Success,

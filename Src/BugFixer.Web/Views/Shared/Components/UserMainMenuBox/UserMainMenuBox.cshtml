@@ -1,7 +1,6 @@
 ﻿@using BugFixer.Application.Statics
 @using BugFixer.Application.Extensions
-@using BugFixer.Domain.Entities.Account
-@model User
+@model BugFixer.Domain.Entities.Account.User
 
 <div class="loggedin-status">
     <i class="icon-profile"></i>
@@ -15,9 +14,9 @@
         </div>
         <ul>
             <li><a asp-action="Index" asp-controller="Home" asp-area="UserPanel"> مشاهده حساب کاربری </a></li>
-            <li><a asp-action="EditInfo" asp-controller="Account" asp-area="UserPanel"> ویرایش حساب کاربری </a></li>
-            <li><a asp-action="changeUserPassword" asp-controller="Account" asp-area="UserPanel"> تغییر رمز عبور </a></li>
-            <li><a asp-action="Logout" asp-controller="Account"> خروج از حساب کاربری </a></li>
+            <li><a asp-area="UserPanel" asp-controller="Account" asp-action="EditInfo"> ویرایش حساب کاربری </a></li>
+            <li><a asp-area="UserPanel" asp-controller="Account" asp-action="changeUserPassword"> تغییر رمز عبور </a></li>
+            <li><a asp-controller="Account" asp-action="Logout"> خروج از حساب کاربری </a></li>
         </ul>
     </div>
 </div>

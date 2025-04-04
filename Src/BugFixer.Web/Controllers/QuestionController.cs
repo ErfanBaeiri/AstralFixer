@@ -7,15 +7,19 @@ namespace BugFixer.Web.Controllers
     {
         #region Ctor
 
+
+
         #endregion
 
         #region Create Question
+
         [Authorize]
         [HttpGet("create-question")]
         public async Task<IActionResult> CreateQuestion()
         {
             return View();
         }
+
         #endregion
     }
 }

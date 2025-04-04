@@ -12,7 +12,7 @@
 
 @section Header
 {
-    <partial name="_Header" />
+<partial name="_Header" />
 }
 
 <div class="user-page-style">
@@ -38,7 +38,7 @@
 
                     <div class="inner">
                         <div class="rules-layer">
-                            <p> لطفا قبل از ثبت پرسش  ، ابتدا موضوع مورد نظر خود را در سایت جستجو نمایید ، در صورتی که پاسخ مورد نظر خود را دریافت نکردید ، به ثبت پرسش اقدام نمایید ، از ثبت پرسش های تکراری جدا خودداری فرمایید </p>
+                            <p class="p-style"> لطفا قبل از ثبت پرسش  ، ابتدا موضوع مورد نظر خود را در سایت جستجو نمایید ، در صورتی که پاسخ مورد نظر خود را دریافت نکردید ، به ثبت پرسش اقدام نمایید ، از ثبت پرسش های تکراری جدا خودداری فرمایید </p>
 
                             <form>
                                 <input type="text" name="" placeholder="پرسش مورد نظر ...">
@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="submit-layer">
-                            <p> لطفا قبل از ثبت پرسش قوانین را مطالعه نمایید ، ثبت پرسش شما تایید قوانین محسوب خواهد شد :</p>
+                            <p class="p-style"> لطفا قبل از ثبت پرسش قوانین را مطالعه نمایید ، ثبت پرسش شما تایید قوانین محسوب خواهد شد :</p>
                             <ul>
                                 <li> ادب و احترام در گفتگو می بایست رعایت شود ، در صورت مشاهده تخلف کاربری شما مسدود خواهد شد. </li>
                                 <li> از ثبت پرسش تکراری خودداری نمایید. </li>
@@ -67,8 +67,8 @@
                                     </div>
                                     <div class="col-xs-12">
                                         <div class="textarea-layer">
-                                            <label> <i class="icon-document"></i> متن کامل پرسش </label>
-                                            <textarea></textarea>
+                                            <label class="mb-10"> <i class="icon-document"></i> متن کامل پرسش </label>
+                                            <textarea class="editor"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-xs-12">
@@ -89,9 +89,9 @@
                 </section>
 
             </div>
-
-            <partial name="_LeftSide" />
-
+            
+            <partial name="_LeftSide"/>
+            
             <div class="clearfix"></div>
 
         </div>
@@ -103,5 +103,6 @@
 @section Scripts
 {
     <partial name="_JqueryValidation" />
+    @*<partial name="_CKeditorPartial" />*@
     <script src="/js/question.js"></script>
 }

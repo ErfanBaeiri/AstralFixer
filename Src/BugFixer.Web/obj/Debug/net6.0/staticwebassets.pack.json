@@ -1,339 +1,615 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\BugFixer.Web.22mimedlw0.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "PackagePath": "staticwebassets\\Font package\\bugfixer.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.html",
       "PackagePath": "staticwebassets\\Font package\\bugfixer.html"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).eot",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).ttf",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb(FaNum).woff2",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.eot",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.ttf",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\IRANSansWeb.woff2",
       "PackagePath": "staticwebassets\\Font package\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.eot",
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.svg",
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.svg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.ttf",
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\ckeditor.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\af.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\az.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\da.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\de.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\el.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\en.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\es.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\et.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\he.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\id.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\it.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\kk.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\km.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\no.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\si.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\th.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\build\\translations\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\package.json",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\src\\ckeditor.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\src\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\ckeditor\\webpack.config.js",
+      "PackagePath": "staticwebassets\\common\\ckeditor\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "PackagePath": "staticwebassets\\common\\custom\\custom.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "PackagePath": "staticwebassets\\common\\custom\\custom.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.css",
       "PackagePath": "staticwebassets\\common\\datepicker\\kamadatepicker.min.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\datepicker\\kamadatepicker.min.js",
       "PackagePath": "staticwebassets\\common\\datepicker\\kamadatepicker.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\common\\jquery-validation\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",
       "PackagePath": "staticwebassets\\common\\sweetalert\\sweetalert.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.css",
       "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\common\\waitme\\waitMe.min.js",
       "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg",
-      "PackagePath": "staticwebassets\\content\\user\\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg"
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\ckeditor\\da2b444d-364a-4329-80d6-1f36cbf59808.png",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\da2b444d-364a-4329-80d6-1f36cbf59808.png"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\ckeditor\\ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png",
       "PackagePath": "staticwebassets\\content\\user\\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg",
-      "PackagePath": "staticwebassets\\content\\user\\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png",
       "PackagePath": "staticwebassets\\content\\user\\2cc21c79-c215-4554-8e93-26459ef44ced.png"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png",
       "PackagePath": "staticwebassets\\content\\user\\6bde715c-2368-4c66-8975-11954e9993e6.png"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\account.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\content\\user\\f6958860-818c-4fb0-8809-f2db4f762482.jpeg",
+      "PackagePath": "staticwebassets\\content\\user\\f6958860-818c-4fb0-8809-f2db4f762482.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3-rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrapV3-rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bootstrapV3.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrapV3.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\bugfixer.css",
       "PackagePath": "staticwebassets\\css\\bugfixer.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\faq.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\faq.css",
       "PackagePath": "staticwebassets\\css\\faq.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).eot",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb(FaNum).woff2",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb(FaNum).woff2"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\IRANSansWeb.woff2",
       "PackagePath": "staticwebassets\\css\\fonts\\IRANSansWeb.woff2"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.eot"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.svg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.ttf"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\fonts\\bugfixer.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\bugfixer.woff"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\form.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\page.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\page.css",
       "PackagePath": "staticwebassets\\css\\page.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\public.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\public.css",
       "PackagePath": "staticwebassets\\css\\public.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\question.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\question.css",
       "PackagePath": "staticwebassets\\css\\question.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\tags.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\tags.css",
       "PackagePath": "staticwebassets\\css\\tags.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\css\\user.css",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\css\\user.css",
       "PackagePath": "staticwebassets\\css\\user.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\404.svg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\404.svg",
       "PackagePath": "staticwebassets\\images\\404.svg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-2.jpg",
       "PackagePath": "staticwebassets\\images\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner-4.jpg",
       "PackagePath": "staticwebassets\\images\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\banner.jpg",
       "PackagePath": "staticwebassets\\images\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\landing.jpg",
       "PackagePath": "staticwebassets\\images\\landing.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo-dark.svg",
       "PackagePath": "staticwebassets\\images\\logo-dark.svg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\logo.svg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-2.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\avatar-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar-3.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\avatar-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\avatar.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\images\\pic\\thumb.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\account.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\account.js",
       "PackagePath": "staticwebassets\\js\\account.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\bootstrapV3.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrapV3.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\clipboard.min.js",
       "PackagePath": "staticwebassets\\js\\clipboard.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\faq.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\faq.js",
       "PackagePath": "staticwebassets\\js\\faq.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\home.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\modernizr.js",
       "PackagePath": "staticwebassets\\js\\modernizr.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\page.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\page.js",
       "PackagePath": "staticwebassets\\js\\page.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\progress.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\progress.js",
       "PackagePath": "staticwebassets\\js\\progress.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\public.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\public.js",
       "PackagePath": "staticwebassets\\js\\public.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\question.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\question.js",
       "PackagePath": "staticwebassets\\js\\question.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\slimscroll.js",
       "PackagePath": "staticwebassets\\js\\slimscroll.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\js\\user.js",
+      "Id": "C:\\Users\\Tolu\\Desktop\\25_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\wwwroot\\js\\user.js",
       "PackagePath": "staticwebassets\\js\\user.js"
     },
     {

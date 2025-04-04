@@ -3,12 +3,13 @@
         <nav>
             <span><i class="icon-menu-2"></i></span>
             <div class="inner">
-                <partial name="_TopMenuPartial" />
+                
+                <partial name="_TopMenuPartial"/>
+
                 <div class="clientarea-layer">
                     @if (User.Identity.IsAuthenticated)
                     {
                         @await Component.InvokeAsync("UserMainMenuBox")
-                        ;
                     }
                     else
                     {

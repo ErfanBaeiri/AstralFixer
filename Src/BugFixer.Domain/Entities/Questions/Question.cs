@@ -1,14 +1,21 @@
-﻿using BugFixer.Domain.Entities.Account;
-using BugFixer.Domain.Entities.Common;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.Entities.Common;
 
 namespace BugFixer.Domain.Entities.Questions
 {
     public class Question : BaseEntity
     {
-        #region Propertise
+        #region Properties
+
         [Display(Name = "عنوان")]
-        [MaxLength(300, ErrorMessage = "{0} نمی تواند بیشتر {1} کاراکتر باشد.")]
+        [MaxLength(300, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Title { get; set; }
 
@@ -23,11 +30,13 @@ namespace BugFixer.Domain.Entities.Questions
         [Display(Name = "تعداد بازدید")]
         public int ViewCount { get; set; } = 0;
 
-        [Display(Name = "امتیاز")]
+        [Display(Name = "امتیاز")] 
         public int Score { get; set; } = 0;
+
         #endregion
 
-        #region Relation
+        #region Relations
+
         public User User { get; set; }
 
         public ICollection<SelectQuestionTag> SelectQuestionTags { get; set; }
@@ -36,10 +45,11 @@ namespace BugFixer.Domain.Entities.Questions
 
         public ICollection<QuestionView> QuestionViews { get; set; }
 
-        public ICollection<UserQuestionBookmark> UserQuestionBookmark { get; set; }
+        public ICollection<UserQuestionBookmark> UserQuestionBookmarks { get; set; }
 
-        public ICollection<QuestionUserScore> QuestionUserScore { get; set; }
+        public ICollection<QuestionUserScore> QuestionUserScores { get; set; }
 
         #endregion
+
     }
 }

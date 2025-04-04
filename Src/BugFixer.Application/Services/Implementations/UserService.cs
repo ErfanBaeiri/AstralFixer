@@ -259,7 +259,10 @@ namespace BugFixer.Application.Services.Implementations
 
             var password = PasswordHelper.EncodePasswordMd5(changeUserPassword.OldPassword.SanitizeText());
 
-            if (password != user.Password) return ChangeUserPasswordResult.OldPasswordIsNotValid;
+            if (password != user.Password)
+            {
+                return ChangeUserPasswordResult.OldPasswordIsNotValid;
+            }
 
             user.Password = PasswordHelper.EncodePasswordMd5(changeUserPassword.Password.SanitizeText());
 
@@ -267,11 +270,8 @@ namespace BugFixer.Application.Services.Implementations
             await _userRepository.Save();
 
             return ChangeUserPasswordResult.Success;
-
         }
 
         #endregion
-
-
     }
 }

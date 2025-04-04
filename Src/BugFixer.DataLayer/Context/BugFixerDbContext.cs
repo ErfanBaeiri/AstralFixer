@@ -19,23 +19,35 @@ namespace BugFixer.DataLayer.Context
 
         public BugFixerDbContext(DbContextOptions<BugFixerDbContext> options) : base(options)
         {
-
+            
         }
 
         #endregion
 
         #region DbSet
+
         public DbSet<User> Users { get; set; }
+
         public DbSet<EmailSetting> EmailSettings { get; set; }
+
         public DbSet<State> States { get; set; }
+
         public DbSet<UserQuestionBookmark> Bookmarks { get; set; }
+
         public DbSet<Answer> Answers { get; set; }
+
         public DbSet<Question> Questions { get; set; }
+
         public DbSet<QuestionView> QuestionViews { get; set; }
+
         public DbSet<SelectQuestionTag> SelectQuestionTags { get; set; }
+
         public DbSet<Tag> Tags { get; set; }
+
         public DbSet<RequestTag> RequestTags { get; set; }
+
         public DbSet<QuestionUserScore> QuestionUserScores { get; set; }
+
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -54,11 +66,11 @@ namespace BugFixer.DataLayer.Context
                 CreateDate = date,
                 DisplayName = "BugFixer",
                 EnableSSL = true,
-                From = "astralanswer@gmail.com",
+                From = "bugfixer.toplearn@gmail.com",
                 Id = 1,
                 IsDefault = true,
                 IsDelete = false,
-                Password = "iapy ykva kedv torx",
+                Password = "strong@password",
                 Port = 587,
                 SMTP = "smtp.gmail.com"
             });

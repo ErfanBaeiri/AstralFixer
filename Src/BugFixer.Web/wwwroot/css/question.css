@@ -506,12 +506,12 @@
 .rules-layer{
 	margin-bottom: 45px;
 }
-.rules-layer p{
-	font-size: 14px;
-	line-height: 26px;
-	text-align: justify;
-	margin-bottom: 15px
-}
+	.rules-layer .p-style {
+		font-size: 14px;
+		line-height: 26px;
+		text-align: justify;
+		margin-bottom: 15px
+	}
 .rules-layer form{
 	width: 100%;
 	position: relative;
@@ -544,7 +544,7 @@
 .submit-layer {
 	margin-bottom: 35px
 }
-.submit-layer p{
+.submit-layer .p-style{
 	font-size: 15px;
 	font-weight: bold;
 	line-height: 28px;
@@ -552,18 +552,18 @@
 	position: relative;
 	padding-right: 15px
 }
-.submit-layer p:before{
-	position: absolute;
-	right: 0;
-	top: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 100%;
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-	background-color: #fecd32;
-	content: ''
-}
+	.submit-layer .p-style:before {
+		position: absolute;
+		right: 0;
+		top: 9px;
+		width: 8px;
+		height: 8px;
+		border-radius: 100%;
+		-moz-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		background-color: #fecd32;
+		content: ''
+	}
 .submit-layer ul li{
 	font-size: 14px;
 	font-weight: bold;

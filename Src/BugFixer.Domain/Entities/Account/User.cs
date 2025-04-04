@@ -1,5 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using BugFixer.Domain.Entities.Common;
 using BugFixer.Domain.Entities.Location;
 using BugFixer.Domain.Entities.Questions;
@@ -79,9 +84,9 @@ namespace BugFixer.Domain.Entities.Account
 
         public ICollection<Answer> Answers { get; set; }
 
-        public ICollection<UserQuestionBookmark> UserQuestionBookmark { get; set; }
+        public ICollection<UserQuestionBookmark> UserQuestionBookmarks { get; set; }
 
-        public ICollection<QuestionUserScore> QuestionUserScore { get; set; }
+        public ICollection<QuestionUserScore> QuestionUserScores { get; set; }
 
         #endregion
     }

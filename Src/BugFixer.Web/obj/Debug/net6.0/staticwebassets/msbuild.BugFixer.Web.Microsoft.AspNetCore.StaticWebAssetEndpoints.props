@@ -4,37 +4,889 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BugFixer.Web.22mimedlw0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"22mimedlw0"},{"Name":"integrity","Value":"sha256-Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw="},{"Name":"label","Value":"_content/BugFixer.Web/BugFixer.Web.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Feb 2022 19:49:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Feb 2022 17:30:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/BugFixer.Web.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BugFixer.Web.22mimedlw0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Feb 2022 19:49:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Kh61vdOqCnFnu9\u002BW9x2tx6rX55PHAXsvSmlX8a3OVxw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Feb 2022 17:30:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/ckeditor.9qm8rzwm6y.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\ckeditor.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9qm8rzwm6y"},{"Name":"integrity","Value":"sha256-7/OHK2qexgCjJBx60fKrJ6i/dcEIOBKWIGCIIRQ4pzs="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/ckeditor.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"993395"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227/OHK2qexgCjJBx60fKrJ6i/dcEIOBKWIGCIIRQ4pzs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/ckeditor.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\ckeditor.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7/OHK2qexgCjJBx60fKrJ6i/dcEIOBKWIGCIIRQ4pzs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"993395"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227/OHK2qexgCjJBx60fKrJ6i/dcEIOBKWIGCIIRQ4pzs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/ckeditor.js.745iw7eoad.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\ckeditor.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"745iw7eoad"},{"Name":"integrity","Value":"sha256-Z2YSUNv4FQkdUe3/jCUdgZFuZFQA12KxRf3Zul3mryY="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/ckeditor.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022Z2YSUNv4FQkdUe3/jCUdgZFuZFQA12KxRf3Zul3mryY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/ckeditor.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\ckeditor.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Z2YSUNv4FQkdUe3/jCUdgZFuZFQA12KxRf3Zul3mryY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022Z2YSUNv4FQkdUe3/jCUdgZFuZFQA12KxRf3Zul3mryY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/af.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\af.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BCDJyf\u002BCbxV\u002BfTaL5VpnH8Jk5onXp6V6/EDdG27m3Qs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"523"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BCDJyf\u002BCbxV\u002BfTaL5VpnH8Jk5onXp6V6/EDdG27m3Qs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/af.wqj8n5eqbk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\af.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wqj8n5eqbk"},{"Name":"integrity","Value":"sha256-\u002BCDJyf\u002BCbxV\u002BfTaL5VpnH8Jk5onXp6V6/EDdG27m3Qs="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/af.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"523"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BCDJyf\u002BCbxV\u002BfTaL5VpnH8Jk5onXp6V6/EDdG27m3Qs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ar.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ar.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XGJets6RbyYQk/8kNQRycrBfHb3FK\u002B\u002Buv6C4WaRjFkQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3128"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XGJets6RbyYQk/8kNQRycrBfHb3FK\u002B\u002Buv6C4WaRjFkQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ar.swccab44zq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ar.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"swccab44zq"},{"Name":"integrity","Value":"sha256-XGJets6RbyYQk/8kNQRycrBfHb3FK\u002B\u002Buv6C4WaRjFkQ="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ar.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3128"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XGJets6RbyYQk/8kNQRycrBfHb3FK\u002B\u002Buv6C4WaRjFkQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ast.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ast.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BOFFbVw8ZMkDTXKGl9RjkNDisjDzir/2ZSt\u002BF3PVN0M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1232"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BOFFbVw8ZMkDTXKGl9RjkNDisjDzir/2ZSt\u002BF3PVN0M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ast.w9ejicpeza.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ast.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w9ejicpeza"},{"Name":"integrity","Value":"sha256-BOFFbVw8ZMkDTXKGl9RjkNDisjDzir/2ZSt\u002BF3PVN0M="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ast.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1232"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BOFFbVw8ZMkDTXKGl9RjkNDisjDzir/2ZSt\u002BF3PVN0M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/az.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\az.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U0ms5JYHX6d9BOlZhf6aZEtexBxRU6Un7zMSPnqEGXo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3362"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022U0ms5JYHX6d9BOlZhf6aZEtexBxRU6Un7zMSPnqEGXo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/az.zk6kvf1vrc.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\az.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zk6kvf1vrc"},{"Name":"integrity","Value":"sha256-U0ms5JYHX6d9BOlZhf6aZEtexBxRU6Un7zMSPnqEGXo="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/az.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3362"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022U0ms5JYHX6d9BOlZhf6aZEtexBxRU6Un7zMSPnqEGXo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/bg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\bg.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nRHWo73Ikkutu5WE7r6KHUHR7bE96Qcf5EWQc7BYbBk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2691"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nRHWo73Ikkutu5WE7r6KHUHR7bE96Qcf5EWQc7BYbBk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/bg.zs50d96qgw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\bg.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zs50d96qgw"},{"Name":"integrity","Value":"sha256-nRHWo73Ikkutu5WE7r6KHUHR7bE96Qcf5EWQc7BYbBk="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/bg.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2691"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nRHWo73Ikkutu5WE7r6KHUHR7bE96Qcf5EWQc7BYbBk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/bs.d256fgztow.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\bs.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d256fgztow"},{"Name":"integrity","Value":"sha256-JX4zw2wfRJlvSplCHcwiHR8yE44J\u002BsAHBniRcLKYU9g="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/bs.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1470"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JX4zw2wfRJlvSplCHcwiHR8yE44J\u002BsAHBniRcLKYU9g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/bs.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\bs.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JX4zw2wfRJlvSplCHcwiHR8yE44J\u002BsAHBniRcLKYU9g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1470"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JX4zw2wfRJlvSplCHcwiHR8yE44J\u002BsAHBniRcLKYU9g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ca.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ca.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9c8BXSrR7coEyCii3FvWwWMmUgl/gzga73GwcL12oOo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"881"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229c8BXSrR7coEyCii3FvWwWMmUgl/gzga73GwcL12oOo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ca.pf8xbvyttz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ca.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pf8xbvyttz"},{"Name":"integrity","Value":"sha256-9c8BXSrR7coEyCii3FvWwWMmUgl/gzga73GwcL12oOo="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ca.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"881"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229c8BXSrR7coEyCii3FvWwWMmUgl/gzga73GwcL12oOo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/cs.4xxvpuq68g.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\cs.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4xxvpuq68g"},{"Name":"integrity","Value":"sha256-eM57Gpy2yUxauWEhOfLbA\u002B2jWmOb\u002BUY3T8i/kzwtPvI="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/cs.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3629"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eM57Gpy2yUxauWEhOfLbA\u002B2jWmOb\u002BUY3T8i/kzwtPvI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/cs.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\cs.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eM57Gpy2yUxauWEhOfLbA\u002B2jWmOb\u002BUY3T8i/kzwtPvI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3629"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eM57Gpy2yUxauWEhOfLbA\u002B2jWmOb\u002BUY3T8i/kzwtPvI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/da.dpgx64zhiz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\da.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dpgx64zhiz"},{"Name":"integrity","Value":"sha256-0ZgL2BRJXe4DK2l1LKeg4bYK8YXLt9T/Yn3qQZf1hSY="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/da.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3125"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220ZgL2BRJXe4DK2l1LKeg4bYK8YXLt9T/Yn3qQZf1hSY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/da.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\da.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0ZgL2BRJXe4DK2l1LKeg4bYK8YXLt9T/Yn3qQZf1hSY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3125"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220ZgL2BRJXe4DK2l1LKeg4bYK8YXLt9T/Yn3qQZf1hSY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/de-ch.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\de-ch.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4TM\u002BTcBWKuG1i8w8MI0tVUQxz0srlyfqwF7Wv3Np8Ys="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3174"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224TM\u002BTcBWKuG1i8w8MI0tVUQxz0srlyfqwF7Wv3Np8Ys=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/de-ch.rhezkhioij.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\de-ch.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rhezkhioij"},{"Name":"integrity","Value":"sha256-4TM\u002BTcBWKuG1i8w8MI0tVUQxz0srlyfqwF7Wv3Np8Ys="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/de-ch.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3174"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224TM\u002BTcBWKuG1i8w8MI0tVUQxz0srlyfqwF7Wv3Np8Ys=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/de.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\de.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fQrYDpPWmShJMxpNPEVVSYsZY0waKq2J6LGJmnhUQTE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3507"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fQrYDpPWmShJMxpNPEVVSYsZY0waKq2J6LGJmnhUQTE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/de.t4lecn2prm.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\de.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t4lecn2prm"},{"Name":"integrity","Value":"sha256-fQrYDpPWmShJMxpNPEVVSYsZY0waKq2J6LGJmnhUQTE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/de.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3507"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fQrYDpPWmShJMxpNPEVVSYsZY0waKq2J6LGJmnhUQTE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/el.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\el.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nElnsXZaIx9uWBL7/uOUdiC\u002BVL2rFuDxHjGMAJG3vsc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1794"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nElnsXZaIx9uWBL7/uOUdiC\u002BVL2rFuDxHjGMAJG3vsc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/el.k632xf7gvj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\el.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k632xf7gvj"},{"Name":"integrity","Value":"sha256-nElnsXZaIx9uWBL7/uOUdiC\u002BVL2rFuDxHjGMAJG3vsc="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/el.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1794"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nElnsXZaIx9uWBL7/uOUdiC\u002BVL2rFuDxHjGMAJG3vsc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en-au.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en-au.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-p7C095ge/2QmXJkKHJ0LnzpwQtEQFuTBWfp2h2oiHz4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3180"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022p7C095ge/2QmXJkKHJ0LnzpwQtEQFuTBWfp2h2oiHz4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en-au.vigsqly2ya.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en-au.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vigsqly2ya"},{"Name":"integrity","Value":"sha256-p7C095ge/2QmXJkKHJ0LnzpwQtEQFuTBWfp2h2oiHz4="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/en-au.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3180"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022p7C095ge/2QmXJkKHJ0LnzpwQtEQFuTBWfp2h2oiHz4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en-gb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en-gb.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KVf0JbyBfSeuqEetSHwAGhYeKlZJTzpEeArJIcGP3Dg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KVf0JbyBfSeuqEetSHwAGhYeKlZJTzpEeArJIcGP3Dg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en-gb.n4vhhknwon.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en-gb.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n4vhhknwon"},{"Name":"integrity","Value":"sha256-KVf0JbyBfSeuqEetSHwAGhYeKlZJTzpEeArJIcGP3Dg="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/en-gb.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KVf0JbyBfSeuqEetSHwAGhYeKlZJTzpEeArJIcGP3Dg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4LT96PB8DTqPg5XsxlutHPq5Yaa0mDZuM93aByZM7Po="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3165"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224LT96PB8DTqPg5XsxlutHPq5Yaa0mDZuM93aByZM7Po=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/en.sdj4oin0ew.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\en.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sdj4oin0ew"},{"Name":"integrity","Value":"sha256-4LT96PB8DTqPg5XsxlutHPq5Yaa0mDZuM93aByZM7Po="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/en.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3165"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224LT96PB8DTqPg5XsxlutHPq5Yaa0mDZuM93aByZM7Po=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/eo.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\eo.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SiVyfatLl2eGsd7WvT05aeN6bp/z\u002BNqnvIp7KcsVHxI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1486"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SiVyfatLl2eGsd7WvT05aeN6bp/z\u002BNqnvIp7KcsVHxI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/eo.y91p0aeruw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\eo.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y91p0aeruw"},{"Name":"integrity","Value":"sha256-SiVyfatLl2eGsd7WvT05aeN6bp/z\u002BNqnvIp7KcsVHxI="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/eo.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1486"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SiVyfatLl2eGsd7WvT05aeN6bp/z\u002BNqnvIp7KcsVHxI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/es.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\es.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UwzMd050BJAfuW0CncxjNdEUYUOaffNumkXfxRAyS80="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UwzMd050BJAfuW0CncxjNdEUYUOaffNumkXfxRAyS80=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/es.zw7lhg4fdg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\es.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zw7lhg4fdg"},{"Name":"integrity","Value":"sha256-UwzMd050BJAfuW0CncxjNdEUYUOaffNumkXfxRAyS80="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/es.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UwzMd050BJAfuW0CncxjNdEUYUOaffNumkXfxRAyS80=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/et.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\et.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mf/I1S9DVjWyaXWzVynjqhRd4vAWpDlxT4wdHXZR/Kg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mf/I1S9DVjWyaXWzVynjqhRd4vAWpDlxT4wdHXZR/Kg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/et.nqx8kgpd87.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\et.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nqx8kgpd87"},{"Name":"integrity","Value":"sha256-Mf/I1S9DVjWyaXWzVynjqhRd4vAWpDlxT4wdHXZR/Kg="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/et.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mf/I1S9DVjWyaXWzVynjqhRd4vAWpDlxT4wdHXZR/Kg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/eu.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\eu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vVsdfWItT7FzwGrE1Q3Szk73WpwTfI/sWzwfilHCW60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1533"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vVsdfWItT7FzwGrE1Q3Szk73WpwTfI/sWzwfilHCW60=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/eu.l2yt6harmb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\eu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l2yt6harmb"},{"Name":"integrity","Value":"sha256-vVsdfWItT7FzwGrE1Q3Szk73WpwTfI/sWzwfilHCW60="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/eu.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1533"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vVsdfWItT7FzwGrE1Q3Szk73WpwTfI/sWzwfilHCW60=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/fi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\fi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YJeanCeLa8OLfwD7K2\u002BYMk8GWbc6ryJRbEhucQ6GpCg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2925"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YJeanCeLa8OLfwD7K2\u002BYMk8GWbc6ryJRbEhucQ6GpCg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/fi.slld69fp85.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\fi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"slld69fp85"},{"Name":"integrity","Value":"sha256-YJeanCeLa8OLfwD7K2\u002BYMk8GWbc6ryJRbEhucQ6GpCg="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/fi.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2925"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YJeanCeLa8OLfwD7K2\u002BYMk8GWbc6ryJRbEhucQ6GpCg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/fr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\fr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yCg9vIikjFzDoHIsU6BNFTe8zzW/ysC9koxDtqPiTqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3690"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yCg9vIikjFzDoHIsU6BNFTe8zzW/ysC9koxDtqPiTqk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/fr.ogqtkmkz7r.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\fr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ogqtkmkz7r"},{"Name":"integrity","Value":"sha256-yCg9vIikjFzDoHIsU6BNFTe8zzW/ysC9koxDtqPiTqk="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/fr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3690"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yCg9vIikjFzDoHIsU6BNFTe8zzW/ysC9koxDtqPiTqk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/gl.ckjdbk2ie8.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\gl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ckjdbk2ie8"},{"Name":"integrity","Value":"sha256-TP9ELnrwoHx26CWqJ9zPVzzcowslIz8Z\u002BYXV4kxZdOA="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/gl.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3668"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TP9ELnrwoHx26CWqJ9zPVzzcowslIz8Z\u002BYXV4kxZdOA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/gl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\gl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TP9ELnrwoHx26CWqJ9zPVzzcowslIz8Z\u002BYXV4kxZdOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3668"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TP9ELnrwoHx26CWqJ9zPVzzcowslIz8Z\u002BYXV4kxZdOA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/gu.2e3n2ymxy7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\gu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2e3n2ymxy7"},{"Name":"integrity","Value":"sha256-6hq9bn1f6F4HJxRK/8GzoZEa6d7dZXqyaUDQl48ucqY="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/gu.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"360"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226hq9bn1f6F4HJxRK/8GzoZEa6d7dZXqyaUDQl48ucqY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/gu.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\gu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6hq9bn1f6F4HJxRK/8GzoZEa6d7dZXqyaUDQl48ucqY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"360"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226hq9bn1f6F4HJxRK/8GzoZEa6d7dZXqyaUDQl48ucqY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/he.3rwd10cpdn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\he.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3rwd10cpdn"},{"Name":"integrity","Value":"sha256-D4jlafkWG/VkhKila8QM6eA\u002BNfKAY2W4Fjesd6oB0os="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/he.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2521"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022D4jlafkWG/VkhKila8QM6eA\u002BNfKAY2W4Fjesd6oB0os=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/he.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\he.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D4jlafkWG/VkhKila8QM6eA\u002BNfKAY2W4Fjesd6oB0os="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2521"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022D4jlafkWG/VkhKila8QM6eA\u002BNfKAY2W4Fjesd6oB0os=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nUhssp7EfsEzDuO/p4hAH3gbHEauv4D\u002Bt4WIUawN/WE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nUhssp7EfsEzDuO/p4hAH3gbHEauv4D\u002Bt4WIUawN/WE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hi.lupjzn8std.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lupjzn8std"},{"Name":"integrity","Value":"sha256-nUhssp7EfsEzDuO/p4hAH3gbHEauv4D\u002Bt4WIUawN/WE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/hi.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nUhssp7EfsEzDuO/p4hAH3gbHEauv4D\u002Bt4WIUawN/WE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hr.8wljixever.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8wljixever"},{"Name":"integrity","Value":"sha256-aPTOZl8jijfWZGbXMcNw2rbl\u002BbvQJgEejSU9V6dnJd0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/hr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3288"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aPTOZl8jijfWZGbXMcNw2rbl\u002BbvQJgEejSU9V6dnJd0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aPTOZl8jijfWZGbXMcNw2rbl\u002BbvQJgEejSU9V6dnJd0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3288"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aPTOZl8jijfWZGbXMcNw2rbl\u002BbvQJgEejSU9V6dnJd0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hu.bhzwgf1h9d.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bhzwgf1h9d"},{"Name":"integrity","Value":"sha256-n3dviwPbRz8ne2t1UOb1Jc\u002BGW\u002Byf7E5h\u002B4cVWTcPEJw="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/hu.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3633"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n3dviwPbRz8ne2t1UOb1Jc\u002BGW\u002Byf7E5h\u002B4cVWTcPEJw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/hu.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\hu.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n3dviwPbRz8ne2t1UOb1Jc\u002BGW\u002Byf7E5h\u002B4cVWTcPEJw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3633"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n3dviwPbRz8ne2t1UOb1Jc\u002BGW\u002Byf7E5h\u002B4cVWTcPEJw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/id.14rk8pofng.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\id.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"14rk8pofng"},{"Name":"integrity","Value":"sha256-QRLsmd02AOpwhC68YeRaajLzGvxWpmtF4n7j95yS1kU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/id.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3288"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QRLsmd02AOpwhC68YeRaajLzGvxWpmtF4n7j95yS1kU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/id.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\id.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QRLsmd02AOpwhC68YeRaajLzGvxWpmtF4n7j95yS1kU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3288"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QRLsmd02AOpwhC68YeRaajLzGvxWpmtF4n7j95yS1kU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/it.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\it.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XK8h\u002BDLH772YIKNnJCsOgzMdcSecKk/w/JVx57XxXGQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3755"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XK8h\u002BDLH772YIKNnJCsOgzMdcSecKk/w/JVx57XxXGQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/it.syk6x84ef5.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\it.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"syk6x84ef5"},{"Name":"integrity","Value":"sha256-XK8h\u002BDLH772YIKNnJCsOgzMdcSecKk/w/JVx57XxXGQ="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/it.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3755"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XK8h\u002BDLH772YIKNnJCsOgzMdcSecKk/w/JVx57XxXGQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ja.e00bunfay9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ja.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e00bunfay9"},{"Name":"integrity","Value":"sha256-zt5zTw1DtHh3rvH8XcxCsQdBh5yPA0jTKMZ6WTdK2yQ="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ja.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3477"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zt5zTw1DtHh3rvH8XcxCsQdBh5yPA0jTKMZ6WTdK2yQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ja.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ja.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zt5zTw1DtHh3rvH8XcxCsQdBh5yPA0jTKMZ6WTdK2yQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3477"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zt5zTw1DtHh3rvH8XcxCsQdBh5yPA0jTKMZ6WTdK2yQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/kk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\kk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZOVC5NAVFZf93QAuSwlSd5qRwFmBiqxCE6dddWYl3g8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"473"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZOVC5NAVFZf93QAuSwlSd5qRwFmBiqxCE6dddWYl3g8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/kk.w31kwes8yj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\kk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w31kwes8yj"},{"Name":"integrity","Value":"sha256-ZOVC5NAVFZf93QAuSwlSd5qRwFmBiqxCE6dddWYl3g8="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/kk.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"473"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZOVC5NAVFZf93QAuSwlSd5qRwFmBiqxCE6dddWYl3g8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/km.ba61l3bjf6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\km.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ba61l3bjf6"},{"Name":"integrity","Value":"sha256-E2fGptJCkZxbYdwlf1Sfbxt7uZYhIf0B5vBBv4dho8g="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/km.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2473"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E2fGptJCkZxbYdwlf1Sfbxt7uZYhIf0B5vBBv4dho8g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/km.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\km.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E2fGptJCkZxbYdwlf1Sfbxt7uZYhIf0B5vBBv4dho8g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2473"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E2fGptJCkZxbYdwlf1Sfbxt7uZYhIf0B5vBBv4dho8g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/kn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\kn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SzMQC1pCq3Lgx6tZ37rOITy3aLhLvYKq/H6RCb3/DLE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2000"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SzMQC1pCq3Lgx6tZ37rOITy3aLhLvYKq/H6RCb3/DLE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/kn.tydsve24di.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\kn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tydsve24di"},{"Name":"integrity","Value":"sha256-SzMQC1pCq3Lgx6tZ37rOITy3aLhLvYKq/H6RCb3/DLE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/kn.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2000"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SzMQC1pCq3Lgx6tZ37rOITy3aLhLvYKq/H6RCb3/DLE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ko.h3hsfpqzez.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ko.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h3hsfpqzez"},{"Name":"integrity","Value":"sha256-c\u002BcsA4hBAJb1qPCVBpw6a9V4zJ70SSb7EnXlGblB9Os="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ko.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3083"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022c\u002BcsA4hBAJb1qPCVBpw6a9V4zJ70SSb7EnXlGblB9Os=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ko.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ko.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c\u002BcsA4hBAJb1qPCVBpw6a9V4zJ70SSb7EnXlGblB9Os="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3083"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022c\u002BcsA4hBAJb1qPCVBpw6a9V4zJ70SSb7EnXlGblB9Os=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ku.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ku.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BX1cjY75IKo5zCLN2IJUBgpE0voo1AJ5OrL1b0OiII0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4382"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BX1cjY75IKo5zCLN2IJUBgpE0voo1AJ5OrL1b0OiII0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ku.x60k0828d7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ku.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x60k0828d7"},{"Name":"integrity","Value":"sha256-\u002BX1cjY75IKo5zCLN2IJUBgpE0voo1AJ5OrL1b0OiII0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ku.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4382"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BX1cjY75IKo5zCLN2IJUBgpE0voo1AJ5OrL1b0OiII0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/lt.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\lt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UY8q/m6REnDe6oLpjTcubFzYorT5mStKn9VdGqu2DD8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3179"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UY8q/m6REnDe6oLpjTcubFzYorT5mStKn9VdGqu2DD8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/lt.ni14cldfmg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\lt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ni14cldfmg"},{"Name":"integrity","Value":"sha256-UY8q/m6REnDe6oLpjTcubFzYorT5mStKn9VdGqu2DD8="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/lt.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3179"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UY8q/m6REnDe6oLpjTcubFzYorT5mStKn9VdGqu2DD8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/lv.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\lv.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O5TPycU6ciH09R0YXRg7F1mwxHh6ZwLPm5B1wxPmCYU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3406"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O5TPycU6ciH09R0YXRg7F1mwxHh6ZwLPm5B1wxPmCYU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/lv.x1weamfqzh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\lv.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x1weamfqzh"},{"Name":"integrity","Value":"sha256-O5TPycU6ciH09R0YXRg7F1mwxHh6ZwLPm5B1wxPmCYU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/lv.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3406"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O5TPycU6ciH09R0YXRg7F1mwxHh6ZwLPm5B1wxPmCYU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/nb.22buogqno6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\nb.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"22buogqno6"},{"Name":"integrity","Value":"sha256-hrRpJPqyI/LtDsrM46BsqZT3ecZM7zVvofFnrmVBse0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/nb.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2625"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hrRpJPqyI/LtDsrM46BsqZT3ecZM7zVvofFnrmVBse0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/nb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\nb.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hrRpJPqyI/LtDsrM46BsqZT3ecZM7zVvofFnrmVBse0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2625"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hrRpJPqyI/LtDsrM46BsqZT3ecZM7zVvofFnrmVBse0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ne.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ne.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NDhjWkKCZ9DGpCWU22TGWF6I\u002BGxfnp6ijxiC5UvAm8I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5218"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NDhjWkKCZ9DGpCWU22TGWF6I\u002BGxfnp6ijxiC5UvAm8I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ne.skm60gpt49.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ne.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"skm60gpt49"},{"Name":"integrity","Value":"sha256-NDhjWkKCZ9DGpCWU22TGWF6I\u002BGxfnp6ijxiC5UvAm8I="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ne.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5218"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NDhjWkKCZ9DGpCWU22TGWF6I\u002BGxfnp6ijxiC5UvAm8I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/nl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\nl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5L7p5E/Y1rOW/734m9cTw4xu82bgXvmJFnt1QiYKcUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225L7p5E/Y1rOW/734m9cTw4xu82bgXvmJFnt1QiYKcUE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/nl.oxy9k9xznx.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\nl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oxy9k9xznx"},{"Name":"integrity","Value":"sha256-5L7p5E/Y1rOW/734m9cTw4xu82bgXvmJFnt1QiYKcUE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/nl.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225L7p5E/Y1rOW/734m9cTw4xu82bgXvmJFnt1QiYKcUE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/no.jdq57kacfr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\no.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jdq57kacfr"},{"Name":"integrity","Value":"sha256-x\u002Bv41c4SQ9UMat5oUGwfrNUBADVYmmEDwHJIiwFAxko="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/no.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022x\u002Bv41c4SQ9UMat5oUGwfrNUBADVYmmEDwHJIiwFAxko=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/no.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\no.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x\u002Bv41c4SQ9UMat5oUGwfrNUBADVYmmEDwHJIiwFAxko="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022x\u002Bv41c4SQ9UMat5oUGwfrNUBADVYmmEDwHJIiwFAxko=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/oc.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\oc.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fqwwAuOwpScDCN8PMO/k8TNglTyyreK6AvjiQYhRC\u002B0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"326"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fqwwAuOwpScDCN8PMO/k8TNglTyyreK6AvjiQYhRC\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/oc.y72plgey3k.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\oc.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y72plgey3k"},{"Name":"integrity","Value":"sha256-fqwwAuOwpScDCN8PMO/k8TNglTyyreK6AvjiQYhRC\u002B0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/oc.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"326"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fqwwAuOwpScDCN8PMO/k8TNglTyyreK6AvjiQYhRC\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2xHh1lvrTuwQx8YlFVOlZdU/YQ6Wwx80YlYlk62PrLw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3703"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222xHh1lvrTuwQx8YlFVOlZdU/YQ6Wwx80YlYlk62PrLw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pl.zegbyaux1j.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zegbyaux1j"},{"Name":"integrity","Value":"sha256-2xHh1lvrTuwQx8YlFVOlZdU/YQ6Wwx80YlYlk62PrLw="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/pl.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3703"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222xHh1lvrTuwQx8YlFVOlZdU/YQ6Wwx80YlYlk62PrLw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pt-br.ahpl4lo6g8.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pt-br.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ahpl4lo6g8"},{"Name":"integrity","Value":"sha256-wpObPFiBUMHrNt0D897Kwj6vydy0FL62GJnbdMF/RtY="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/pt-br.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3575"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wpObPFiBUMHrNt0D897Kwj6vydy0FL62GJnbdMF/RtY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pt-br.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pt-br.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wpObPFiBUMHrNt0D897Kwj6vydy0FL62GJnbdMF/RtY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3575"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wpObPFiBUMHrNt0D897Kwj6vydy0FL62GJnbdMF/RtY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pt.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E9k/oLNBH3Dwiwr3GWQrVE5Prn8\u002By/z8XjeHUjYf7eE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1820"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E9k/oLNBH3Dwiwr3GWQrVE5Prn8\u002By/z8XjeHUjYf7eE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/pt.p1bcg5iwxg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\pt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p1bcg5iwxg"},{"Name":"integrity","Value":"sha256-E9k/oLNBH3Dwiwr3GWQrVE5Prn8\u002By/z8XjeHUjYf7eE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/pt.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1820"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E9k/oLNBH3Dwiwr3GWQrVE5Prn8\u002By/z8XjeHUjYf7eE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ro.gxy5tk7moa.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ro.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gxy5tk7moa"},{"Name":"integrity","Value":"sha256-FD0z/Gq4id5OeXgixciSXgBAuT\u002BczbHShhuT4M2\u002BdyU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ro.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3652"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FD0z/Gq4id5OeXgixciSXgBAuT\u002BczbHShhuT4M2\u002BdyU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ro.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ro.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FD0z/Gq4id5OeXgixciSXgBAuT\u002BczbHShhuT4M2\u002BdyU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3652"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FD0z/Gq4id5OeXgixciSXgBAuT\u002BczbHShhuT4M2\u002BdyU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ru.ifn4tttavi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ru.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ifn4tttavi"},{"Name":"integrity","Value":"sha256-Yo\u002BGoa/yVweRc0rSwGYrSpE74UfeGUry1zxJ2uC6pJw="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ru.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Yo\u002BGoa/yVweRc0rSwGYrSpE74UfeGUry1zxJ2uC6pJw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ru.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ru.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Yo\u002BGoa/yVweRc0rSwGYrSpE74UfeGUry1zxJ2uC6pJw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Yo\u002BGoa/yVweRc0rSwGYrSpE74UfeGUry1zxJ2uC6pJw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/si.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\si.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qfV0NmbVS8sByw4WwJgvAOV7oZDR7\u002B8MW2la1wVdHro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"837"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qfV0NmbVS8sByw4WwJgvAOV7oZDR7\u002B8MW2la1wVdHro=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/si.tv73vv97b2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\si.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tv73vv97b2"},{"Name":"integrity","Value":"sha256-qfV0NmbVS8sByw4WwJgvAOV7oZDR7\u002B8MW2la1wVdHro="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/si.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"837"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qfV0NmbVS8sByw4WwJgvAOV7oZDR7\u002B8MW2la1wVdHro=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sk.1ek7netatk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ek7netatk"},{"Name":"integrity","Value":"sha256-\u002BSE4aj4t4DMViTsPEb01iyCWiIVrZJja1EzeXOsnYKw="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sk.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3619"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BSE4aj4t4DMViTsPEb01iyCWiIVrZJja1EzeXOsnYKw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BSE4aj4t4DMViTsPEb01iyCWiIVrZJja1EzeXOsnYKw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3619"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BSE4aj4t4DMViTsPEb01iyCWiIVrZJja1EzeXOsnYKw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NteyMGOM455SgcE9Z7A946/LpYlQe7wHLwbs/HWgZJE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NteyMGOM455SgcE9Z7A946/LpYlQe7wHLwbs/HWgZJE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sl.m4xq5ay09f.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sl.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m4xq5ay09f"},{"Name":"integrity","Value":"sha256-NteyMGOM455SgcE9Z7A946/LpYlQe7wHLwbs/HWgZJE="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sl.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NteyMGOM455SgcE9Z7A946/LpYlQe7wHLwbs/HWgZJE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sq.3o3hm5un57.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sq.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3o3hm5un57"},{"Name":"integrity","Value":"sha256-LSkeEF7uGwTrllP/T4GjTUhN3b9unofnmg/uwnuMkvA="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sq.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2684"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LSkeEF7uGwTrllP/T4GjTUhN3b9unofnmg/uwnuMkvA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sq.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LSkeEF7uGwTrllP/T4GjTUhN3b9unofnmg/uwnuMkvA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2684"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LSkeEF7uGwTrllP/T4GjTUhN3b9unofnmg/uwnuMkvA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sr-latn.729es3c3ad.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sr-latn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"729es3c3ad"},{"Name":"integrity","Value":"sha256-Xy3FeOeMooNxIpsDdt22TIjlvbU9R3T6ke09v/HBt6E="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sr-latn.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Xy3FeOeMooNxIpsDdt22TIjlvbU9R3T6ke09v/HBt6E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sr-latn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sr-latn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xy3FeOeMooNxIpsDdt22TIjlvbU9R3T6ke09v/HBt6E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Xy3FeOeMooNxIpsDdt22TIjlvbU9R3T6ke09v/HBt6E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dmIH4QxxI2jpgi/DiOykHzqa0KFu\u002B3nSGG89h1SNxa4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4704"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dmIH4QxxI2jpgi/DiOykHzqa0KFu\u002B3nSGG89h1SNxa4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sr.mxtsrj7ulj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mxtsrj7ulj"},{"Name":"integrity","Value":"sha256-dmIH4QxxI2jpgi/DiOykHzqa0KFu\u002B3nSGG89h1SNxa4="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4704"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dmIH4QxxI2jpgi/DiOykHzqa0KFu\u002B3nSGG89h1SNxa4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sv.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sv.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PIGQzC3HaN\u002BV6N9O1fcvUXATRk2iK0UCqDg64omTsGU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PIGQzC3HaN\u002BV6N9O1fcvUXATRk2iK0UCqDg64omTsGU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/sv.s6xzscqcem.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\sv.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s6xzscqcem"},{"Name":"integrity","Value":"sha256-PIGQzC3HaN\u002BV6N9O1fcvUXATRk2iK0UCqDg64omTsGU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/sv.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PIGQzC3HaN\u002BV6N9O1fcvUXATRk2iK0UCqDg64omTsGU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/th.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\th.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j8k11EJCm9uWLMm566nT4K99KnG9bq//Dfa4ebb6VS0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3544"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022j8k11EJCm9uWLMm566nT4K99KnG9bq//Dfa4ebb6VS0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/th.tdgin7mrh6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\th.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tdgin7mrh6"},{"Name":"integrity","Value":"sha256-j8k11EJCm9uWLMm566nT4K99KnG9bq//Dfa4ebb6VS0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/th.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3544"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022j8k11EJCm9uWLMm566nT4K99KnG9bq//Dfa4ebb6VS0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tk.9rmv0j4im7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9rmv0j4im7"},{"Name":"integrity","Value":"sha256-C4\u002BQWhzJfE6UQ0zhUl66miLOR5YZfclMT5gsJ/NXVdU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/tk.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3502"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022C4\u002BQWhzJfE6UQ0zhUl66miLOR5YZfclMT5gsJ/NXVdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C4\u002BQWhzJfE6UQ0zhUl66miLOR5YZfclMT5gsJ/NXVdU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3502"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022C4\u002BQWhzJfE6UQ0zhUl66miLOR5YZfclMT5gsJ/NXVdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jrp79JJAOlKv/bLgJGqJzsFeopMS7f\u002BFLSX5FCnQU\u002B0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3424"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Jrp79JJAOlKv/bLgJGqJzsFeopMS7f\u002BFLSX5FCnQU\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tr.yek2y0hw7z.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yek2y0hw7z"},{"Name":"integrity","Value":"sha256-Jrp79JJAOlKv/bLgJGqJzsFeopMS7f\u002BFLSX5FCnQU\u002B0="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/tr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3424"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Jrp79JJAOlKv/bLgJGqJzsFeopMS7f\u002BFLSX5FCnQU\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tt.5c4o5g1prj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5c4o5g1prj"},{"Name":"integrity","Value":"sha256-9eAFbyQmz4wTcxVgjPsB72PyiSFIMTK4LbTiNldP81Y="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/tt.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"345"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229eAFbyQmz4wTcxVgjPsB72PyiSFIMTK4LbTiNldP81Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/tt.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\tt.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9eAFbyQmz4wTcxVgjPsB72PyiSFIMTK4LbTiNldP81Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"345"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229eAFbyQmz4wTcxVgjPsB72PyiSFIMTK4LbTiNldP81Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ug.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ug.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5qKblpNjS3qAxUbHTYSAIWpaZFHVDS4wZgwkETJQM9o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2873"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225qKblpNjS3qAxUbHTYSAIWpaZFHVDS4wZgwkETJQM9o=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/ug.q0ws8ld2rm.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\ug.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q0ws8ld2rm"},{"Name":"integrity","Value":"sha256-5qKblpNjS3qAxUbHTYSAIWpaZFHVDS4wZgwkETJQM9o="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/ug.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2873"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225qKblpNjS3qAxUbHTYSAIWpaZFHVDS4wZgwkETJQM9o=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/uk.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\uk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C\u002BchuiiBxIbFaFkF2EwgxKj2LiN\u002Bj0QecLnENVcj/UM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5281"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022C\u002BchuiiBxIbFaFkF2EwgxKj2LiN\u002Bj0QecLnENVcj/UM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/uk.tei3dryc0x.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\uk.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tei3dryc0x"},{"Name":"integrity","Value":"sha256-C\u002BchuiiBxIbFaFkF2EwgxKj2LiN\u002Bj0QecLnENVcj/UM="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/uk.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5281"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022C\u002BchuiiBxIbFaFkF2EwgxKj2LiN\u002Bj0QecLnENVcj/UM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/uz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\uz.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QJgbzbbVccoRY\u002B1q3\u002B67Uao1oNQlq/Gc2kjmM8K5vhA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3578"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QJgbzbbVccoRY\u002B1q3\u002B67Uao1oNQlq/Gc2kjmM8K5vhA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/uz.w0ela1zxki.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\uz.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w0ela1zxki"},{"Name":"integrity","Value":"sha256-QJgbzbbVccoRY\u002B1q3\u002B67Uao1oNQlq/Gc2kjmM8K5vhA="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/uz.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3578"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QJgbzbbVccoRY\u002B1q3\u002B67Uao1oNQlq/Gc2kjmM8K5vhA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/vi.gjw7aqfgvh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\vi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gjw7aqfgvh"},{"Name":"integrity","Value":"sha256-hH08MhWnq0XGDhojI7OxzXxkqT2zSsX2misNhhSWft8="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/vi.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3492"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hH08MhWnq0XGDhojI7OxzXxkqT2zSsX2misNhhSWft8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/vi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\vi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hH08MhWnq0XGDhojI7OxzXxkqT2zSsX2misNhhSWft8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3492"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hH08MhWnq0XGDhojI7OxzXxkqT2zSsX2misNhhSWft8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/zh-cn.1ebfsn46vg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\zh-cn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ebfsn46vg"},{"Name":"integrity","Value":"sha256-af\u002BtvaNCkVNtWFzdnAIwDEOkyCOYktAHhLRdr8IGT9s="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/zh-cn.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3249"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022af\u002BtvaNCkVNtWFzdnAIwDEOkyCOYktAHhLRdr8IGT9s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/zh-cn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\zh-cn.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-af\u002BtvaNCkVNtWFzdnAIwDEOkyCOYktAHhLRdr8IGT9s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3249"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022af\u002BtvaNCkVNtWFzdnAIwDEOkyCOYktAHhLRdr8IGT9s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/zh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\zh.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JAGqM\u002BdAdm0VLVTJewCdnXVauOt/uCt6DvFYbZTvpgQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JAGqM\u002BdAdm0VLVTJewCdnXVauOt/uCt6DvFYbZTvpgQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/build/translations/zh.ob8gvxlepi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\build\translations\zh.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ob8gvxlepi"},{"Name":"integrity","Value":"sha256-JAGqM\u002BdAdm0VLVTJewCdnXVauOt/uCt6DvFYbZTvpgQ="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/build/translations/zh.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JAGqM\u002BdAdm0VLVTJewCdnXVauOt/uCt6DvFYbZTvpgQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/LICENSE.ftfc76dwtf.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\LICENSE.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ftfc76dwtf"},{"Name":"integrity","Value":"sha256-7RXvEr7kZ8GeTn2zcFybKgQkn\u002B5xLlf3UZvYB7nyinY="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/LICENSE.md"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2167"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u00227RXvEr7kZ8GeTn2zcFybKgQkn\u002B5xLlf3UZvYB7nyinY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/LICENSE.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\LICENSE.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7RXvEr7kZ8GeTn2zcFybKgQkn\u002B5xLlf3UZvYB7nyinY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2167"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u00227RXvEr7kZ8GeTn2zcFybKgQkn\u002B5xLlf3UZvYB7nyinY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/package.jivklaz803.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\package.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jivklaz803"},{"Name":"integrity","Value":"sha256-dVY/1ZqAo5aumrBh\u002BnWjc5ZP4RMBKlc/vZCXY0ZD1us="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/package.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1349"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022dVY/1ZqAo5aumrBh\u002BnWjc5ZP4RMBKlc/vZCXY0ZD1us=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/package.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\package.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dVY/1ZqAo5aumrBh\u002BnWjc5ZP4RMBKlc/vZCXY0ZD1us="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1349"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022dVY/1ZqAo5aumrBh\u002BnWjc5ZP4RMBKlc/vZCXY0ZD1us=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/README.1lbc9s1ppg.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\README.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1lbc9s1ppg"},{"Name":"integrity","Value":"sha256-W1HqRGJP0EaC9rRQatohw0FSZUeWne13EqCxtE0hmk8="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/README.md"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3495"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u0022W1HqRGJP0EaC9rRQatohw0FSZUeWne13EqCxtE0hmk8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/README.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\README.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W1HqRGJP0EaC9rRQatohw0FSZUeWne13EqCxtE0hmk8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3495"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u0022W1HqRGJP0EaC9rRQatohw0FSZUeWne13EqCxtE0hmk8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/src/ckeditor.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\src\ckeditor.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F/i5cjhpKtI8HUmhPSRz3LCA0LscAQuM3wU2CE5SxrU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022F/i5cjhpKtI8HUmhPSRz3LCA0LscAQuM3wU2CE5SxrU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/src/ckeditor.nwk5nup7xf.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\src\ckeditor.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nwk5nup7xf"},{"Name":"integrity","Value":"sha256-F/i5cjhpKtI8HUmhPSRz3LCA0LscAQuM3wU2CE5SxrU="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/src/ckeditor.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022F/i5cjhpKtI8HUmhPSRz3LCA0LscAQuM3wU2CE5SxrU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/webpack.config.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\webpack.config.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ITk\u002BrT8M0WJZDRPjgQy94b82FO5yzSl8Pn3GhZklBGk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ITk\u002BrT8M0WJZDRPjgQy94b82FO5yzSl8Pn3GhZklBGk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/ckeditor/webpack.config.pau7w1e8p7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\ckeditor\webpack.config.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pau7w1e8p7"},{"Name":"integrity","Value":"sha256-ITk\u002BrT8M0WJZDRPjgQy94b82FO5yzSl8Pn3GhZklBGk="},{"Name":"label","Value":"_content/BugFixer.Web/common/ckeditor/webpack.config.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ITk\u002BrT8M0WJZDRPjgQy94b82FO5yzSl8Pn3GhZklBGk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 12:49:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.9883bilm5i.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9883bilm5i"},{"Name":"integrity","Value":"sha256-l3ARm4EDkFaYr\u002BeTrKl38PJoIW/PIiih5OvU9\u002BWaWzU="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"819"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l3ARm4EDkFaYr\u002BeTrKl38PJoIW/PIiih5OvU9\u002BWaWzU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:08:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e4CvbroKP8EwTEX84XQfKGTwDuX6IBjbCcNRADVADPA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"654"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022e4CvbroKP8EwTEX84XQfKGTwDuX6IBjbCcNRADVADPA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Feb 2022 18:06:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l3ARm4EDkFaYr\u002BeTrKl38PJoIW/PIiih5OvU9\u002BWaWzU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"819"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l3ARm4EDkFaYr\u002BeTrKl38PJoIW/PIiih5OvU9\u002BWaWzU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:08:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.fr19kc35wr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fr19kc35wr"},{"Name":"integrity","Value":"sha256-KyXXlZ4CaPw5bnsYYDM2LZfByrnPnSRVEcfesD3Qdv4="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4513"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KyXXlZ4CaPw5bnsYYDM2LZfByrnPnSRVEcfesD3Qdv4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:39:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V1sAmZnTwBKYcFWNp0Ox9VeRqTnVmvZ9BOZZQlrJBmo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3727"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022V1sAmZnTwBKYcFWNp0Ox9VeRqTnVmvZ9BOZZQlrJBmo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Feb 2022 19:44:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.lplnvmsqex.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lplnvmsqex"},{"Name":"integrity","Value":"sha256-V1sAmZnTwBKYcFWNp0Ox9VeRqTnVmvZ9BOZZQlrJBmo="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3727"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022V1sAmZnTwBKYcFWNp0Ox9VeRqTnVmvZ9BOZZQlrJBmo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Feb 2022 19:44:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.vf0l326g4b.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vf0l326g4b"},{"Name":"integrity","Value":"sha256-e4CvbroKP8EwTEX84XQfKGTwDuX6IBjbCcNRADVADPA="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"654"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022e4CvbroKP8EwTEX84XQfKGTwDuX6IBjbCcNRADVADPA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Feb 2022 18:06:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KyXXlZ4CaPw5bnsYYDM2LZfByrnPnSRVEcfesD3Qdv4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4513"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KyXXlZ4CaPw5bnsYYDM2LZfByrnPnSRVEcfesD3Qdv4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:39:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/datepicker/kamadatepicker.min.cbloay859y.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\datepicker\kamadatepicker.min.css'))</AssetFile>
@@ -168,17 +1020,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4henidgxn"},{"Name":"integrity","Value":"sha256-QB1Mm4TYGvFKzHfowlwaN/NeW\u002Bw6663CJzMxNbsUqNM="},{"Name":"label","Value":"_content/BugFixer.Web/common/waitme/waitMe.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14044"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QB1Mm4TYGvFKzHfowlwaN/NeW\u002Bw6663CJzMxNbsUqNM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 31 Oct 2017 05:05:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/ckeditor/da2b444d-364a-4329-80d6-1f36cbf59808.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\da2b444d-364a-4329-80d6-1f36cbf59808.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7uKtfY9aiqPKz9fnZCWzsnA7fX/u\u002BgKFX/sOrJFjozs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10521"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227uKtfY9aiqPKz9fnZCWzsnA7fX/u\u002BgKFX/sOrJFjozs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 14:44:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"282012"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:31:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.u9jme9owaw.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\04acd10c-0ed5-4de3-b234-a8364e427b78.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/ckeditor/da2b444d-364a-4329-80d6-1f36cbf59808.r3dtqstju0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\da2b444d-364a-4329-80d6-1f36cbf59808.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u9jme9owaw"},{"Name":"integrity","Value":"sha256-7uKtfY9aiqPKz9fnZCWzsnA7fX/u\u002BgKFX/sOrJFjozs="},{"Name":"label","Value":"_content/BugFixer.Web/content/user/04acd10c-0ed5-4de3-b234-a8364e427b78.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10521"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227uKtfY9aiqPKz9fnZCWzsnA7fX/u\u002BgKFX/sOrJFjozs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 14:44:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r3dtqstju0"},{"Name":"integrity","Value":"sha256-l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg="},{"Name":"label","Value":"_content/BugFixer.Web/content/ckeditor/da2b444d-364a-4329-80d6-1f36cbf59808.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"282012"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:31:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/ckeditor/ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S3kIcmwaszY3n9JjtK4aP3ihlLn5oEeUtNqI5fbDWdU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"116480"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S3kIcmwaszY3n9JjtK4aP3ihlLn5oEeUtNqI5fbDWdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:33:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/ckeditor/ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.za8978uydh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"za8978uydh"},{"Name":"integrity","Value":"sha256-S3kIcmwaszY3n9JjtK4aP3ihlLn5oEeUtNqI5fbDWdU="},{"Name":"label","Value":"_content/BugFixer.Web/content/ckeditor/ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"116480"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S3kIcmwaszY3n9JjtK4aP3ihlLn5oEeUtNqI5fbDWdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:33:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/218d9086-629c-4bc0-ba66-6e31d3b5a35a.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png'))</AssetFile>
@@ -191,18 +1055,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r3dtqstju0"},{"Name":"integrity","Value":"sha256-l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg="},{"Name":"label","Value":"_content/BugFixer.Web/content/user/218d9086-629c-4bc0-ba66-6e31d3b5a35a.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"282012"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l8GK\u002BOsDiIhi8N8hn9MEY\u002BEzgRbrBisgIBkQxCAREBg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Jan 2022 19:09:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.f9no80ropl.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9no80ropl"},{"Name":"integrity","Value":"sha256-w0NoOLKQmoRQGH8Xco4ggEGtpMo\u002B8zHVywMVBH9\u002B3Rg="},{"Name":"label","Value":"_content/BugFixer.Web/content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4758"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w0NoOLKQmoRQGH8Xco4ggEGtpMo\u002B8zHVywMVBH9\u002B3Rg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 10:03:09 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\2937b5a9-e20a-4b7d-ba1a-a86f1dae10f6.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w0NoOLKQmoRQGH8Xco4ggEGtpMo\u002B8zHVywMVBH9\u002B3Rg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4758"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022w0NoOLKQmoRQGH8Xco4ggEGtpMo\u002B8zHVywMVBH9\u002B3Rg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 10:03:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/2cc21c79-c215-4554-8e93-26459ef44ced.18r430xv0r.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\2cc21c79-c215-4554-8e93-26459ef44ced.png'))</AssetFile>
@@ -228,6 +1080,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mnuJKgrBf5xw19Rk/4XhLGEKCXnksuKOJWT7vVPQXAg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"39362"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022mnuJKgrBf5xw19Rk/4XhLGEKCXnksuKOJWT7vVPQXAg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Feb 2022 18:41:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/f6958860-818c-4fb0-8809-f2db4f762482.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\f6958860-818c-4fb0-8809-f2db4f762482.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nFHxDvlMxbfwdnwOEFRPE8sipcLjGS4IuW5VNIFUI08="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3626"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nFHxDvlMxbfwdnwOEFRPE8sipcLjGS4IuW5VNIFUI08=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Feb 2022 17:38:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/content/user/f6958860-818c-4fb0-8809-f2db4f762482.s2gg9ghood.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\user\f6958860-818c-4fb0-8809-f2db4f762482.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s2gg9ghood"},{"Name":"integrity","Value":"sha256-nFHxDvlMxbfwdnwOEFRPE8sipcLjGS4IuW5VNIFUI08="},{"Name":"label","Value":"_content/BugFixer.Web/content/user/f6958860-818c-4fb0-8809-f2db4f762482.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3626"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nFHxDvlMxbfwdnwOEFRPE8sipcLjGS4IuW5VNIFUI08=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Feb 2022 17:38:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/account.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -240,52 +1104,28 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mu6f2obb4u"},{"Name":"integrity","Value":"sha256-buLbRz\u002BJQ8ZTmcSq2R60TemiKJlKcA9bCCjVcvcu1pQ="},{"Name":"label","Value":"_content/BugFixer.Web/css/account.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71640"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022buLbRz\u002BJQ8ZTmcSq2R60TemiKJlKcA9bCCjVcvcu1pQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Aug 2018 22:03:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.min.46ein0sx1k.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"46ein0sx1k"},{"Name":"integrity","Value":"sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrap.min.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232803"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.min.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"232803"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.rtl.min.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.rtl.min.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"232911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.rtl.min.pk9g2wxc8p.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.rtl.min.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pk9g2wxc8p"},{"Name":"integrity","Value":"sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrap.rtl.min.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrapV3-rtl.min.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrapV3-rtl.min.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap-rtl.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap-rtl.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24870"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Apr 2015 09:17:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrapV3-rtl.min.rl3anscsok.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrapV3-rtl.min.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap-rtl.min.rl3anscsok.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap-rtl.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rl3anscsok"},{"Name":"integrity","Value":"sha256-QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrapV3-rtl.min.css"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rl3anscsok"},{"Name":"integrity","Value":"sha256-QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrap-rtl.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24870"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QaglcWD/13fl6tydGPZa6ZdFhOoBFW4XHkLWOft5lcA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Apr 2015 09:17:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrapV3.min.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrapV3.min.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I3uCBmSC9voutN0vJNyi3sEJJIu300UT\u002BJYGzoyibuQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"122211"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022I3uCBmSC9voutN0vJNyi3sEJJIu300UT\u002BJYGzoyibuQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 03 May 2018 16:48:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrapV3.min.jc64qq41i1.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrapV3.min.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bootstrap.min.jc64qq41i1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jc64qq41i1"},{"Name":"integrity","Value":"sha256-I3uCBmSC9voutN0vJNyi3sEJJIu300UT\u002BJYGzoyibuQ="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrapV3.min.css"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jc64qq41i1"},{"Name":"integrity","Value":"sha256-I3uCBmSC9voutN0vJNyi3sEJJIu300UT\u002BJYGzoyibuQ="},{"Name":"label","Value":"_content/BugFixer.Web/css/bootstrap.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"122211"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022I3uCBmSC9voutN0vJNyi3sEJJIu300UT\u002BJYGzoyibuQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 03 May 2018 16:48:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/bugfixer.css">
@@ -507,14 +1347,14 @@
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/question.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\question.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bIEYi3daY3vLsM42v41dAuQu7hLGl5bKcVGmDOZcvIE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14746"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bIEYi3daY3vLsM42v41dAuQu7hLGl5bKcVGmDOZcvIE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Aug 2018 02:09:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rXG/9Tt1y8UhwNhiy7XSVJX\u002BdlPTBnodJztZMVmTPcY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14787"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rXG/9Tt1y8UhwNhiy7XSVJX\u002BdlPTBnodJztZMVmTPcY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:07:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/question.kshy4r6jou.css">
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/question.t0dve4g3w3.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\question.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kshy4r6jou"},{"Name":"integrity","Value":"sha256-bIEYi3daY3vLsM42v41dAuQu7hLGl5bKcVGmDOZcvIE="},{"Name":"label","Value":"_content/BugFixer.Web/css/question.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14746"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bIEYi3daY3vLsM42v41dAuQu7hLGl5bKcVGmDOZcvIE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Aug 2018 02:09:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t0dve4g3w3"},{"Name":"integrity","Value":"sha256-rXG/9Tt1y8UhwNhiy7XSVJX\u002BdlPTBnodJztZMVmTPcY="},{"Name":"label","Value":"_content/BugFixer.Web/css/question.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14787"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rXG/9Tt1y8UhwNhiy7XSVJX\u002BdlPTBnodJztZMVmTPcY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Mar 2022 16:07:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/css/tags.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\tags.css'))</AssetFile>
@@ -852,28 +1692,16 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Dt8ekMduyAJnk08cOC1iFZz2FxQ6bPX8bYA5V3Wj8kU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12717"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Dt8ekMduyAJnk08cOC1iFZz2FxQ6bPX8bYA5V3Wj8kU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jul 2018 23:38:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/bootstrap.min.63fj8s7r0e.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"63fj8s7r0e"},{"Name":"integrity","Value":"sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="},{"Name":"label","Value":"_content/BugFixer.Web/js/bootstrap.min.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60635"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/bootstrap.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"60635"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 Feb 2024 15:04:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/bootstrapV3.min.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrapV3.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Sk3nkD6mLTMOF0EOpNtsIry\u002Bs1CsaqQC1rVLTAy\u002B0yc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"36816"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Sk3nkD6mLTMOF0EOpNtsIry\u002Bs1CsaqQC1rVLTAy\u002B0yc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Jun 2015 16:13:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/bootstrapV3.min.ufd1z0xlt3.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrapV3.min.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/bootstrap.min.ufd1z0xlt3.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ufd1z0xlt3"},{"Name":"integrity","Value":"sha256-Sk3nkD6mLTMOF0EOpNtsIry\u002Bs1CsaqQC1rVLTAy\u002B0yc="},{"Name":"label","Value":"_content/BugFixer.Web/js/bootstrapV3.min.js"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ufd1z0xlt3"},{"Name":"integrity","Value":"sha256-Sk3nkD6mLTMOF0EOpNtsIry\u002Bs1CsaqQC1rVLTAy\u002B0yc="},{"Name":"label","Value":"_content/BugFixer.Web/js/bootstrap.min.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36816"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Sk3nkD6mLTMOF0EOpNtsIry\u002Bs1CsaqQC1rVLTAy\u002B0yc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Jun 2015 16:13:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/js/clipboard.min.f5rijn5gvr.js">

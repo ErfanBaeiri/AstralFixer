@@ -119,9 +119,6 @@ namespace BugFixer.DataLayer.Migrations
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("UserIdP")
-                        .HasColumnType("bigint");
-
                     b.HasKey("Id");
 
                     b.HasIndex("QuestionId");
@@ -374,10 +371,10 @@ namespace BugFixer.DataLayer.Migrations
                             CreateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DisplayName = "BugFixer",
                             EnableSSL = true,
-                            From = "astralanswer@gmail.com",
+                            From = "bugfixer.toplearn@gmail.com",
                             IsDefault = true,
                             IsDelete = false,
-                            Password = "iapy ykva kedv torx",
+                            Password = "strong@password",
                             Port = 587,
                             SMTP = "smtp.gmail.com"
                         });
@@ -459,13 +456,13 @@ namespace BugFixer.DataLayer.Migrations
             modelBuilder.Entity("BugFixer.Domain.Entities.Account.UserQuestionBookmark", b =>
                 {
                     b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
-                        .WithMany("UserQuestionBookmark")
+                        .WithMany("UserQuestionBookmarks")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
-                        .WithMany("UserQuestionBookmark")
+                        .WithMany("UserQuestionBookmarks")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -518,13 +515,13 @@ namespace BugFixer.DataLayer.Migrations
             modelBuilder.Entity("BugFixer.Domain.Entities.Questions.QuestionUserScore", b =>
                 {
                     b.HasOne("BugFixer.Domain.Entities.Questions.Question", "Question")
-                        .WithMany("QuestionUserScore")
+                        .WithMany("QuestionUserScores")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("BugFixer.Domain.Entities.Account.User", "User")
-                        .WithMany("QuestionUserScore")
+                        .WithMany("QuestionUserScores")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -579,13 +576,13 @@ namespace BugFixer.DataLayer.Migrations
                 {
                     b.Navigation("Answers");
 
-                    b.Navigation("QuestionUserScore");
+                    b.Navigation("QuestionUserScores");
 
                     b.Navigation("Questions");
 
                     b.Navigation("RequestTags");
 
-                    b.Navigation("UserQuestionBookmark");
+                    b.Navigation("UserQuestionBookmarks");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.Location.State", b =>
@@ -599,13 +596,13 @@ namespace BugFixer.DataLayer.Migrations
                 {
                     b.Navigation("Answers");
 
-                    b.Navigation("QuestionUserScore");
+                    b.Navigation("QuestionUserScores");
 
                     b.Navigation("QuestionViews");
 
                     b.Navigation("SelectQuestionTags");
 
-                    b.Navigation("UserQuestionBookmark");
+                    b.Navigation("UserQuestionBookmarks");
                 });
 
             modelBuilder.Entity("BugFixer.Domain.Entities.Tags.Tag", b =>

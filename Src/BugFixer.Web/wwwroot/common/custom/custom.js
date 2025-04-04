@@ -20,7 +20,7 @@ function UploadUserAvatar(url) {
             data: formData,
             contentType: false,
             processData: false,
-            beforeSend: function() {
+            beforeSend: function () {
                 StartLoading('#UserInfoBox');
             },
             success: function (response) {
@@ -118,7 +118,30 @@ if (datepickers.length) {
     }
 }
 
-$(function() {
+var editors = document.querySelectorAll(".editor");
+if (editors.length) {
+    $.getScript("/common/ckeditor/build/ckeditor.js",
+        function (data, textStatus, jqxhr) {
+            for (editor of editors) {
+                ClassicEditor
+                    .create(editor,
+                        {
+                            licenseKey: '',
+                            simpleUpload: {
+                                uploadUrl: '/Home/UploadEditorImage'
+                            }
+                        })
+                    .then(editor => {
+                        window.editor = editor;
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            }
+        });
+}
+
+$(function () {
 
     if ($("#CountryId").val() === '') {
         $("#CityId").prop("disabled", true);
