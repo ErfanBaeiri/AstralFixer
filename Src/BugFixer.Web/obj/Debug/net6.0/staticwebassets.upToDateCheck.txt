@@ -79,6 +79,8 @@ wwwroot\common\jquery-validation\jquery.validate.js
 wwwroot\common\jquery-validation\jquery.validate.min.js
 wwwroot\common\jquery-validation\jquery.validate.unobtrusive.js
 wwwroot\common\jquery-validation\jquery.validate.unobtrusive.min.js
+wwwroot\common\magicsuggest\magicsuggest.css
+wwwroot\common\magicsuggest\magicsuggest.js
 wwwroot\common\sweetalert\sweetalert.js
 wwwroot\common\waitme\waitMe.min.css
 wwwroot\common\waitme\waitMe.min.js
