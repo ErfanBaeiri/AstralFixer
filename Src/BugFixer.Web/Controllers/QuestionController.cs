@@ -1,4 +1,5 @@
 ﻿using BugFixer.Application.Services.Interfaces;
+using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,7 +25,18 @@ namespace BugFixer.Web.Controllers
         {
             return View();
         }
+        [Authorize]
+        [HttpPost("create-question"), ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateQuestion(CreateQuestionViewModel createQuestion)
+        {
+            if (createQuestion.SelectedTags == null || !createQuestion.SelectedTags.Any())
+            {
+                TempData[WarningMessage] = "انتخاب تگ الزامی می باشد";
+                return View(createQuestion);
+            }
 
+            return View(createQuestion);
+        }
         #endregion
 
         #region GetTags
