@@ -1,6 +1,7 @@
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using BugFixer.DataLayer.Context;
+using BugFixer.Domain.ViewModels.Common;
 using BugFixer.IoC;
 using GoogleReCaptcha.V3;
 using GoogleReCaptcha.V3.Interface;
@@ -15,6 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<ICaptchaValidator, GoogleReCaptchaValidator>();
+builder.Services.Configure<ScoreManagementViewModel>(builder.Configuration.GetSection("ScoreManagement"));
 
 #region DbContext
 

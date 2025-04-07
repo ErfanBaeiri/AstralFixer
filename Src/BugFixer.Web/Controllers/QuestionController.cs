@@ -2,6 +2,7 @@
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BugFixer.Web.Controllers
 {
@@ -10,6 +11,7 @@ namespace BugFixer.Web.Controllers
         #region Ctor
 
         private IQuestionService _questionService;
+
         public QuestionController(IQuestionService questionService)
         {
             _questionService = questionService;
@@ -25,28 +27,44 @@ namespace BugFixer.Web.Controllers
         {
             return View();
         }
+
         [Authorize]
         [HttpPost("create-question"), ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateQuestion(CreateQuestionViewModel createQuestion)
         {
             if (createQuestion.SelectedTags == null || !createQuestion.SelectedTags.Any())
             {
-                TempData[WarningMessage] = "انتخاب تگ الزامی می باشد";
+                TempData[WarningMessage] = "انتخاب تگ الزامی می باشد .";
                 return View(createQuestion);
             }
 
+            createQuestion.SelectedTagsJson = JsonConvert.SerializeObject(createQuestion.SelectedTags);
+            createQuestion.SelectedTags = null;
+
             return View(createQuestion);
         }
+
         #endregion
 
-        #region GetTags
+        #region Get Tags
+
         [HttpGet("get-tags")]
         public async Task<IActionResult> GetTagsForSuggest(string name)
         {
+            if (string.IsNullOrEmpty(name))
+            {
+                return Json(null);
+            }
+
             var tags = await _questionService.GetAllTags();
-            var filteredTags = tags.Where(s => s.Title.Contains(name)).Select(s => s.Title).ToList();
+
+            var filteredTags = tags.Where(s => s.Title.Contains(name))
+                .Select(s => s.Title)
+                .ToList();
+
             return Json(filteredTags);
         }
+
         #endregion
     }
 }

@@ -84,6 +84,7 @@ wwwroot\common\magicsuggest\magicsuggest.js
 wwwroot\common\sweetalert\sweetalert.js
 wwwroot\common\waitme\waitMe.min.css
 wwwroot\common\waitme\waitMe.min.js
+wwwroot\content\ckeditor\bf62131f-a7d8-453d-96ac-19f2a3e1ddf0.png
 wwwroot\content\ckeditor\da2b444d-364a-4329-80d6-1f36cbf59808.png
 wwwroot\content\ckeditor\ec89a707-4a4c-4e1d-96d9-6cbb1f39d34d.jpg
 wwwroot\content\user\218d9086-629c-4bc0-ba66-6e31d3b5a35a.png

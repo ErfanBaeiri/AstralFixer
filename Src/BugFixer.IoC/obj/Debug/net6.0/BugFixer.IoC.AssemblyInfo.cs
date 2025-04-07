@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugFixer.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f51a95728076d1dab92329066ba36a0081b505")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugFixer.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugFixer.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

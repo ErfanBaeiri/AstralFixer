@@ -1,4 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BugFixer.Domain.ViewModels.Question
 {
@@ -12,7 +17,11 @@ namespace BugFixer.Domain.ViewModels.Question
         [Display(Name = "توضیحات")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Description { get; set; }
-        public List<string> SelectedTags { get; set; }
+
+        public List<string>? SelectedTags { get; set; }
+
+        public string? SelectedTagsJson { get; set; }
+
         public long UserId { get; set; }
     }
 }

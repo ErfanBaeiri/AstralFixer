@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMLDyXX8xQs=",
+  "dgSpecHash": "apKkL+xIaNk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\BugFixer.Web.csproj",
+  "projectFilePath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Web\\BugFixer.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp.css\\0.16.1\\anglesharp.css.0.16.1.nupkg.sha512",
