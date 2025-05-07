@@ -1,27 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using BugFixer.Domain.Entities.Account;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Account;
 
 namespace BugFixer.Application.Extensions
 {
-    public  static class UserExtensions
+    public static class UserExtensions
     {
-        public static long GetUserId(this ClaimsPrincipal claimsPrincipal)
+        public static long GetUserId(this ClaimsPrincipal user)
         {
-            var identifier = claimsPrincipal.Claims.SingleOrDefault(s => s.Type == ClaimTypes.NameIdentifier);
-
-            if (identifier == null) return 0;
-
-            return long.Parse(identifier.Value);
+            // This method retrieves the UserId from the ClaimsPrincipal.
+            // It checks if the user is authenticated and returns the UserId as a long.
+            if (user.Identity?.IsAuthenticated == true)
+            {
+                var userIdClaim = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+                if (userIdClaim != null && long.TryParse(userIdClaim.Value, out var userId))
+                {
+                    return userId;
+                }
+            }
+            return 0; // Return 0 if the user is not authenticated or UserId is not found.
         }
 
         public static string GetUserDisplayName(this User user)
         {
-            if (!string.IsNullOrEmpty(user.FirstName) && !string.IsNullOrEmpty(user.LastName))
+            // This method retrieves the display name of the user.
+            // It checks if the user has a first name and last name, and returns them formatted.
+            // If not, it returns the username.
+            if (!string.IsNullOrWhiteSpace(user.FirstName) && !string.IsNullOrWhiteSpace(user.LastName))
             {
                 return $"{user.FirstName} {user.LastName}";
             }
@@ -29,6 +33,7 @@ namespace BugFixer.Application.Extensions
             var email = user.Email.Split("@")[0];
 
             return email;
+
         }
     }
 }

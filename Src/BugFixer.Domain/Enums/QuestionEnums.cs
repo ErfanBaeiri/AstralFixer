@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace BugFixer.Domain.Enums
 {
     public enum QuestionScoreType
     {
         [Display(Name = "مثبت")] Plus,
-
-        [Display(Name = "منفی")] Minus,
+        [Display(Name = "مثبت")] Minus
     }
 }

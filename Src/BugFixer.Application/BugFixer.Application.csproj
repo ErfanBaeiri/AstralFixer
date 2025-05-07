@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -11,8 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="HtmlSanitizer" Version="6.0.453" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+    <PackageReference Include="HtmlSanitizer" Version="9.0.876" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>

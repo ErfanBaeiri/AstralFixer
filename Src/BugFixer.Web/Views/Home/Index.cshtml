@@ -1,62 +1,61 @@
 ﻿@{
     ViewData["Title"] = "صفحه اصلی";
-    Layout = "_Layout";
 }
 
-@section Styles
-{
-    <link rel="stylesheet" type="text/css" href="/css/home.css">
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/css/home.css">
 }
 
-@section Header
-{
-<!-- lanfing page -->
-<div class="landing-layer">
-    <div class="container">
-        <header>
-            <a href="" class="logo"><img src="/images/logo.svg"></a>
-            <h1> سامانه <span>پرسش و پاسخ</span> برنامه نویسان و توسعه دهندگان </h1>
-            <h2> آموزش ببینید ، مهارت ها و تخصص های خود را به اشتراک بگذارید ، بپرسید و به جواب برسید  </h2>
-        </header>
+@section Header {
+    <!-- lanfing page -->
+    <div class="landing-layer">
+        <div class="container">
+            <header>
+                <a href="" class="logo"><img src="~/images/logo.svg"></a>
+                <h1> سامانه <span>پرسش و پاسخ</span> برنامه نویسان و توسعه دهندگان </h1>
+                <h2> آموزش ببینید ، مهارت ها و تخصص های خود را به اشتراک بگذارید ، بپرسید و به جواب برسید  </h2>
+            </header>
 
-        <div class="search-form">
-            <form action="" method="">
-                <input type="text" name="" placeholder=" دنبال چه موضوعی میگردی ؟ ">
-                <button><i class="icon-search-1"></i></button>
-            </form>
+            <div class="search-form">
+                <form action="" method="">
+                    <input type="text" name="" placeholder=" دنبال چه موضوعی میگردی ؟ ">
+                    <button><i class="icon-search-1"></i></button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
-<!-- /lanfing page -->
-<!-- menu -->
-<div class="top-menu">
-    <div class="container">
+    <!-- /lanfing page -->
+    <!-- menu -->
+    <div class="top-menu">
+        <div class="container">
 
-        <nav>
-            <span><i class="icon-menu-2"></i></span>
-            <partial name="_TopMenuPartial"/>
-        </nav>
+            <nav>
+                <span><i class="icon-menu-2"></i></span>
+               <partial name="_TopMenuPartial" />
+            </nav>
 
-        <div class="clientarea-layer">
-            @if (User.Identity.IsAuthenticated)
-            {
-                @await Component.InvokeAsync("UserMainMenuBox");
-            }
-            else
-            {
-                <div class="signout-status">
-                    <i class="icon-profile"></i>
-                    <a asp-action="Login" asp-controller="Account"> ورود / </a>
-                    <a asp-action="Register" asp-controller="Account"> عضویت </a>
-                </div>
-            }
+            <div class="clientarea-layer">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    @await Component.InvokeAsync("UserMainMenuBox")
+                }
+                else
+                {
+
+                    <div class="signout-status">
+                        <i class="icon-profile"></i>
+                        <a asp-action="Login" asp-controller="Account"> ورود / </a>
+                        <a asp-action="Register" asp-controller="Account"> عضویت </a>
+                    </div>
+                }
+
+            </div>
+
+            <div class="clearfix"></div>
+
         </div>
-
-        <div class="clearfix"></div>
-
     </div>
-</div>
-<!-- /menu -->
+    <!-- /menu -->
 }
 
 <div class="container">
@@ -155,13 +154,9 @@
         <!-- /questions list -->
     </div>
     <!-- /questions -->
-    
-    <partial name="_LeftSide"/>
-
+    <partial name="_LeftSide" />
     <div class="clearfix"></div>
 </div>
-
-@section Scripts
-{
-    <script src="/js/home.js"></script>
+@section Scripts {
+    <script src="~/js/home.js"></script>
 }

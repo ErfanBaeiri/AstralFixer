@@ -1,65 +1,54 @@
-using System.Text.Encodings.Web;
-using System.Text.Unicode;
-using BugFixer.DataLayer.Context;
-using BugFixer.Domain.ViewModels.Common;
 using BugFixer.IoC;
+using DataLayer.Context;
 using GoogleReCaptcha.V3;
 using GoogleReCaptcha.V3.Interface;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using BugFixer.Domain.ViewModels.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
 #region Services
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// Google RecaptchaV3
 builder.Services.AddHttpClient<ICaptchaValidator, GoogleReCaptchaValidator>();
+
 builder.Services.Configure<ScoreManagementViewModel>(builder.Configuration.GetSection("ScoreManagement"));
 
-#region DbContext
 
-builder.Services.AddDbContext<BugFixerDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection"))
+// DbContext
+builder.Services.AddDbContext<BugFixerDbContext>(option =>
+    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
-#endregion
-
-#region Authentication
-
+// Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+
 }).AddCookie(options =>
 {
-    options.LoginPath = "/Login";
-    options.LogoutPath = "/Logout";
+    options.LoginPath = "/login";
+    options.LogoutPath = "/logout";
     options.ExpireTimeSpan = TimeSpan.FromDays(30);
 });
 
-#endregion
-
-#region Encode
-
+// EnCode 
 builder.Services.AddSingleton<HtmlEncoder>(
     HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
 
-#endregion
-
-#region Register Dependencies
-
+// Register Dependency Container LifeTime
 DependencyContainer.RegisterDependencies(builder.Services);
-
 #endregion
 
-#endregion
 
 #region MiddleWares
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -71,21 +60,38 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
 app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapStaticAssets();
+
+//app.UseEndpoints(endpoints =>
+//{
+//    // Register area routes
+//    endpoints.MapControllerRoute(
+//        name: "areas",
+//        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+//    // Default route
+//    endpoints.MapControllerRoute(
+//        name: "default",
+//        pattern: "{controller=Home}/{action=Index}/{id?}");
+//});
+
+
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}")
+    .WithStaticAssets();
+
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}")
+    .WithStaticAssets();
+
 
 app.Run();
-
 #endregion

@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BugFixer.Web.Areas.UserPanel.Controllers
 {
-    [Area("UserPanel")]
     [Authorize]
+    [Area("UserPanel")]
     public class UserPanelBaseController : Controller
     {
         public static string SuccessMessage = "SuccessMessage";

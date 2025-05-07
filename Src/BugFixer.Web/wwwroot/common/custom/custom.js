@@ -16,51 +16,64 @@ function UploadUserAvatar(url) {
 
         $.ajax({
             url: url,
-            type: "post",
+            type: "POST",
             data: formData,
+            //When using FormData in an AJAX request, setting contentType: false 
+            //ensures the browser automatically handles the Content- Type header correctly for multipart data.Setting processData: false
+            //prevents jQuery from converting the data into a query string, preserving the structure of the FormData object for proper file upload.
+            //These settings are essential for handling file uploads effectively.
             contentType: false,
             processData: false,
             beforeSend: function () {
-                StartLoading('#UserInfoBox');
+                StartLoading('#UserInfoBox')
             },
             success: function (response) {
-                EndLoading('#UserInfoBox');
-                if (response.status === "Success") {
+                EndLoading('#UserInfoBox') // Hide the loading animation
+                if (response.status === "success") {
                     location.reload();
-                } else {
+                }
+                else {
                     swal({
-                        title: "خطا",
-                        text: "فرمت فایل ارسال شده معتبر نمی باشد .",
+                        title: "خطاء!",
+                        text: "فرمت فایل ارسال شده معتبر نمی باشد",
                         icon: "error",
-                        button: "باشه"
+                        button: "باشه",
                     });
                 }
             },
             error: function () {
-                EndLoading('#UserInfoBox');
+                EndLoading('#UserInfoBox') // Hide the loading animation 
                 swal({
-                    title: "خطا",
-                    text: "عملیات با خطا مواجه شد لطفا مجدد تلاش کنید .",
+                    title: "خطاء!",
+                    text: "عملیات با خطا مواجه شد لطفا مجدد تلاش کنید",
                     icon: "error",
-                    button: "باشه"
+                    button: "باشه",
                 });
             }
-        });
+        })
     }
+
 
 }
 
 function StartLoading(selector = 'body') {
+
     $(selector).waitMe({
+
         effect: 'bounce',
+
         text: 'لطفا صبر کنید ...',
+
         bg: 'rgba(255, 255, 255, 0.7)',
+
         color: '#000'
+
     });
 }
 
 function EndLoading(selector = 'body') {
     $(selector).waitMe('hide');
+    //$(selector).waitMe('hide', { effect: 'none' });
 }
 
 $("#CountryId").on("change", function () {
@@ -100,14 +113,15 @@ $("#CountryId").on("change", function () {
     }
 });
 
-var datepickers = document.querySelectorAll(".datepicker");
+var datepickers = document.querySelectorAll('.datepicker');
+
 if (datepickers.length) {
     for (datepicker of datepickers) {
-        var id = $(datepicker).attr("id");
+        var id = $(datepicker).attr('id');
         kamaDatepicker(id, {
-            placeholder: 'مثال : 1400/01/01',
+            placeholder: "مثال : 1400/01/01",
             twodigit: true,
-            closeAfterSelect: false,
+            closeAfterSelect: true,
             forceFarsiDigits: true,
             markToday: true,
             markHolidays: true,
@@ -117,6 +131,13 @@ if (datepickers.length) {
         });
     }
 }
+
+$(function () {
+    if ($("#CountryId").val() === "") {
+        $("#CityId").prop("disabled", true);
+    }
+});
+
 
 var editors = document.querySelectorAll(".editor");
 if (editors.length) {
@@ -141,10 +162,4 @@ if (editors.length) {
         });
 }
 
-$(function () {
 
-    if ($("#CountryId").val() === '') {
-        $("#CityId").prop("disabled", true);
-    }
-
-});

@@ -1,30 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BugFixer.Application.Extensions
+﻿namespace BugFixer.Application.Extensions
 {
     public static class DateExtensions
     {
-        public static string ToShamsi(this DateTime date)
+        public static string ToPersianDate(this DateTime dateTime)
         {
-            var persianCalender = new PersianCalendar();
-
-            return $"{persianCalender.GetYear(date)}/{persianCalender.GetMonth(date).ToString("00")}/{persianCalender.GetDayOfMonth(date).ToString("00")}";
+            // This method converts a DateTime to a Persian date string.
+            // It uses the PersianCalendar to format the date.
+            var persianCalendar = new System.Globalization.PersianCalendar();
+            return $"{persianCalendar.GetYear(dateTime)}/{persianCalendar.GetMonth(dateTime):00}/{persianCalendar.GetDayOfMonth(dateTime):00}";
         }
 
-        public static DateTime ToMiladi(this string date)
+        public static DateTime ToMiladi(this string persianDate)
         {
-            var splitedDate = date.Split("/");
+            var parts = persianDate.Split('/');
 
-            var year = Convert.ToInt32(splitedDate[0]);
-            var month = Convert.ToInt32(splitedDate[1]);
-            var day = Convert.ToInt32(splitedDate[2]);
+            var year = parts[0];
+            var month = parts[1];
+            var day = parts[2];
 
-            return new DateTime(year, month, day, new PersianCalendar());
+            return new DateTime(int.Parse(year), int.Parse(month), int.Parse(day), new System.Globalization.PersianCalendar());
         }
     }
 }

@@ -1,40 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Account;
+﻿using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.Entities.Common;
+using System.ComponentModel.DataAnnotations;
 
 namespace BugFixer.Domain.Entities.Questions
 {
     public class Answer : BaseEntity
     {
-        #region Properties
+        #region Propertise
 
         [Display(Name = "پاسخ")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [Required(ErrorMessage = "{0} نمی تواند خالی باشد")]
         public string Content { get; set; }
-
-        public long UserId { get; set; }
-
-        [Display(Name = "امتیاز")] 
-        public int Score { get; set; } = 0;
-
-        public bool IsTrue { get; set; }
 
         public long QuestionId { get; set; }
 
+        public long UserId { get; set; }
+
+        [Display(Name = "امتیاز")]
+        public int Score { get; set; } = 0;
+
+        public bool IsTrue { get; set; }
         #endregion
 
-        #region Relations
-
-        public User User { get; set; }
-
+        #region Relation
         public Question Question { get; set; }
-
+        public User User { get; set; }
         #endregion
     }
 }

@@ -1,26 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Common;
+﻿using BugFixer.Domain.Entities.Common;
 
 namespace BugFixer.Domain.Entities.Questions
 {
     public class QuestionView : BaseEntity
     {
-        #region Priperties
-
+        #region Propertise
         public string UserIP { get; set; }
-
         public long QuestionId { get; set; }
-
         #endregion
 
-        #region Relations
-
+        #region Relation
         public Question Question { get; set; }
-
         #endregion
     }
 }

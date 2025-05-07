@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\areas\\userpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\areas\\userpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\areas\\userpanel\\views\\shared\\_userpanellayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\areas\\userpanel\\views\\shared\\_userpanellayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\areas\\userpanel\\views\\shared\\components\\usersidebar\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\areas\\userpanel\\views\\shared\\components\\usersidebar\\usersidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\shared\\_jqueryvalidation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\shared\\_jqueryvalidation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\shared\\_headerreferences.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\shared\\_headerreferences.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|c:\\users\\tolu\\documents\\github\\bugfixer\\src\\bugfixer.web\\views\\shared\\_footerreferences.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EF42D5E-C292-484C-B2F2-1B2D8F3B83C0}|BugFixer.Web\\BugFixer.Web.csproj|solutionrelative:bugfixer.web\\views\\shared\\_footerreferences.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +67,162 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Areas\\UserPanel\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Areas\\UserPanel\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:19:53.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserSideBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\Components\\UserSideBar\\UserSideBar.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\Components\\UserSideBar\\UserSideBar.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\Components\\UserSideBar\\UserSideBar.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\Components\\UserSideBar\\UserSideBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:19:34.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_UserPanelLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\_UserPanelLayout.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\_UserPanelLayout.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\_UserPanelLayout.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Areas\\UserPanel\\Views\\Shared\\_UserPanelLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:18:36.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:17:26.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:16:50.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:16:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:15:29.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:13:45.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_JqueryValidation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_JqueryValidation.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Shared\\_JqueryValidation.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_JqueryValidation.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Shared\\_JqueryValidation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:11:17.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:09:44.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_HeaderReferences.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_HeaderReferences.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Shared\\_HeaderReferences.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_HeaderReferences.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Shared\\_HeaderReferences.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:07:49.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_FooterReferences.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_FooterReferences.cshtml",
+              "RelativeDocumentMoniker": "BugFixer.Web\\Views\\Shared\\_FooterReferences.cshtml",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\Views\\Shared\\_FooterReferences.cshtml",
+              "RelativeToolTip": "BugFixer.Web\\Views\\Shared\\_FooterReferences.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:04:45.979Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Tags;
+﻿using BugFixer.Domain.Entities.Tags;
+using BugFixer.Domain.ViewModels.Question;
 
 namespace BugFixer.Application.Services.Interfaces
 {
     public interface IQuestionService
     {
         #region Tags
-
-        Task<List<Tag>> GetAllTags();
-
+        Task<List<Tag>> GetTagsAsync();
+        Task<CreateQuestionResult> CheckTagsAsync(List<string> tags, long userId);
+        Task<bool> CreateQuestionAsync(CreateQuestionViewModel createQuestion);
         #endregion
     }
 }

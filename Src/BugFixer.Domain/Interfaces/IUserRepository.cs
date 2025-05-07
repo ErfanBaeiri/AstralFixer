@@ -1,26 +1,21 @@
 ﻿using BugFixer.Domain.Entities.Account;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BugFixer.Domain.Interfaces
 {
     public interface IUserRepository
     {
-        Task<bool> IsExistsUserByEmail(string email);
+        Task<bool> IsEmailExistByEmailAsync(string email);
 
-        Task CreateUser(User user);
+        Task CreateUserAsync(User user);
 
         Task UpdateUser(User user);
 
-        Task<User> GetUserByEmail(string email);
+        Task SaveChangesAsync();
 
-        Task<User> GetUserByActivationCode(string activationCode);
+        Task<User?> GetUserByEmailAsync(string email);
 
-        Task<User?> GetUserById(long userId);
+        Task<User?> GetUserByActivationCode(string activationCode);
 
-        Task Save();
+        Task<User?> GetUserByIdAsync(long id);
     }
 }

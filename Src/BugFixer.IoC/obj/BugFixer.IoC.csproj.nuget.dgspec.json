@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj": {}
+    "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj": {
+    "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj",
         "projectName": "BugFixer.Application",
-        "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
+        "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj",
         "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\obj\\",
+        "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,18 +23,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj"
+              "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj"
               }
             }
           }
@@ -52,16 +52,20 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "HtmlSanitizer": {
               "target": "Package",
-              "version": "[6.0.453, )"
+              "version": "[9.0.876, )"
             },
-            "Microsoft.AspNetCore.Mvc.Razor": {
+            "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -80,104 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
+    "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj",
-        "projectName": "BugFixer.DataLayer",
-        "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Tolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj",
         "projectName": "BugFixer.Domain",
-        "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj",
+        "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj",
         "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -189,15 +107,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -214,8 +132,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -232,18 +150,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj": {
+    "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj",
         "projectName": "BugFixer.IoC",
-        "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\BugFixer.IoC.csproj",
+        "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\BugFixer.IoC.csproj",
         "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -255,21 +173,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj": {
-                "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj"
+              "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj": {
+                "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Application\\BugFixer.Application.csproj"
               },
-              "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Tolu\\Desktop\\28_Mahdavi_QuestionCore\\BugFixer\\BugFixer.DataLayer\\BugFixer.DataLayer.csproj"
+              "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\BugFixer.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\BugFixer.DataLayer.csproj"
               }
             }
           }
@@ -287,12 +205,12 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -311,7 +229,93 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\BugFixer.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\BugFixer.DataLayer.csproj",
+        "projectName": "BugFixer.DataLayer",
+        "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\BugFixer.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Domain\\BugFixer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,29 +1,27 @@
-﻿@model BugFixer.Domain.ViewModels.Question.CreateQuestionViewModel
-
+﻿@using BugFixer.Domain.ViewModels.Question
+@model CreateQuestionViewModel
 @{
     ViewData["Title"] = "ثبت پرسش جدید";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-@section Styles
-{
-    <link rel="stylesheet" type="text/css" href="/css/form.css">
-    <link rel="stylesheet" type="text/css" href="/css/page.css">
-    <link rel="stylesheet" type="text/css" href="/css/question.css">
-    <link rel="stylesheet" type="text/css" href="/common/magicsuggest/magicsuggest.css">
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/css/form.css">
+    <link rel="stylesheet" type="text/css" href="~/css/page.css">
+    <link rel="stylesheet" type="text/css" href="~/css/question.css">
+    <link rel="stylesheet" type="text/css" href="~/common/magicsuggest/magicsuggest.css">
 }
 
-@section Header
-{
-<partial name="_Header" />
+@section Header {
+    <partial name="_Header" />
 }
+
 
 <div class="user-page-style">
 
     <div class="breadcumb-layer">
         <div class="container">
             <ul itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
-                <li itemtype="http://schema.org/ListItem" itemscope itemprop="itemListElement"><a href="/" itemprop="item"><span itemprop="name"> صفحه اصلی </span></a></li>
+                <li itemtype="http://schema.org/ListItem" itemscope itemprop="itemListElement"><a asp-action="Index" asp-controller="Home" itemprop="item"><span itemprop="name"> باگ فیکسر </span></a></li>
                 <li itemtype="http://schema.org/ListItem" itemscope itemprop="itemListElement"><a asp-action="CreateQuestion" asp-controller="Question" itemprop="item"><span itemprop="name"> @ViewData["Title"] </span></a></li>
             </ul>
         </div>
@@ -40,11 +38,11 @@
                     <header class="top-heading"><h1> <a href="">ثبت پرسش جدید</a> </h1> <span><i>12K</i> پرسش تا بحال ثبت شده است </span></header>
 
                     <div class="inner">
-                        
-                        <partial name="_CreateQuestionSearchBoxPartial"/>
+
+                        <partial name="_CreateQuestionSearchBoxPartial" />
 
                         <div class="submit-layer">
-                            <p class="p-style"> لطفا قبل از ثبت پرسش قوانین را مطالعه نمایید ، ثبت پرسش شما تایید قوانین محسوب خواهد شد :</p>
+                            <p class="page-style"> لطفا قبل از ثبت پرسش قوانین را مطالعه نمایید ، ثبت پرسش شما تایید قوانین محسوب خواهد شد :</p>
                             <ul>
                                 <li> ادب و احترام در گفتگو می بایست رعایت شود ، در صورت مشاهده تخلف کاربری شما مسدود خواهد شد. </li>
                                 <li> از ثبت پرسش تکراری خودداری نمایید. </li>
@@ -53,30 +51,32 @@
                                 <li> جهت کسب پاسخ صریح ، متن پرسش خود را کاملا واضح ارسال نمایید. </li>
                             </ul>
 
-                            <form class="form-layer-style" asp-action="CreateQuestion" asp-controller="Question">
+                            <form class="form-layer-style" asp-action="CreateQuestion" asp-controller="Question" method="post">
                                 <div class="row">
-                                    <input type="hidden" id="SelectedTagsJson" name="SelectedTagsJson" value="@Model?.SelectedTagsJson"/>
+
+                                    <input type="hidden" id="SelectedTagsJson" name="SelectedTagsJson" value="@Model?.SelectedTagsJson" />
+
                                     <div class="col-xs-12">
                                         <div class="input-layer">
-                                            <label asp-for="Title"></label>
+                                            <label asp-for="Title"> </label>
                                             <input type="text" asp-for="Title">
                                             <span asp-validation-for="Title"></span>
                                         </div>
                                     </div>
                                     <div class="col-xs-12">
                                         <div class="textarea-layer">
-                                            <label asp-for="Description" class="mb-10"></label>
+                                            <label asp-for="Description" class="mb-10">  </label>
                                             <textarea class="editor" asp-for="Description"></textarea>
                                             <span asp-validation-for="Description"></span>
                                         </div>
                                     </div>
                                     <div class="col-xs-12">
                                         <div class="input-layer">
-                                            <label class="mb-8"> <i class="icon-document"></i> تگ های مرتبط با پرسش شما </label>
+                                            <!-- Use YourSelf autocomplete Plugin -->
+                                            <label> <i class="icon-document"></i> تگ های مرتبط با پرسش شما </label>
                                             <input class="magicsuggest" id="SelectedTags" name="SelectedTags">
                                         </div>
                                     </div>
-
                                     <div class="col-md-3 col-sm-4 col-xs-7 pull-left">
                                         <button type="submit" class="submit-button green"> <span>ثبت پرسش</span> </button>
                                     </div>
@@ -88,42 +88,49 @@
                 </section>
 
             </div>
-            
-            <partial name="_LeftSide"/>
-            
+
+            <partial name="_LeftSide" />
+
             <div class="clearfix"></div>
 
         </div>
 
     </div>
-
 </div>
 
-@section Scripts
-{
-    <partial name="_JqueryValidation"/>
-    <script src="/js/question.js"></script>
-    <script src="/common/magicsuggest/magicsuggest.js"></script>
+@section Scripts {
+    <partial name="_JqueryValidation" />
+    <script src="~/js/question.js"></script>
+    <script src="~/common/magicsuggest/magicsuggest.js"> </script>
     <script>
-        $(function() {
-            var ms = $(`#SelectedTags`).magicSuggest({
-                data: '/get-tags',
-                queryParam: 'name',
-                method: 'get',
-                minChars: 2,
-                placeholder: 'لطفا تگ های مورد نظر خود را وارد کنید',
-                style: 'direction: ltr !important',
-                minCharsRenderer: function (v) {
-                    return 'لطفا حداقل 2 کاراکتر را وارد کنید';
-                },
-                noSuggestionText: '{{name}} وارد شده در پیشنهادات سایت موجود نیست',
-            });
+         $(function (){
+        var ms =  $(`#SelectedTags`).magicSuggest({
+                    data: '/get-tags',
+                    queryParam: 'name',
+                    method: 'get',
+                    minChars: 2,
+                    placeholder: 'لطفا تگ های مورد نظر خود را وارد کنید',
+                    style: 'direction: ltr !important',
+                    minCharsRenderer: function (v) {
+                        return 'لطفا حداقل 2 کاراکتر را وارد کنید';
+                    },
+                    noSuggestionText: '{{name}} وارد شده در پیشنهادات سایت موجود نیست',
+                });
 
-            var jsonValue = $("#SelectedTagsJson").val();
-            
-            if (jsonValue !== '') {
-                ms.setValue(JSON.parse(jsonValue));
-            }
-        });
+                var jsonValue = $("#SelectedTagsJson").val();
+
+                 if(jsonValue !=='')
+                 {
+                   ms.setValue(JSON.parse(jsonValue));
+
+                 }
+         });
     </script>
 }
+
+
+
+
+
+
+

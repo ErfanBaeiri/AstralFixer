@@ -1,23 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace BugFixer.Domain.ViewModels.UserPanel.Account
 {
     public class EditUserViewModel
     {
         [Display(Name = "نام")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [Required(ErrorMessage = "{0} نمی تواند خالی باشد")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Display(Name = "نام خانوادگی")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [Required(ErrorMessage = "{0} نمی تواند خالی باشد")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         [Display(Name = "شماره تماس")]
         [MaxLength(20, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
@@ -27,21 +22,18 @@ namespace BugFixer.Domain.ViewModels.UserPanel.Account
         public string? Description { get; set; }
 
         [Display(Name = "تاریخ تولد")]
-        [RegularExpression(@"^\d{4}/((0[1-9])|(1[012]))/((0[1-9]|[12]\d)|3[01])$", ErrorMessage ="تاریخ وارد شده معتبر نمی باشد .")]
-        public string? BirthDate { get; set; }
-
+        [RegularExpression("""^\d{4}$|^\d{4}/((0?\d)|(1[012]))/(((0?|[12])\d)|3[01])$""", ErrorMessage = "{0} باید به فرمت yyyy/MM/dd باشد")]
+        public string? Birthdate { get; set; }
         [Display(Name = "کشور")]
         public long? CountryId { get; set; }
-
         [Display(Name = "شهر")]
         public long? CityId { get; set; }
 
-        public bool GetNewsLetter { get; set; }
+        public bool GetNewsletter { get; set; }
     }
-
     public enum EditUserInfoResult
     {
         Success,
-        NotValidDate
+        NotValidDate,
     }
 }

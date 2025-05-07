@@ -1,9 +1,4 @@
-﻿using Ganss.XSS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ganss.Xss;
 
 namespace BugFixer.Application.Security
 {
@@ -13,9 +8,15 @@ namespace BugFixer.Application.Security
         {
             var sanitize = new HtmlSanitizer()
             {
-                AllowedTags = {"p"},
+                AllowedTags = { "p" },
                 AllowDataAttributes = true
             };
+
+            //// Add allowed tags
+            //sanitize.AllowedTags.Add("p");
+
+            //// Add allowed attributes
+            //sanitize.AllowedAttributes.Add("class"); // Example: Add specific attributes as needed
 
             return sanitize.Sanitize(text);
         }

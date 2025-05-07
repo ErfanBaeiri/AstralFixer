@@ -1,14 +1,9 @@
-﻿using BugFixer.Domain.ViewModels.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BugFixer.Domain.ViewModels.common;
 
 namespace BugFixer.Application.Services.Interfaces
 {
     public interface IStateService
     {
-        Task<List<SelectListViewModel>> GetAllStates(long? stateId = null);
+        Task<List<SelectListViewModel>?> GetAllStates(long? stateId = null);
     }
 }

@@ -1,62 +1,45 @@
-﻿using BugFixer.Domain.ViewModels.Account;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Account;
+﻿using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.ViewModels.Account;
 using BugFixer.Domain.ViewModels.UserPanel.Account;
 
 namespace BugFixer.Application.Services.Interfaces
 {
     public interface IUserService
     {
-        #region Regitser
+        Task<RegisterResult> RegisterUserAsync(RegisterViewModel register);
 
-        Task<RegisterResult> RegisterUser(RegisterViewModel register);
+        Task<LoginResult> LoginUserAsync(LoginViewModel login);
 
-        #endregion
-
-        #region Login
-
-        Task<LoginResult> CheckUserForLogin(LoginViewModel login);
-
-        Task<User> GetUserByEmail(string email);
-
-        #endregion
+        Task<User?> GetUserByEmail(string email);
 
         #region Email Activation
-
-        Task<bool> ActivateUserEmail(string activationCode);
-
+        Task<bool> ActivateUserEmail(string ActivationCode);
         #endregion
 
         #region Forgot Password
-
-        Task<ForgotPasswordResult> ForgotPassword(ForgotPasswordViewModel forgotPassword);
-
+        Task<ForgotPasswordResult> ForgotPasswordAsync(ForgotPasswordViewModel forgotPassword);
         #endregion
 
         #region Reset Password
-
         Task<ResetPasswordResult> ResetPassword(ResetPasswordViewModel reset);
 
-        Task<User> GetUserByActivationCode(string activationCode);
-
+        Task<User?> GetUserByEmailActivationCodeAsync(string emailActivationCode);
         #endregion
 
         #region User Panel
+        Task<User?> GetUserByIdAsync(long id);
 
-        Task<User?> GetUserById(long userId);
-
-        Task ChangeUserAvatar(long userId, string fileName);
+        Task ChangeUserAvatarAsync(long userId, string avatarFileName);
 
         Task<EditUserViewModel> FillEditUserViewModel(long userId);
 
-        Task<EditUserInfoResult> EditUserInfo(EditUserViewModel editUserViewModel, long userId);
+        Task<EditUserInfoResult> EditUserInfoAsync(EditUserViewModel editUserViewModel, long userId);
 
-        Task<ChangeUserPasswordResult> ChangeUserPassword(long userId, ChangeUserPasswordViewModel changeUserPassword);
+        Task<ChangeUserPasswordResult> ChangeUserPasswordAsync(ChangeUserPasswordViewModel changeUserPassword, long userId);
+        #endregion
 
+        #region User Question / User Score and Medal
+        Task UpdateUserScoreAndMedalAsync(long userId, int score);
         #endregion
     }
 }

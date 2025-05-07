@@ -1,25 +1,25 @@
-﻿@model BugFixer.Domain.ViewModels.UserPanel.Account.EditUserViewModel
-@using BugFixer.Domain.ViewModels.Common
+﻿@using BugFixer.Domain.ViewModels.UserPanel.Account
+@using BugFixer.Domain.ViewModels.common
+@model EditUserViewModel
 
 @{
     ViewData["Title"] = "ویرایش اطلاعات کاربری";
-    Layout = "_UserPanelLayout";
+    Layout = "~/Areas/UserPanel/Views/Shared/_UserPanelLayout.cshtml";
     var states = ViewData["States"] as List<SelectListViewModel>;
     var cities = ViewData["Cities"] as List<SelectListViewModel>;
 }
 
-@section Scripts
-{
-    <partial name="_JqueryValidation"/>
+@section Scripts {
+    <partial name="_JqueryValidation" />
 }
 
-@section Breadcrumb
-{
-<li itemtype="http://schema.org/ListItem" itemscope itemprop="itemListElement"><a href="javascript:void(0)" itemprop="item"><span itemprop="name"> @ViewData["Title"] </span></a></li>
+@section BreadCrumb {
+    <li itemtype="http://schema.org/ListItem" itemscope itemprop="itemListElement"><a href="javascript:void(0)" itemprop="item"><span itemprop="name"> @ViewData["Title"] </span></a></li>
 }
 
+<!-- left side -->
 <div class="account-content-layer layer-style">
-    <h3> @ViewData["Title"] </h3>
+    <h3> @ViewData["Title"]  </h3>
     <div class="inner">
         <form class="form-layer-style" method="post" asp-action="EditInfo" asp-controller="Account" asp-area="UserPanel">
             <div class="row">
@@ -33,7 +33,7 @@
                     </div>
                     <!--/ input -->
                 </div>
-                
+
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <!-- input -->
                     <div class="input-layer">
@@ -43,7 +43,7 @@
                     </div>
                     <!--/ input -->
                 </div>
-                
+
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <!-- input -->
                     <div class="input-layer">
@@ -53,53 +53,54 @@
                     </div>
                     <!--/ input -->
                 </div>
-                
+
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <!-- input -->
                     <div class="input-layer">
-                        <label asp-for="BirthDate"></label>
-                        <input type="text" autocomplete="off" class="input-style datepicker" asp-for="BirthDate">
-                        <span asp-validation-for="BirthDate"></span>
+                        <label asp-for="Birthdate"></label>
+                        <input autocomplete="off" type="text" class="datepicker input-style" asp-for="Birthdate">
+                        <span asp-validation-for="Birthdate"></span>
                     </div>
                     <!--/ input -->
                 </div>
+
 
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <!-- select -->
                     <div class="select-layer">
                         <label asp-for="CountryId"></label>
-                        <select asp-for="CountryId" data-url="@Url.Action("LoadCities", "Account", new {area="UserPanel"})">
-                            <option value="">لطفا کشور خود را انتخاب کنید</option>
+                        <select asp-for="CountryId" data-url="@Url.Action("LoadCities","Account", new {area = "UserPanel"})">
+                            <option value=""> لطفا کشور خود را انتخاب کنید</option>
                             @if (states != null && states.Any())
                             {
-                                foreach (var state in states)
+                                @foreach (var item in states)
                                 {
-                                    <option value="@state.Id">@state.Title</option>
+                                    <option value="@item.Id">@item.Title</option>
                                 }
                             }
                         </select>
                     </div>
                     <!-- /select -->
                 </div>
-                
+
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <!-- select -->
                     <div class="select-layer">
                         <label asp-for="CityId"></label>
                         <select asp-for="CityId">
-                            <option value="">لطفا شهر خود را انتخاب کنید</option>
+                            <option value=""> لطفا شهر خود را انتخاب کنید</option>
                             @if (cities != null && cities.Any())
                             {
-                                foreach (var state in cities)
+                                @foreach (var item in cities)
                                 {
-                                    <option value="@state.Id">@state.Title</option>
+                                    <option value="@item.Id">@item.Title</option>
                                 }
-                            }
+                            })
                         </select>
                     </div>
                     <!-- /select -->
                 </div>
-                
+
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <!-- textarea -->
                     <div class="textarea-layer">
@@ -110,13 +111,15 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- radio selected -->
                     <div class="radio-selected">
-                        <span> اطلاع از خبر نامه </span>
+                        <span> اطلاع از خبر نامه  </span>
                         <div class="select">
-                            <input type="checkbox" asp-for="GetNewsLetter" />
-                            <label for="GetNewsLetter"></label>
+                            <input type="checkbox" asp-for="GetNewsletter" />
+                            <label for="GetNewsletter"></label>
                         </div>
                     </div>
+                    <!-- /radio selected -->
                 </div>
 
                 <div class="col-md-3 col-sm-3 col-xs-12 pull-left">
@@ -128,4 +131,6 @@
         </form>
     </div>
 </div>
+
+
 

@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BugFixer.Domain.Entities.Common;
+﻿using BugFixer.Domain.Entities.Common;
 using BugFixer.Domain.Entities.Location;
 using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BugFixer.Domain.Entities.Account
 {
     public class User : BaseEntity
     {
         #region Properties
-
         [Display(Name = "نام")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         public string? FirstName { get; set; }
@@ -30,13 +24,13 @@ namespace BugFixer.Domain.Entities.Account
         public string? PhoneNumber { get; set; }
 
         [Display(Name = "ایمیل")]
+        [Required(ErrorMessage = "{0} نمی تواند خالی باشد")]
+        [EmailAddress(ErrorMessage = "ایمیل وارد شده معتبر نمی باشد")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
-        [EmailAddress(ErrorMessage = "ایمیل وارد شده معتبر نمی باشد .")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Email { get; set; }
 
         [Display(Name = "کلمه عبور")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [Required(ErrorMessage = "{0} نمی تواند خالی باشد")]
         [MaxLength(100, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         public string Password { get; set; }
 
@@ -44,13 +38,13 @@ namespace BugFixer.Domain.Entities.Account
         public string? Description { get; set; }
 
         [Display(Name = "تاریخ تولد")]
-        public DateTime? BirthDate { get; set; }
+        public DateTime? Birthdate { get; set; }
 
         public long? CountryId { get; set; }
 
         public long? CityId { get; set; }
 
-        public bool GetNewsLetter { get; set; }
+        public bool GetNewsletter { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
 
@@ -64,30 +58,21 @@ namespace BugFixer.Domain.Entities.Account
 
         [Display(Name = "امتیاز")]
         public int Score { get; set; } = 0;
-
         [Display(Name = "مدال")]
         public UserMedal? Medal { get; set; }
 
         #endregion
 
         #region Relations
-
         [InverseProperty("UserCountries")]
         public State? Country { get; set; }
-
         [InverseProperty("UserCities")]
         public State? City { get; set; }
-
         public ICollection<Question> Questions { get; set; }
-
         public ICollection<RequestTag> RequestTags { get; set; }
-
         public ICollection<Answer> Answers { get; set; }
-
-        public ICollection<UserQuestionBookmark> UserQuestionBookmarks { get; set; }
-
+        public ICollection<UserQuestionBookMark> UserQuestionBookMarks { get; set; }
         public ICollection<QuestionUserScore> QuestionUserScores { get; set; }
-
         #endregion
     }
 }
