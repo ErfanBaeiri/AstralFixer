@@ -1,10 +1,12 @@
-﻿using BugFixer.Application.Security;
+﻿using BugFixer.Application.Extensions;
+using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
 using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 namespace BugFixer.Application.Services.Implementation
@@ -100,7 +102,7 @@ namespace BugFixer.Application.Services.Implementation
 
         public async Task<bool> CreateQuestionAsync(CreateQuestionViewModel createQuestion)
         {
-            var question = new Question
+            var question = new Domain.Entities.Questions.Question
             {
                 Content = createQuestion.Description.SanitizeText(),
                 Title = createQuestion.Title.SanitizeText(),
@@ -133,7 +135,59 @@ namespace BugFixer.Application.Services.Implementation
 
             return true;
         }
+        #endregion
 
+        #region Question
+        public async Task<FilterQuestionViewModel> FilterQuestionAsync(FilterQuestionViewModel filterQuestion)
+        {
+            var query = await _questionRepository.GetAllQuestions();
+
+            if (!string.IsNullOrEmpty(filterQuestion.Title))
+            {
+                query = query.Where(u => u.Title.Contains(filterQuestion.Title.SanitizeText().Trim()));
+            }
+
+            switch (filterQuestion.Sort)
+            {
+                case FilterQuestionEnum.NewToOld:
+                    query = query.OrderByDescending(u => u.CreateDate);
+                    break;
+                case FilterQuestionEnum.OldToNew:
+                    query = query.OrderBy(u => u.CreateDate);
+                    break;
+                case FilterQuestionEnum.ScoreHighToLow:
+                    query = query.OrderByDescending(u => u.Score);
+                    break;
+                case FilterQuestionEnum.ScoreLowToHigh:
+                    query = query.OrderBy(u => u.Score);
+                    break;
+
+            }
+
+            var result = query
+                .Include(s => s.Answers)
+                .Include(s => s.SelectQuestionTags).ThenInclude(a => a.Tag)
+                .Include(s => s.User)
+                .Select(s => new QuestionListViewModel
+                {
+                    AnswerCount = s.Answers.Count(s => !s.IsDelete),
+                    HasAnyAnswer = s.Answers.Any(s => !s.IsDelete),
+                    HasAnyTrueAnswer = s.Answers.Any(s => !s.IsDelete && s.IsTrue),
+                    QuestionId = s.Id,
+                    Score = s.Score,
+                    Title = s.Title,
+                    ViewCount = s.ViewCount,
+                    UserQuestionName = s.User.GetUserDisplayName(),
+                    Tags = s.SelectQuestionTags.Where(a => !a.Tag.IsDelete).Select(a => a.Tag.Title).ToList(),
+                    AnswerUserDispalyName = s.Answers.Any(a => !a.IsDelete) ? s.Answers.OrderByDescending(a => a.CreateDate).First().User.GetUserDisplayName() : null,
+                    CreateDate = s.CreateDate.AsTimeAgo(),
+                    CreateDateAnswer = s.Answers.Any(a => !a.IsDelete) ? s.Answers.OrderByDescending(a => a.CreateDate).First().CreateDate.AsTimeAgo() : null
+
+                }).AsQueryable();
+
+            await filterQuestion.SetPaging(result);
+            return filterQuestion;
+        }
 
         #endregion
     }

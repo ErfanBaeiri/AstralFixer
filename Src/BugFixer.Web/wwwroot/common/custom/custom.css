@@ -10,6 +10,11 @@
     margin-top: 50px;
 }
 
+.current {
+    color: green !important;
+    border: green 2px solid !important;
+}
+
 .ms-helper {
     margin-top: 50px !important;
 }

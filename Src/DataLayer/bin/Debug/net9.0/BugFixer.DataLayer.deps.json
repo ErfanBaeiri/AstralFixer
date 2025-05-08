@@ -1010,6 +1010,9 @@
         }
       },
       "BugFixer.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4"
+        },
         "runtime": {
           "BugFixer.Domain.dll": {
             "assemblyVersion": "1.0.0.0",

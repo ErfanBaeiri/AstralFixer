@@ -3,8 +3,6 @@ using BugFixer.Application.Services.Interfaces;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.FlowAnalysis;
-using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 
 namespace BugFixer.Web.Controllers
@@ -18,6 +16,8 @@ namespace BugFixer.Web.Controllers
             _questionService = questionService;
         }
         #endregion
+
+        #region Create Question
 
         [Authorize]
         [HttpGet("Create-Question")]
@@ -57,6 +57,7 @@ namespace BugFixer.Web.Controllers
             return View(createQuestion);
         }
 
+        #endregion
 
         #region Get Tags
         [HttpGet("get-tags")]
@@ -69,6 +70,15 @@ namespace BugFixer.Web.Controllers
             var filteredTags = tags.Where(u => u.Title.Contains(name)).Select(u => u.Title).ToList();
 
             return Json(filteredTags);
+        }
+        #endregion
+
+        #region Question List 
+        public async Task<IActionResult> QuestionList(FilterQuestionViewModel filter)
+        {
+            var result = await _questionService.FilterQuestionAsync(filter);
+
+            return View(result);
         }
         #endregion
     }

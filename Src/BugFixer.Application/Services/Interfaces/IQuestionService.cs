@@ -10,5 +10,9 @@ namespace BugFixer.Application.Services.Interfaces
         Task<CreateQuestionResult> CheckTagsAsync(List<string> tags, long userId);
         Task<bool> CreateQuestionAsync(CreateQuestionViewModel createQuestion);
         #endregion
+
+        #region Question
+        Task<FilterQuestionViewModel> FilterQuestionAsync(FilterQuestionViewModel filterQuestion);
+        #endregion
     }
 }

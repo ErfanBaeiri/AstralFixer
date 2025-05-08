@@ -19,6 +19,7 @@ namespace BugFixer.Domain.Interfaces
 
         #region Question
         Task AddQuestionAsync(Question question);
+         Task<IQueryable<Question>> GetAllQuestions();
         #endregion
 
         #region Selected Tag

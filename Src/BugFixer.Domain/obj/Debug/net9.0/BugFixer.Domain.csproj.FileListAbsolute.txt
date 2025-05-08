@@ -295,3 +295,16 @@ C:\Users\Tolu\Desktop\BugFixer-Project\30\BugFixe\BugFixer.Domain\obj\Debug\net9
 C:\Users\Tolu\Desktop\BugFixer-Project\30\BugFixe\BugFixer.Domain\obj\Debug\net9.0\refint\BugFixer.Domain.dll
 C:\Users\Tolu\Desktop\BugFixer-Project\30\BugFixe\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.pdb
 C:\Users\Tolu\Desktop\BugFixer-Project\30\BugFixe\BugFixer.Domain\obj\Debug\net9.0\ref\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\bin\Debug\net9.0\BugFixer.Domain.deps.json
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\bin\Debug\net9.0\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\bin\Debug\net9.0\BugFixer.Domain.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.AssemblyInfoInputs.cache
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.AssemblyInfo.cs
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.sourcelink.json
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\refint\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\ref\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Domain\obj\Debug\net9.0\BugFixer.Domain.csproj.AssemblyReference.cache

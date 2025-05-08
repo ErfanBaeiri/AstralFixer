@@ -138,7 +138,6 @@ $(function () {
     }
 });
 
-
 var editors = document.querySelectorAll(".editor");
 if (editors.length) {
     $.getScript("/common/ckeditor/build/ckeditor.js",
@@ -162,4 +161,12 @@ if (editors.length) {
         });
 }
 
+function SubmitQuestionForm() {
 
+    $("#filter_form").submit();
+}
+
+function SubmitFilterFormPagination(pageId) {
+    $('#CurrentPage').val(pageId);
+    $("#filter_form").submit();
+}

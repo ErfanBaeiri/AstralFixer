@@ -63,6 +63,10 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.Questions.AddAsync(question);
         }
+        public async Task<IQueryable<Question>> GetAllQuestions()
+        {
+            return _context.Questions.Where(u => !u.IsDelete).AsQueryable();
+        }
         #endregion
 
         #region Selecte Question Tags
@@ -70,6 +74,6 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.SelectQuestionTags.AddAsync(selectQuestionTag);
         }
-        #endregion  
+        #endregion
     }
 }
