@@ -8,6 +8,8 @@ namespace BugFixer.Domain.ViewModels.Question
 
         public string? Title { get; set; }
 
+        public string? TagTitle { get; set; }
+
         public FilterQuestionEnum Sort { get; set; }
 
     }

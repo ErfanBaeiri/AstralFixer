@@ -142,10 +142,13 @@ namespace BugFixer.Application.Services.Implementation
         {
             var query = await _questionRepository.GetAllQuestions();
 
-            if (!string.IsNullOrEmpty(filterQuestion.Title))
+            #region Filter By Tag
+            if (!string.IsNullOrEmpty(filterQuestion.TagTitle))
             {
-                query = query.Where(u => u.Title.Contains(filterQuestion.Title.SanitizeText().Trim()));
+                query = query.Include(s => s.SelectQuestionTags).ThenInclude(s => s.Tag)
+                    .Where(s => s.SelectQuestionTags.Any(a => a.Tag.Title.Equals(filterQuestion.TagTitle)));
             }
+            #endregion
 
             switch (filterQuestion.Sort)
             {

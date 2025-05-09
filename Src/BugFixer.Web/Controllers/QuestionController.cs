@@ -1,4 +1,5 @@
 ﻿using BugFixer.Application.Extensions;
+using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
@@ -73,10 +74,27 @@ namespace BugFixer.Web.Controllers
         }
         #endregion
 
-        #region Question List 
+        #region Question List
+        [HttpGet("Questions")]
         public async Task<IActionResult> QuestionList(FilterQuestionViewModel filter)
         {
             var result = await _questionService.FilterQuestionAsync(filter);
+
+            return View(result);
+        }
+        #endregion
+
+        #region Filter Question By Tag
+        [HttpGet("Tags/{tagName}")]
+        public async Task<IActionResult> QuestionListByTag(FilterQuestionViewModel filter, string tagName)
+        {
+            tagName = tagName.Trim().ToLower().SanitizeText();
+
+            filter.TagTitle = tagName;
+
+            var result = await _questionService.FilterQuestionAsync(filter);
+
+            ViewBag.TagTitle = tagName;
 
             return View(result);
         }

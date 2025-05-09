@@ -1,7 +1,7 @@
 ﻿@using BugFixer.Domain.ViewModels.Question
 @model FilterQuestionViewModel
 @{
-    ViewData["Title"] = "لیست سوالات";
+    ViewData["Title"] = $"لیست سوالات مربوط به {ViewBag.TagTitle}";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -36,7 +36,7 @@
                     <span> <i>@Model.AllEntityCount</i> پرسش ثبت شده  </span>
                 </header>
                 <!-- Top -->
-                <form asp-action="QuestionList" method="get" id="filter_form">
+                <form asp-action="QuestionListByTag" asp-route-tagName="@ViewBag.TagTitle" method="get" id="filter_form">
                     <input type="hidden" asp-for="CurrentPage" />
                     <div class="top-layer">
                         <div action="" class="search-layer">
