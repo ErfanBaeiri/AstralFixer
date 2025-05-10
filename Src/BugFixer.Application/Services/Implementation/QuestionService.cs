@@ -226,6 +226,11 @@ namespace BugFixer.Application.Services.Implementation
             await filterQuestion.SetPaging(result);
             return filterQuestion;
         }
+
+        public async Task<Question?> GetQuestionById(long questionId)
+        {
+            return await _questionRepository.GetQuestionByIdAsync(questionId);
+        }
         #endregion
     }
 }

@@ -110,5 +110,17 @@ namespace BugFixer.Web.Controllers
             return View(result);
         }
         #endregion
+
+        #region Question Detail
+        [HttpGet("question/{questionId}")]
+        public async Task<IActionResult> QuestionDetail(long questionId)
+        {
+            var question = await _questionService.GetQuestionById(questionId);
+
+            if (question == null) return NotFound();
+
+            return View(question);
+        }
+        #endregion
     }
 }

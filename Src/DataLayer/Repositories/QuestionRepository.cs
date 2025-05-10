@@ -83,6 +83,11 @@ namespace BugFixer.DataLayer.Repositories
             await _context.SelectQuestionTags.AddAsync(selectQuestionTag);
         }
 
+        public async Task<Question?> GetQuestionByIdAsync(long questionId)
+        {
+            return await _context.Questions.Include(s=>s.Answers).Include(s=>s.User).FirstOrDefaultAsync(s => s.IsDelete == false && s.Id == questionId);
+        }
+
 
         #endregion
     }
