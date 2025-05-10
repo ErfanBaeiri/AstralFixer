@@ -8,12 +8,14 @@ namespace BugFixer.Domain.Interfaces
     {
         #region Tags
         Task<List<Tag>> GetTagsAsync();
+        Task<IQueryable<Tag>> GetAllTagsAsQueryableAsync();
         Task<Tag?> GetTagByName(string tag);
         Task<bool> IsExistsTagByNameAsync(string tag);
         Task<int> RequestCountForTagAsync(string tag);
         Task AddTagAsync(Tag tag);
         Task<bool> CheckUserRequestedForTag(long userId, string tag);
         Task AddRequestTagAsync(RequestTag tag);
+        Task UpdateTagAsync(Tag tag);
         Task SaveChangesAsync();
         #endregion
 

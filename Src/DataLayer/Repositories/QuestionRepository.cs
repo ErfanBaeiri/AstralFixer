@@ -21,6 +21,10 @@ namespace BugFixer.DataLayer.Repositories
         {
             return await _context.Tags.Where(u => !u.IsDelete).AsQueryable().ToListAsync();
         }
+        public async Task<IQueryable<Tag>> GetAllTagsAsQueryableAsync()
+        {
+            return _context.Tags.Where(u => !u.IsDelete).AsQueryable();
+        }
 
         public async Task<bool> IsExistsTagByNameAsync(string tag)
         {
@@ -56,6 +60,10 @@ namespace BugFixer.DataLayer.Repositories
         {
             return _context.Tags.FirstOrDefaultAsync(u => u.Title == tag && !u.IsDelete);
         }
+        public async Task UpdateTagAsync(Tag tag)
+        {
+            _context.Update(tag);
+        }
         #endregion
 
         #region Question
@@ -74,6 +82,8 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.SelectQuestionTags.AddAsync(selectQuestionTag);
         }
+
+
         #endregion
     }
 }

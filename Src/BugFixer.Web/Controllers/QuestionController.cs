@@ -99,5 +99,16 @@ namespace BugFixer.Web.Controllers
             return View(result);
         }
         #endregion
+
+        #region Filtr Tags
+        [HttpGet("tags")]
+        public async Task<IActionResult> FilterTags(FilterTagViewModel filter)
+        {
+            filter.TakeEntityToShow = 12;
+            var result = await _questionService.FilterTagAsync(filter);
+
+            return View(result);
+        }
+        #endregion
     }
 }

@@ -56,8 +56,11 @@ namespace BugFixer.Domain.ViewModels.Common
             StartPage = CurrentPage - HowManyShowPageBeforeAfter > 0 ? CurrentPage - HowManyShowPageBeforeAfter : 1;
 
             EndPage = CurrentPage + HowManyShowPageBeforeAfter > TotalPage ? TotalPage : CurrentPage + HowManyShowPageBeforeAfter;
+            if (query.Any())
+            {
+                Entities = await query.Skip(SkipEntity).Take(TakeEntityToShow).ToListAsync(); 
+            }
 
-            Entities = await query.Skip(SkipEntity).Take(TakeEntityToShow).ToListAsync();
 
         }
     }

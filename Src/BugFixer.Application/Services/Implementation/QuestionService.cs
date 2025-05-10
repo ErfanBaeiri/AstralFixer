@@ -6,6 +6,7 @@ using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -120,6 +121,10 @@ namespace BugFixer.Application.Services.Implementation
 
                     if (tag == null) continue;
 
+                    tag.UseCount += 1;
+
+                    await _questionRepository.UpdateTagAsync(tag);
+
                     var selectedTag = new SelectQuestionTag
                     {
                         QuestionId = question.Id,
@@ -134,6 +139,36 @@ namespace BugFixer.Application.Services.Implementation
             await _userService.UpdateUserScoreAndMedalAsync(createQuestion.UserId, _scoreManagement.AddNewQuestionScore);
 
             return true;
+        }
+        public async Task<FilterTagViewModel> FilterTagAsync(FilterTagViewModel filterTag)
+        {
+
+            var query = await _questionRepository.GetAllTagsAsQueryableAsync();
+
+            if (!string.IsNullOrEmpty(filterTag.Title))
+            {
+                query = query.Where(s => s.Title.Contains(filterTag.Title));
+            }
+
+            switch (filterTag.Sort)
+            {
+                case FilterTagEnum.NewToOld:
+                    query = query.OrderByDescending(s => s.CreateDate);
+                    break;
+                case FilterTagEnum.OldToNew:
+                    query = query.OrderBy(s => s.CreateDate);
+                    break;
+                case FilterTagEnum.UseCountHighToLow:
+                    query = query.OrderByDescending(s => s.UseCount);
+                    break;
+                case FilterTagEnum.UseCountLowToHigh:
+                    query = query.OrderBy(s => s.UseCount);
+                    break;
+            }
+
+            await filterTag.SetPaging(query);
+
+            return filterTag;
         }
         #endregion
 
@@ -191,7 +226,6 @@ namespace BugFixer.Application.Services.Implementation
             await filterQuestion.SetPaging(result);
             return filterQuestion;
         }
-
         #endregion
     }
 }
