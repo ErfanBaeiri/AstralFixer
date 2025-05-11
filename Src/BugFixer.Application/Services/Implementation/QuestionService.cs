@@ -234,8 +234,23 @@ namespace BugFixer.Application.Services.Implementation
         {
             return await _questionRepository.GetQuestionByIdAsync(questionId);
         }
-        #endregion
 
+        public async Task AddViewForQuestionAsync(string userIP, Question question)
+        {
+            if (await _questionRepository.IsExistViewforQuestAsync(userIP, question.Id)) return;
+
+            var view = new QuestionView
+            {
+                UserIP = userIP,
+                QuestionId = question.Id
+            };
+            await _questionRepository.AddViewForQuestionAsync(view);
+            await _questionRepository.SaveChangesAsync();
+            question.ViewCount += 1;
+            await _questionRepository.updateQuestionAsync(question);
+            await _questionRepository.SaveChangesAsync();
+        }
+        #endregion
 
         #region Answer
         public async Task<bool> AnswerQuestion(AnswerQuestionViewModel answerQuestion)
@@ -255,6 +270,8 @@ namespace BugFixer.Application.Services.Implementation
             await _questionRepository.AddAnswerByUserAsync(answer);
             await _questionRepository.SaveChangesAsync();
 
+           await _userService.UpdateUserScoreAndMedalAsync(answerQuestion.UserId, _scoreManagement.AddNewAnswerScore);
+
             return true;
         }
 
@@ -264,6 +281,8 @@ namespace BugFixer.Application.Services.Implementation
         {
             return await _questionRepository.GetAllQuestionAnswerAsync(questionId);
         }
+
+
         #endregion
 
     }

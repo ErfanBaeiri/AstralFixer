@@ -4,6 +4,7 @@
     {
         public int MinRequestCountForVerifyTag { get; set; }
         public int AddNewQuestionScore { get; set; }
+        public int AddNewAnswerScore { get; set; }
         public int MinScoreForBronzeMedal { get; set; }
         public int MinScoreForSilverMedal { get; set; }
         public int MinScoreForGoldMedal { get; set; }

@@ -119,6 +119,10 @@ namespace BugFixer.Web.Controllers
 
             if (question == null) return NotFound();
 
+            var userIP = Request.HttpContext.Connection.RemoteIpAddress?.ToString();
+
+            if(userIP !=null) await _questionService.AddViewForQuestionAsync(userIP, question);
+
             ViewData["TagsList"] = await _questionService.GetTagListByQuestionIdAsync(questionId);
 
             return View(question);

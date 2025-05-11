@@ -1,5 +1,6 @@
 ﻿using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
+using BugFixer.Domain.ViewModels.Question;
 using System.Threading.Tasks;
 
 namespace BugFixer.Domain.Interfaces
@@ -22,8 +23,14 @@ namespace BugFixer.Domain.Interfaces
 
         #region Question
         Task AddQuestionAsync(Question question);
+        Task updateQuestionAsync(Question question);
         Task<IQueryable<Question>> GetAllQuestions();
         Task<Question?> GetQuestionByIdAsync(long questionId);
+        #endregion
+
+        #region View
+        Task<bool> IsExistViewforQuestAsync(string userIP, long questionId);
+        Task AddViewForQuestionAsync(QuestionView questionView);
         #endregion
 
         #region Selected Tag

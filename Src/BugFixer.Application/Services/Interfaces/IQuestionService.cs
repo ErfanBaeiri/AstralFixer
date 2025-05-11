@@ -17,6 +17,7 @@ namespace BugFixer.Application.Services.Interfaces
         Task<FilterQuestionViewModel> FilterQuestionAsync(FilterQuestionViewModel filterQuestion);
         Task<Question?> GetQuestionById(long questionId);
         Task<List<string>> GetTagListByQuestionIdAsync(long questionId);
+        Task AddViewForQuestionAsync(string userIP, Question question);
         #endregion
 
         #region Answer

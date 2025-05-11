@@ -84,6 +84,10 @@ namespace BugFixer.DataLayer.Repositories
         {
             return _context.Questions.Where(u => !u.IsDelete).AsQueryable();
         }
+        public async Task updateQuestionAsync(Question question)
+        {
+            await _context.Questions.AddAsync(question);
+        }
         #endregion
 
         #region Selecte Question Tags
@@ -113,6 +117,21 @@ namespace BugFixer.DataLayer.Repositories
                 .OrderByDescending(s => s.CreateDate)
                 .ToListAsync();
         }
+        #endregion
+
+        #region View
+        public async Task<bool> IsExistViewforQuestAsync(string userIP, long questionId)
+        {
+            return await _context.QuestionViews.AnyAsync(s => s.UserIP.Equals(userIP) && s.QuestionId == questionId);
+        }
+
+        public async Task AddViewForQuestionAsync(QuestionView questionView)
+        {
+            await _context.QuestionViews.AddAsync(questionView);
+        }
+
+     
+
         #endregion
     }
 }
