@@ -9,6 +9,7 @@ namespace BugFixer.Domain.Interfaces
         #region Tags
         Task<List<Tag>> GetTagsAsync();
         Task<IQueryable<Tag>> GetAllTagsAsQueryableAsync();
+        Task<List<string>> GetTagListByQuestionIdAsync(long questionId);
         Task<Tag?> GetTagByName(string tag);
         Task<bool> IsExistsTagByNameAsync(string tag);
         Task<int> RequestCountForTagAsync(string tag);
@@ -27,6 +28,11 @@ namespace BugFixer.Domain.Interfaces
 
         #region Selected Tag
         Task AddSelectQuestionTagsAsync(SelectQuestionTag selectQuestionTag);
+        #endregion
+
+        #region Answer
+        Task AddAnswerByUserAsync(Answer answer);
+        Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
         #endregion
 
     }

@@ -413,6 +413,18 @@
       "PackagePath": "staticwebassets\\common\\waitme\\waitMe.min.js"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\0b2f77e6-9c81-4284-b93e-2b5934cec3451.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\0b2f77e6-9c81-4284-b93e-2b5934cec3451.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\52e4c4d8-c10e-409a-8944-652f990f958cf4078b3de65997e142f0e106269d495c.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\52e4c4d8-c10e-409a-8944-652f990f958cf4078b3de65997e142f0e106269d495c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\c2e311d4-1fd8-412d-bb97-09247b52f377f4078b3de65997e142f0e106269d495c.jpg",
       "PackagePath": "staticwebassets\\content\\ckeditor\\c2e311d4-1fd8-412d-bb97-09247b52f377f4078b3de65997e142f0e106269d495c.jpg"
     },

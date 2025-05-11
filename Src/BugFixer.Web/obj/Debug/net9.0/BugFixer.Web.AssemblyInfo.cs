@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugFixer.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5636eb3b754e29607874f3901d335eb8764101b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d2d18df06da762efe5cc7749810d076780af80")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugFixer.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugFixer.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

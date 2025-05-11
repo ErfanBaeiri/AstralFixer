@@ -16,6 +16,12 @@ namespace BugFixer.Application.Services.Interfaces
         #region Question
         Task<FilterQuestionViewModel> FilterQuestionAsync(FilterQuestionViewModel filterQuestion);
         Task<Question?> GetQuestionById(long questionId);
+        Task<List<string>> GetTagListByQuestionIdAsync(long questionId);
+        #endregion
+
+        #region Answer
+        Task<bool> AnswerQuestion(AnswerQuestionViewModel answerQuestion);
+        Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
         #endregion
     }
 }

@@ -1344,8 +1344,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>avutx26fyz</Fingerprint>
-      <Integrity>epVZp3E5aZvSWYSdcFAAcT70+ehJ62xQOaQ+O7pBpYA=</Integrity>
+      <Fingerprint>ab9bj9d7qv</Fingerprint>
+      <Integrity>GrXjH9C4802M7Kl6shi4Z2YDEiyPEHEEN4lc4bDpDEI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.css'))</OriginalItemSpec>
@@ -1362,8 +1362,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w1r599agy2</Fingerprint>
-      <Integrity>NCWP2BMtpBcs1n0yjP2fgKhvgs5VhOf28oHi8mVDfrk=</Integrity>
+      <Fingerprint>a1wgd277wo</Fingerprint>
+      <Integrity>LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</OriginalItemSpec>
@@ -1601,6 +1601,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\waitme\waitMe.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\0b2f77e6-9c81-4284-b93e-2b5934cec3451.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugFixer.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugFixer.Web</BasePath>
+      <RelativePath>content/ckeditor/0b2f77e6-9c81-4284-b93e-2b5934cec3451.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7sea3zyywa</Fingerprint>
+      <Integrity>qacK0561zlzt+5K/l0pCxs3gwyLNURGz6o4mreYvR5U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\0b2f77e6-9c81-4284-b93e-2b5934cec3451.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\52e4c4d8-c10e-409a-8944-652f990f958cf4078b3de65997e142f0e106269d495c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugFixer.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugFixer.Web</BasePath>
+      <RelativePath>content/ckeditor/52e4c4d8-c10e-409a-8944-652f990f958cf4078b3de65997e142f0e106269d495c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tg5az3ek41</Fingerprint>
+      <Integrity>LQmwfPqzHvIn9q7Y5ont+zgr0XmznzcrG/5MALEnAMc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\52e4c4d8-c10e-409a-8944-652f990f958cf4078b3de65997e142f0e106269d495c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugFixer.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugFixer.Web</BasePath>
+      <RelativePath>content/ckeditor/703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fsl0hhntmg</Fingerprint>
+      <Integrity>T7MmCXWko11kaKbkGu92UJ6ASM1Sn/7VpdOb9BnqiaM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content\ckeditor\c2e311d4-1fd8-412d-bb97-09247b52f377f4078b3de65997e142f0e106269d495c.jpg'))">
       <SourceType>Package</SourceType>

@@ -6,7 +6,6 @@ using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
-using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -170,6 +169,10 @@ namespace BugFixer.Application.Services.Implementation
 
             return filterTag;
         }
+        public async Task<List<string>> GetTagListByQuestionIdAsync(long questionId)
+        {
+            return await _questionRepository.GetTagListByQuestionIdAsync(questionId);
+        }
         #endregion
 
         #region Question
@@ -232,5 +235,36 @@ namespace BugFixer.Application.Services.Implementation
             return await _questionRepository.GetQuestionByIdAsync(questionId);
         }
         #endregion
+
+
+        #region Answer
+        public async Task<bool> AnswerQuestion(AnswerQuestionViewModel answerQuestion)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(answerQuestion.QuestionId);
+
+            if (question == null) return false;
+
+            var answer = new Answer
+            {
+                Content = answerQuestion.Answer.SanitizeText(),
+                QuestionId = answerQuestion.QuestionId,
+                UserId = answerQuestion.UserId,
+
+            };
+
+            await _questionRepository.AddAnswerByUserAsync(answer);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
+        }
+
+
+
+        public async Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId)
+        {
+            return await _questionRepository.GetAllQuestionAnswerAsync(questionId);
+        }
+        #endregion
+
     }
 }

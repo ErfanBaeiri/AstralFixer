@@ -64,6 +64,15 @@ namespace BugFixer.DataLayer.Repositories
         {
             _context.Update(tag);
         }
+        public async Task<List<string>> GetTagListByQuestionIdAsync(long questionId)
+        {
+            return await _context.SelectQuestionTags
+                 .Include(s => s.Tag)
+                 .Where(u => u.QuestionId == questionId)
+                 .Select(s => s.Tag.Title)
+                 .ToListAsync();
+        }
+
         #endregion
 
         #region Question
@@ -85,10 +94,25 @@ namespace BugFixer.DataLayer.Repositories
 
         public async Task<Question?> GetQuestionByIdAsync(long questionId)
         {
-            return await _context.Questions.Include(s=>s.Answers).Include(s=>s.User).FirstOrDefaultAsync(s => s.IsDelete == false && s.Id == questionId);
+            return await _context.Questions.Include(s => s.Answers).Include(s => s.User).FirstOrDefaultAsync(s => s.IsDelete == false && s.Id == questionId);
         }
 
+        #endregion
 
+        #region Answer
+        public async Task AddAnswerByUserAsync(Answer answer)
+        {
+            await _context.Answers.AddAsync(answer);
+        }
+
+        public async Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId)
+        {
+            return await _context.Answers
+                .Include(s => s.User)
+                .Where(u => u.QuestionId == questionId && u.IsDelete == false)
+                .OrderByDescending(s => s.CreateDate)
+                .ToListAsync();
+        }
         #endregion
     }
 }

@@ -119,7 +119,29 @@ namespace BugFixer.Web.Controllers
 
             if (question == null) return NotFound();
 
+            ViewData["TagsList"] = await _questionService.GetTagListByQuestionIdAsync(questionId);
+
             return View(question);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> AnswerQuestion(AnswerQuestionViewModel answerQuestion)
+        {
+            if (string.IsNullOrEmpty(answerQuestion.Answer))
+            {
+                return new JsonResult(new { status = "EmptyAnswer" });
+
+            }
+
+            answerQuestion.UserId = HttpContext.User.GetUserId();
+
+            var result = await _questionService.AnswerQuestion(answerQuestion);
+
+            if (result) return new JsonResult(new { status = "Success" });
+
+            return new JsonResult(new { status = "Error" });
+
         }
         #endregion
     }

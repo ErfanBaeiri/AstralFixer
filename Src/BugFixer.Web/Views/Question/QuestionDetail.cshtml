@@ -1,10 +1,12 @@
 ﻿@using BugFixer.Application.Extensions
 @using BugFixer.Application.Statics
 @using BugFixer.Domain.Entities.Questions
+@using BugFixer.Domain.ViewModels.Question
 @model Question
 @{
     ViewData["Title"] = "جزئیات سوال";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var tags = ViewData["TagsList"] as List<string>;
 }
 
 @section Styles {
@@ -101,17 +103,33 @@
                     <!-- tags -->
                     <div class="post-tags-layer">
                         <div class="tags-layer">
-                            <a href=""> Jquery </a>
-                            <a href=""> php </a>
-                            <a href=""> Javascript </a>
-                            <a href=""> woocommerce </a>
-                            <a href=""> Framework </a>
-                            <a href=""> Jquery </a>
-                            <a href=""> php </a>
+                            @foreach (var tag in tags)
+                            {
+                                <a asp-action="QuestionListByTag" asp-controller="Question" asp-route-tagName="@tag">@tag</a>
+                            }
                         </div>
                     </div>
                     <!-- /tags -->
-
+                    <div class="answers-layer" id="AnswersBox">
+                        <div class="top-layer">
+                            <h4><span> @Model.Answers.Count(s => !s.IsDelete) </span> پاسخ به این پرسش </h4>
+                        </div>
+                  <!-- Answer item -->
+                        @await Component.InvokeAsync("QuestionAnswersList", new { questionId = Model.Id })
+                  <!--/Answer item-->
+                    </div>
+                    <!-- User Answer-->
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <partial name="_AnswerFormPartial" model="new AnswerQuestionViewModel {QuestionId = Model.Id}" />
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            برای پاسخ به این سوال ابتدا باید وارد حساب کاربری خود شوید
+                        </div>
+                    }
+                    <!--/User Answer-->
                 </section>
                 <!-- /question content -->
 
@@ -131,6 +149,7 @@
 
 
 @section Scripts {
+    <partial name="_JqueryValidation" />
     <script src="~/js/question.js"></script>
 }
 

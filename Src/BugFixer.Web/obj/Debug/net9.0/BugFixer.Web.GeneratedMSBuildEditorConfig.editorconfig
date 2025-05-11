@@ -96,8 +96,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25MaXN0QnlUYWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Views/Shared/Components/QuestionAnswersList/QuestionAnswersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVlc3Rpb25BbnN3ZXJzTGlzdFxRdWVzdGlvbkFuc3dlcnNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Views/Shared/Components/UserMainMenuBox/UserMainMenuBox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlck1haW5NZW51Qm94XFVzZXJNYWluTWVudUJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Views/Shared/_AnswerFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbnN3ZXJGb3JtUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Views/Shared/_CaptchaScripts.cshtml]

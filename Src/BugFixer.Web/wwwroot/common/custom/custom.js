@@ -138,6 +138,8 @@ $(function () {
     }
 });
 
+
+var editorsArray = [];
 var editors = document.querySelectorAll(".editor");
 if (editors.length) {
     $.getScript("/common/ckeditor/build/ckeditor.js",
@@ -153,6 +155,7 @@ if (editors.length) {
                         })
                     .then(editor => {
                         window.editor = editor;
+                        editorsArray.push(editor);
                     })
                     .catch(error => {
                         console.log(error);
@@ -175,3 +178,31 @@ function SubmitFilterFormPagination(pageId) {
     $('#CurrentPage').val(pageId);
     $("#filter_form").submit();
 }
+
+
+function AnswerQuestionFormDone(response) {
+    EndLoading('#submit-comment');
+    console.log(response);
+    if (response.status === "Success") {
+        swal("اعلان", "پاسخ شما با موفقیت ثبت شد", "success");
+    }
+    else if (response.status === "EmptyAnswer") {
+        swal("اعلان", "متن پاسخ شما نمی تواند خالی باشد", "warning");
+    }
+    else if (response.status === "Error") {
+        swal("اعلان", "خطایی رخ داده است لطفا مجدد تلاش نمایید", "error");
+    }
+    for (var editor of editorsArray) {
+
+        editor.setData('');
+    }
+
+    $("#AnswersBox").load(location.href + " #AnswersBox")
+
+    $('html, body').animate({
+        scrollTop: $("#AnswersBox").offset().top
+    }, 1000);
+}
+
+
+
