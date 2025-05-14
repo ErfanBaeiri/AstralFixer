@@ -59,7 +59,7 @@
                         {
                             var className = string.Empty;
 
-                            if (question.HasAnyAnswer)
+                            if (question.HasAnyAnswer && !question.HasAnyTrueAnswer)
                             {
                                 className = "answered";
                             }

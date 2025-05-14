@@ -121,7 +121,7 @@ namespace BugFixer.Web.Controllers
 
             var userIP = Request.HttpContext.Connection.RemoteIpAddress?.ToString();
 
-            if(userIP !=null) await _questionService.AddViewForQuestionAsync(userIP, question);
+            if (userIP != null) await _questionService.AddViewForQuestionAsync(userIP, question);
 
             ViewData["TagsList"] = await _questionService.GetTagListByQuestionIdAsync(questionId);
 
@@ -146,6 +146,22 @@ namespace BugFixer.Web.Controllers
 
             return new JsonResult(new { status = "Error" });
 
+        }
+        #endregion
+
+        #region Select True Answer
+        [HttpPost("SelectTrueAnswer")]
+        public async Task<IActionResult> SelectTrueAnswer(long answerId)
+        {
+            if (!User.Identity.IsAuthenticated) return new JsonResult(new { status = "NotAuthenticated" });
+
+            if (!await _questionService.HasUserAccessToSelectTrueAnswer(HttpContext.User.GetUserId(), answerId))
+            {
+                return new JsonResult(new { status = "NotAccess" });
+            }
+
+            await _questionService.SelectTrueAnswer(answerId);
+            return new JsonResult(new { status = "Success" });
         }
         #endregion
     }

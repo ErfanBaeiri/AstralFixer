@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugFixer.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d2d18df06da762efe5cc7749810d076780af80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3845c232dfd5b838f0b321d953e47dbd384ab7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugFixer.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugFixer.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

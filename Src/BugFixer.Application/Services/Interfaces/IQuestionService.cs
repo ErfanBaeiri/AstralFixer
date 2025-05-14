@@ -23,6 +23,8 @@ namespace BugFixer.Application.Services.Interfaces
         #region Answer
         Task<bool> AnswerQuestion(AnswerQuestionViewModel answerQuestion);
         Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
+        Task<bool> HasUserAccessToSelectTrueAnswer(long userId, long questionId);
+        Task SelectTrueAnswer(long answerId);
         #endregion
     }
 }

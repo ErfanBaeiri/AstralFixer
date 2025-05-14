@@ -39,7 +39,10 @@ namespace BugFixer.Domain.Interfaces
 
         #region Answer
         Task AddAnswerByUserAsync(Answer answer);
+        Task UpdateAnswerAsync(Answer answer);
+
         Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
+        Task<Answer?> GetAnswerByIdAsync(long answerId);
         #endregion
 
     }

@@ -270,7 +270,7 @@ namespace BugFixer.Application.Services.Implementation
             await _questionRepository.AddAnswerByUserAsync(answer);
             await _questionRepository.SaveChangesAsync();
 
-           await _userService.UpdateUserScoreAndMedalAsync(answerQuestion.UserId, _scoreManagement.AddNewAnswerScore);
+            await _userService.UpdateUserScoreAndMedalAsync(answerQuestion.UserId, _scoreManagement.AddNewAnswerScore);
 
             return true;
         }
@@ -280,6 +280,31 @@ namespace BugFixer.Application.Services.Implementation
         public async Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId)
         {
             return await _questionRepository.GetAllQuestionAnswerAsync(questionId);
+        }
+
+        public async Task<bool> HasUserAccessToSelectTrueAnswer(long userId, long questionId)
+        {
+            var answer = await _questionRepository.GetAnswerByIdAsync(questionId);
+            if (answer == null) return false;
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return false;
+            if (user.IsAdmin) return true;
+            if (answer.Question.UserId != userId) return false;
+
+            return true;
+        }
+
+        public async Task SelectTrueAnswer(long answerId)
+        {
+            var answer = await _questionRepository.GetAnswerByIdAsync(answerId);
+
+            if (answer == null) return;
+
+            answer.IsTrue = !answer.IsTrue;
+
+            await _questionRepository.UpdateAnswerAsync(answer);
+            await _questionRepository.SaveChangesAsync();
         }
 
 

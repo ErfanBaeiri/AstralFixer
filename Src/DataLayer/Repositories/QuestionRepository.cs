@@ -86,7 +86,7 @@ namespace BugFixer.DataLayer.Repositories
         }
         public async Task updateQuestionAsync(Question question)
         {
-            await _context.Questions.AddAsync(question);
+            _context.Questions.Update(question);
         }
         #endregion
 
@@ -117,6 +117,14 @@ namespace BugFixer.DataLayer.Repositories
                 .OrderByDescending(s => s.CreateDate)
                 .ToListAsync();
         }
+        public async Task<Answer?> GetAnswerByIdAsync(long answerId)
+        {
+            return await _context.Answers.Include(s=> s.Question).FirstOrDefaultAsync(s => s.Id == answerId && s.IsDelete == false);
+        }
+        public async Task UpdateAnswerAsync(Answer answer)
+        {
+            _context.Update(answer);
+        }
         #endregion
 
         #region View
@@ -129,9 +137,6 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.QuestionViews.AddAsync(questionView);
         }
-
-     
-
         #endregion
     }
 }

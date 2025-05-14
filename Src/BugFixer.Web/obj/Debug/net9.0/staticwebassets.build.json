@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EQZ5eW4lwmUP74+c13K5TMqHBSTtfDj9T3nmaySdGDY=",
+  "Hash": "6ygurT9D3rxe/0yEJ9j8ei61FT5qtJ0ekgGH5G8Md6U=",
   "Source": "BugFixer.Web",
   "BasePath": "_content/BugFixer.Web",
   "Mode": "Default",
@@ -899,12 +899,12 @@
       "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\ckeditor\\build\\translations\\de-ch.js"
     },
     {
-      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-a1wgd277wo.gz",
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-dp05fwxjlb.gz",
       "SourceId": "BugFixer.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BugFixer.Web",
-      "RelativePath": "common/custom/custom#[.{fingerprint=a1wgd277wo}]?.js.gz",
+      "RelativePath": "common/custom/custom#[.{fingerprint=dp05fwxjlb}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -913,8 +913,8 @@
       "RelatedAsset": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qxicq3kf4d",
-      "Integrity": "3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0=",
+      "Fingerprint": "2a6lfq1qx7",
+      "Integrity": "CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js"
@@ -4252,8 +4252,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a1wgd277wo",
-      "Integrity": "LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=",
+      "Fingerprint": "dp05fwxjlb",
+      "Integrity": "0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\common\\custom\\custom.js"
@@ -28837,167 +28837,6 @@
       ]
     },
     {
-      "Route": "common/custom/custom.a1wgd277wo.js",
-      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-a1wgd277wo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000509943906"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a1wgd277wo"
-        },
-        {
-          "Name": "label",
-          "Value": "common/custom/custom.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA="
-        }
-      ]
-    },
-    {
-      "Route": "common/custom/custom.a1wgd277wo.js",
-      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a1wgd277wo"
-        },
-        {
-          "Name": "label",
-          "Value": "common/custom/custom.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA="
-        }
-      ]
-    },
-    {
-      "Route": "common/custom/custom.a1wgd277wo.js.gz",
-      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-a1wgd277wo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a1wgd277wo"
-        },
-        {
-          "Name": "label",
-          "Value": "common/custom/custom.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0="
-        }
-      ]
-    },
-    {
       "Route": "common/custom/custom.ab9bj9d7qv.css",
       "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\53d2l65u52-ab9bj9d7qv.gz",
       "Selectors": [
@@ -29296,13 +29135,13 @@
       ]
     },
     {
-      "Route": "common/custom/custom.js",
-      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-a1wgd277wo.gz",
+      "Route": "common/custom/custom.dp05fwxjlb.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-dp05fwxjlb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000509943906"
+          "Quality": "0.000463392030"
         }
       ],
       "ResponseHeaders": [
@@ -29312,15 +29151,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "2157"
         },
         {
           "Name": "ETag",
-          "Value": "\"3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0=\""
+          "Value": "\"CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dp05fwxjlb"
+        },
+        {
+          "Name": "label",
+          "Value": "common/custom/custom.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="
+        }
+      ]
+    },
+    {
+      "Route": "common/custom/custom.dp05fwxjlb.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dp05fwxjlb"
+        },
+        {
+          "Name": "label",
+          "Value": "common/custom/custom.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="
+        }
+      ]
+    },
+    {
+      "Route": "common/custom/custom.dp05fwxjlb.js.gz",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-dp05fwxjlb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dp05fwxjlb"
+        },
+        {
+          "Name": "label",
+          "Value": "common/custom/custom.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k="
+        }
+      ]
+    },
+    {
+      "Route": "common/custom/custom.js",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-dp05fwxjlb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000463392030"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29340,13 +29340,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=\""
+          "Value": "W/\"0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA="
+          "Value": "sha256-0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="
         }
       ]
     },
@@ -29361,7 +29361,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6283"
+          "Value": "7383"
         },
         {
           "Name": "Content-Type",
@@ -29369,11 +29369,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA=\""
+          "Value": "\"0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29383,13 +29383,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LqtrlCOV06oFS2KR/hGPu+T+AiE0i9bnLTnzBU6+rRA="
+          "Value": "sha256-0VEpE+GYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="
         }
       ]
     },
     {
       "Route": "common/custom/custom.js.gz",
-      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-a1wgd277wo.gz",
+      "AssetFile": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\obj\\Debug\\net9.0\\compressed\\fkukfqungx-dp05fwxjlb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -29398,7 +29398,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "2157"
         },
         {
           "Name": "Content-Type",
@@ -29406,11 +29406,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0=\""
+          "Value": "\"CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 18:38:55 GMT"
+          "Value": "Wed, 14 May 2025 01:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29428,7 +29428,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3jDO0gkAZUgWEJBLJnsPfda+O4NspSWWF6Da7HSU9q0="
+          "Value": "sha256-CrqCBuFbV1dct5B85IZ+nrogSmeMlrSfzZYa7N1FB8k="
         }
       ]
     },

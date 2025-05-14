@@ -179,7 +179,6 @@ function SubmitFilterFormPagination(pageId) {
     $("#filter_form").submit();
 }
 
-
 function AnswerQuestionFormDone(response) {
     EndLoading('#submit-comment');
     console.log(response);
@@ -203,8 +202,35 @@ function AnswerQuestionFormDone(response) {
 
         editor.setData('');
     }
-   
+
 }
 
-
-
+function selectTrueAnswer(answerId) {
+    $.ajax({
+        url: "/SelectTrueAnswer",
+        type: "POST",
+        data: {
+            answerId: answerId
+        },
+        beforeSend: function () {
+            StartLoading();
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#AnswersBox").load(location.href + " #AnswersBox")
+            }
+            else if (response.status === "NotAccess") {
+                swal("اعلان", "امکان ویرایش برای شما میسر نمیباشد", "info");
+            }
+            else if (response.status === "NotAuthenticated") {
+                swal("اعلان", "ابتدا وارد حساب کاربری خود شوید", "warning");
+            }
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    });
+}

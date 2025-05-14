@@ -23,11 +23,11 @@
                     <div class="selected-answer">
                         @if (Answer.IsTrue)
                         {
-                            <button class="selected"><i class="icon-check"></i></button>
+                            <button onclick="selectTrueAnswer(@Answer.Id)" class="selected"><i class="icon-check"></i></button>
                         }
                         else
                         {
-                            <button><i class="icon-check"></i></button>
+                            <button onclick="selectTrueAnswer(@Answer.Id)"><i class="icon-check"></i></button>
                         }
                     </div>
                 </div>
