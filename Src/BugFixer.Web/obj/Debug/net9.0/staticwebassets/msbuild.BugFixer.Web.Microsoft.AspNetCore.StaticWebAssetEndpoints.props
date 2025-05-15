@@ -900,17 +900,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GrXjH9C4802M7Kl6shi4Z2YDEiyPEHEEN4lc4bDpDEI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"998"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GrXjH9C4802M7Kl6shi4Z2YDEiyPEHEEN4lc4bDpDEI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 14:33:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.dp05fwxjlb.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dp05fwxjlb"},{"Name":"integrity","Value":"sha256-0VEpE\u002BGYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7383"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220VEpE\u002BGYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 01:12:48 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0VEpE\u002BGYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7383"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220VEpE\u002BGYoqQ6fJOaK1OGTZM/cf2PjJdGUgzZugQJtBk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 01:12:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SAqbtuccTwAaFiWhgVV2NuB9VOdAOhNSm1M0FTUsyjg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10896"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SAqbtuccTwAaFiWhgVV2NuB9VOdAOhNSm1M0FTUsyjg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 05:01:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/custom/custom.ow7hkdy708.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\custom\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ow7hkdy708"},{"Name":"integrity","Value":"sha256-SAqbtuccTwAaFiWhgVV2NuB9VOdAOhNSm1M0FTUsyjg="},{"Name":"label","Value":"_content/BugFixer.Web/common/custom/custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10896"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SAqbtuccTwAaFiWhgVV2NuB9VOdAOhNSm1M0FTUsyjg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 05:01:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BugFixer.Web/common/jquery-validation/jquery.unobtrusive-ajax.i3lhatxvd5.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\common\jquery-validation\jquery.unobtrusive-ajax.js'))</AssetFile>

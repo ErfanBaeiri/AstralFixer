@@ -86,14 +86,12 @@
                                 <div class="share-detail">
                                     <div class="short-link">
                                         <p> لینک کوتاه شامل شناسه شما </p>
-                                        <input type="text" name="" readonly value="http://gl.co/ShKiLO">
+                                        <input type="text" name="" readonly value="@PathTools.SiteAddress/q/@Model.Id">
                                     </div>
                                     <div class="socials">
-                                        <a href=""><i class="icon-facebook"></i></a>
-                                        <a href=""><i class="icon-twitter"></i></a>
-                                        <a href=""><i class="icon-linkedin"></i></a>
-                                        <a href=""><i class="icon-telegram"></i></a>
-                                        <a href=""><i class="icon-google-plus"></i></a>
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")"><i class="icon-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")"><i class="icon-linkedin"></i></a>
+                                        <a href="https://t.me/share/url?url=@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")"><i class="icon-telegram"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -114,9 +112,9 @@
                         <div class="top-layer">
                             <h4><span> @Model.Answers.Count(s => !s.IsDelete) </span> پاسخ به این پرسش </h4>
                         </div>
-                  <!-- Answer item -->
+                        <!-- Answer item -->
                         @await Component.InvokeAsync("QuestionAnswersList", new { questionId = Model.Id })
-                  <!--/Answer item-->
+                        <!--/Answer item-->
                     </div>
                     <!-- User Answer-->
                     @if (User.Identity.IsAuthenticated)

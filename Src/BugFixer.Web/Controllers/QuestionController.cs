@@ -1,6 +1,7 @@
 ﻿using BugFixer.Application.Extensions;
 using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
+using BugFixer.Domain.Enums;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -128,6 +129,16 @@ namespace BugFixer.Web.Controllers
             return View(question);
         }
 
+        [HttpGet("q/{questionId}")]
+        public async Task<IActionResult> QuestionDetailByShortLink(long questionId)
+        {
+            var question = await _questionService.GetQuestionById(questionId);
+
+            if (question == null) return NotFound();
+
+            return RedirectToAction("QuestionDetail", "Question", new { questionId = questionId });
+        }
+
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> AnswerQuestion(AnswerQuestionViewModel answerQuestion)
@@ -162,6 +173,55 @@ namespace BugFixer.Web.Controllers
 
             await _questionService.SelectTrueAnswer(answerId);
             return new JsonResult(new { status = "Success" });
+        }
+        #endregion
+
+        #region Score Answer
+        [HttpPost("ScoreUpForAnswer")]
+        public async Task<IActionResult> ScoreUpForAnswer(long answerId)
+        {
+            var result = await _questionService.CreateScoreForAnswer(HttpContext.User.GetUserId(), answerId, AnswerScoreType.Plus);
+
+            switch (result)
+            {
+                case CreateScoreForAnswerResult.Error:
+                    return new JsonResult(new { status = "Error" });
+                case CreateScoreForAnswerResult.NotEnoughScoreForDown:
+                    return new JsonResult(new { status = "NotEnoughScoreForDown" });
+                case CreateScoreForAnswerResult.NotEnoughScoreForUp:
+                    return new JsonResult(new { status = "NotEnoughScoreForUp" });
+                case CreateScoreForAnswerResult.Success:
+                    return new JsonResult(new { status = "Success" });
+                case CreateScoreForAnswerResult.UserCreateScoreBefore:
+                    return new JsonResult(new { status = "UserCreateScoreBefore" });
+                case CreateScoreForAnswerResult.UserDontLogged:
+                    return new JsonResult(new { status = "UserDontLogged" });
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+        [HttpPost("ScoreDownForAnswer")]
+        public async Task<IActionResult> ScoreDownForAnswer(long answerId)
+        {
+            var result = await _questionService.CreateScoreForAnswer(HttpContext.User.GetUserId(), answerId, AnswerScoreType.Minus);
+
+            switch (result)
+            {
+                case CreateScoreForAnswerResult.Error:
+                    return new JsonResult(new { status = "Error" });
+                case CreateScoreForAnswerResult.NotEnoughScoreForDown:
+                    return new JsonResult(new { status = "NotEnoughScoreForDown" });
+                case CreateScoreForAnswerResult.NotEnoughScoreForUp:
+                    return new JsonResult(new { status = "NotEnoughScoreForUp" });
+                case CreateScoreForAnswerResult.Success:
+                    return new JsonResult(new { status = "Success" });
+                case CreateScoreForAnswerResult.UserCreateScoreBefore:
+                    return new JsonResult(new { status = "UserCreateScoreBefore" });
+                case CreateScoreForAnswerResult.UserDontLogged:
+                    return new JsonResult(new { status = "UserDontLogged" });
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
         #endregion
     }

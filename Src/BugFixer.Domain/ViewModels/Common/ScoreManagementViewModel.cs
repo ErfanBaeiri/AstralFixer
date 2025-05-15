@@ -8,5 +8,7 @@
         public int MinScoreForBronzeMedal { get; set; }
         public int MinScoreForSilverMedal { get; set; }
         public int MinScoreForGoldMedal { get; set; }
+        public int MinScoreForUpScoreAnswer { get; set; }
+        public int MinScoreForDownScoreAnswer { get; set; }
     }
 }

@@ -43,6 +43,8 @@ namespace BugFixer.Domain.Interfaces
 
         Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
         Task<Answer?> GetAnswerByIdAsync(long answerId);
+        Task<bool> IsExistsUserScoreForAnswer(long userId, long answerId);
+        Task AddAnswerUserScoreAsync(AnswerUserScore answerUserScore);
         #endregion
 
     }

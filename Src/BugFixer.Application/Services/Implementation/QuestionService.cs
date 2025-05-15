@@ -3,11 +3,13 @@ using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
 using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
+using BugFixer.Domain.Enums;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using System.Net.WebSockets;
 
 namespace BugFixer.Application.Services.Implementation
 {
@@ -305,6 +307,44 @@ namespace BugFixer.Application.Services.Implementation
 
             await _questionRepository.UpdateAnswerAsync(answer);
             await _questionRepository.SaveChangesAsync();
+        }
+
+        public async Task<CreateScoreForAnswerResult> CreateScoreForAnswer(long userId, long answerId, AnswerScoreType type)
+        {
+            var answer = await _questionRepository.GetAnswerByIdAsync(answerId);
+            if (answer == null) return CreateScoreForAnswerResult.Error;
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return CreateScoreForAnswerResult.UserDontLogged;
+
+            if (type == AnswerScoreType.Minus && user.Score < _scoreManagement.MinScoreForDownScoreAnswer)
+                return CreateScoreForAnswerResult.NotEnoughScoreForDown;
+
+            if (type == AnswerScoreType.Plus && user.Score < _scoreManagement.MinScoreForUpScoreAnswer)
+                return CreateScoreForAnswerResult.NotEnoughScoreForUp;
+
+            if (await _questionRepository.IsExistsUserScoreForAnswer(userId, answerId))
+                return CreateScoreForAnswerResult.UserCreateScoreBefore;
+
+            var score = new AnswerUserScore
+            {
+                AnswerId = answerId,
+                UserId = userId,
+                Type = type
+            };
+
+            await _questionRepository.AddAnswerUserScoreAsync(score);
+
+            if (type == AnswerScoreType.Plus)
+                answer.Score++;
+            else
+                answer.Score--;
+
+            await _questionRepository.UpdateAnswerAsync(answer);
+
+            await _questionRepository.SaveChangesAsync();
+
+            return CreateScoreForAnswerResult.Success;
         }
 
 

@@ -16,9 +16,9 @@
                 @Html.Raw(Answer.Content)
                 <div class="rating-layer">
                     <div class="scoring-layer">
-                        <button class="plus"><i class="icon-caret-up"></i></button>
+                        <button onclick="ScoreUpForAnswer(@Answer.Id)" class="plus"><i class="icon-caret-up"></i></button>
                         <span> @Answer.Score </span>
-                        <button class="negative"><i class="icon-caret-down"></i></button>
+                        <button onclick="ScoreDownForAnswer(@Answer.Id)" class="negative"><i class="icon-caret-down"></i></button>
                     </div>
                     <div class="selected-answer">
                         @if (Answer.IsTrue)

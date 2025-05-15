@@ -25,6 +25,7 @@ namespace BugFixer.Domain.Entities.Questions
         #region Relation
         public Question Question { get; set; }
         public User User { get; set; }
+        public ICollection<AnswerUserScore> AnswerUserScores { get; set; }
         #endregion
     }
 }

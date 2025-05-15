@@ -73,6 +73,7 @@ namespace BugFixer.Domain.Entities.Account
         public ICollection<Answer> Answers { get; set; }
         public ICollection<UserQuestionBookMark> UserQuestionBookMarks { get; set; }
         public ICollection<QuestionUserScore> QuestionUserScores { get; set; }
+        public ICollection<AnswerUserScore> AnswerUserScores { get; set; }
         #endregion
     }
 }

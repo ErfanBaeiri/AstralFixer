@@ -119,11 +119,19 @@ namespace BugFixer.DataLayer.Repositories
         }
         public async Task<Answer?> GetAnswerByIdAsync(long answerId)
         {
-            return await _context.Answers.Include(s=> s.Question).FirstOrDefaultAsync(s => s.Id == answerId && s.IsDelete == false);
+            return await _context.Answers.Include(s => s.Question).FirstOrDefaultAsync(s => s.Id == answerId && s.IsDelete == false);
         }
         public async Task UpdateAnswerAsync(Answer answer)
         {
             _context.Update(answer);
+        }
+        public async Task<bool> IsExistsUserScoreForAnswer(long userId, long answerId)
+        {
+            return await _context.AnswerUserScores.AnyAsync(s => s.UserId == userId && s.AnswerId == answerId);
+        }
+        public async Task AddAnswerUserScoreAsync(AnswerUserScore answerUserScore)
+        {
+            await _context.AnswerUserScores.AddAsync(answerUserScore);
         }
         #endregion
 

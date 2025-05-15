@@ -1,5 +1,6 @@
 ﻿using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
+using BugFixer.Domain.Enums;
 using BugFixer.Domain.ViewModels.Question;
 
 namespace BugFixer.Application.Services.Interfaces
@@ -25,6 +26,7 @@ namespace BugFixer.Application.Services.Interfaces
         Task<List<Answer>> GetAllQuestionAnswerAsync(long questionId);
         Task<bool> HasUserAccessToSelectTrueAnswer(long userId, long questionId);
         Task SelectTrueAnswer(long answerId);
+        Task<CreateScoreForAnswerResult> CreateScoreForAnswer(long userId, long answerId, AnswerScoreType type);
         #endregion
     }
 }

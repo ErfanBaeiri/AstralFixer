@@ -234,3 +234,82 @@ function selectTrueAnswer(answerId) {
         }
     });
 }
+
+function ScoreUpForAnswer(answerId) {
+    $.ajax({
+        url: "/ScoreUpForAnswer",
+        type: "POST",
+        data: {
+            answerId: answerId
+        },
+        beforeSend: function () {
+            StartLoading();
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#AnswersBox").load(location.href + " #AnswersBox")
+            }
+            else if (response.status === "Error") {
+                swal("خطا", "عملیات با خطا مواجه شد", "error");
+            }
+            else if (response.status === "NotEnoughScoreForDown") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "NotEnoughScoreForUp") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "UserCreateScoreBefore") {
+                swal("اعلان", "امتیاز شما برای این پاسخ ثبت گردیده است", "info");
+            }
+            else if (response.status === "UserDontLogged") {
+                swal("اعلان", "برای ثبت امتیاز ابتدا وارد حساب کاربری خود شوید", "info");
+            }
+
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    });
+};
+
+function ScoreDownForAnswer(answerId) {
+    $.ajax({
+        url: "/ScoreDownForAnswer",
+        type: "POST",
+        data: {
+            answerId: answerId
+        },
+        beforeSend: function () {
+            StartLoading();
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#AnswersBox").load(location.href + " #AnswersBox")
+            }
+            else if (response.status === "Error") {
+                swal("خطا", "عملیات با خطا مواجه شد", "error");
+            }
+            else if (response.status === "NotEnoughScoreForDown") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "NotEnoughScoreForUp") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "UserCreateScoreBefore") {
+                swal("اعلان", "امتیاز شما برای این پاسخ ثبت گردیده است", "info");
+            }
+            else if (response.status === "UserDontLogged") {
+                swal("اعلان", "برای ثبت امتیاز ابتدا وارد حساب کاربری خود شوید", "info");
+            }
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    });
+}
