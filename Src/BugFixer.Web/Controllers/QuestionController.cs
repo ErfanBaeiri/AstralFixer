@@ -1,6 +1,7 @@
 ﻿using BugFixer.Application.Extensions;
 using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
+using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Enums;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
@@ -9,6 +10,7 @@ using Newtonsoft.Json;
 
 namespace BugFixer.Web.Controllers
 {
+    [Route("Question")]
     public class QuestionController : BaseController
     {
         #region Ctor
@@ -43,6 +45,14 @@ namespace BugFixer.Web.Controllers
                 return View(createQuestion);
             }
 
+            if (!ModelState.IsValid)
+            {
+                createQuestion.SelectedTagsJson = JsonConvert.SerializeObject(createQuestion.SelectedTags);
+                createQuestion.SelectedTags = null;
+                TempData[WarningMessage] = "اطلاعات ورودی شما معتبر نمی باشد";
+                return View(createQuestion);
+            }
+
             createQuestion.UserId = HttpContext.User.GetUserId();
 
             var result = await _questionService.CreateQuestionAsync(createQuestion);
@@ -59,6 +69,58 @@ namespace BugFixer.Web.Controllers
             return View(createQuestion);
         }
 
+        #endregion
+
+        #region Edit Question
+        [HttpGet("edit-question/{id}")]
+        [Authorize]
+        public async Task<IActionResult> EditQuestion(long id)
+        {
+            var result = await _questionService.FillEditQuestionViewModel(HttpContext.User.GetUserId(), id);
+
+            if (result == null) return NotFound();
+
+            return View(result);
+        }
+
+        [HttpPost("edit-question/{id}"), ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> EditQuestion(EditQuestionViewModel edit)
+        {
+            var tagResult = await _questionService.CheckTagsAsync(edit.SelectedTags, HttpContext.User.GetUserId());
+
+            if (tagResult.Status == CreateQuestionResultEnum.NotValidTag)
+            {
+                edit.SelectedTagsJson = JsonConvert.SerializeObject(edit.SelectedTags);
+                edit.SelectedTags = null;
+
+                TempData[WarningMessage] = tagResult.Message;
+                return View(edit);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                edit.SelectedTagsJson = JsonConvert.SerializeObject(edit.SelectedTags);
+                edit.SelectedTags = null;
+                TempData[WarningMessage] = "اطلاعات ورودی شما معتبر نمی باشد";
+                return View(edit);
+            }
+
+            edit.UserId = HttpContext.User.GetUserId();
+
+            var result = await _questionService.EditQuestionAsync(edit);
+
+            if (result)
+            {
+                TempData[SuccessMessage] = "سوال شما با موفقیت ثبت شد";
+                return RedirectToAction("Index", "Home");
+            }
+
+            edit.SelectedTagsJson = JsonConvert.SerializeObject(edit.SelectedTags);
+            edit.SelectedTags = null;
+
+            return View(edit);
+        }
         #endregion
 
         #region Get Tags
@@ -122,7 +184,7 @@ namespace BugFixer.Web.Controllers
 
             ViewBag.IsBookMark = false;
 
-            if(User.Identity.IsAuthenticated && await _questionService.IsExistQuestionScoreByUserIdAsync(HttpContext.User.GetUserId(), questionId))
+            if (User.Identity.IsAuthenticated && await _questionService.IsExistQuestionScoreByUserIdAsync(HttpContext.User.GetUserId(), questionId))
             {
                 ViewBag.IsBookMark = true;
             }
@@ -164,6 +226,38 @@ namespace BugFixer.Web.Controllers
 
             return new JsonResult(new { status = "Error" });
 
+        }
+
+        [HttpGet("EditAnswer/{answerId}")]
+        [Authorize]
+        public async Task<IActionResult> EditAnswer(long answerId)
+        {
+            
+            var result = await _questionService.FillEditAnswerViewModel(answerId, HttpContext.User.GetUserId());
+
+            if (result == null) return NotFound();
+
+            return View(result);
+        }
+        [HttpPost("EditAnswer/{answerId}"), ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> EditAnswer(EditAnswerViewModel edit)
+        {
+            if (!ModelState.IsValid)
+                return View(edit);
+            edit.UserId = HttpContext.User.GetUserId();
+
+            var result = await _questionService.EditAnswer(edit);
+           
+            if (result)
+            {
+                TempData[SuccessMessage] = "عملیات با موفقیت انجام شد";
+                return RedirectToAction("QuestionDetail", "Question", new { questionId = edit.QuestionId });
+            }
+
+            TempData[ErrorMessage] = "خطایی رخ داده است";
+
+            return View(edit);
         }
         #endregion
 

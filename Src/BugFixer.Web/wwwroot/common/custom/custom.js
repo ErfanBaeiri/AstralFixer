@@ -206,11 +206,13 @@ function AnswerQuestionFormDone(response) {
 }
 
 function selectTrueAnswer(answerId) {
+   /* var token = $("input[name=__RequestVerificationToken]").val();*/
     $.ajax({
         url: "/SelectTrueAnswer",
         type: "POST",
         data: {
-            answerId: answerId
+            answerId: answerId,
+        /*    __RequestVerificationToken = token*/
         },
         beforeSend: function () {
             StartLoading();
@@ -422,4 +424,8 @@ function AddQuestionToBookMark(questionId) {
             swal("خطا", "عملیات با خطا مواجه شد", "error");
         }
     });
+}
+
+function LoadUrl(url) {
+    location.href = url;
 }

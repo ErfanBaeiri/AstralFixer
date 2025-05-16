@@ -21,6 +21,8 @@ namespace BugFixer.Domain.Interfaces
         Task AddRequestTagAsync(RequestTag tag);
         Task UpdateTagAsync(Tag tag);
         Task SaveChangesAsync();
+        Task RemoveTagAsync(Tag tag);
+        Task RemoveSelectQuestionTagAsync(SelectQuestionTag selectQuestionTag);
         #endregion
 
         #region Question

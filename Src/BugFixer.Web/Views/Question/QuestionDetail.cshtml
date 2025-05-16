@@ -41,17 +41,17 @@
                 <section class="question-content-layer">
 
                     <header>
-
                         <!-- use this button for edit Post , show only for author -->
-                        <button><i class="icon-pencil-edit"></i></button>
+                        <button onclick="LoadUrl('@Url.Action("EditQuestion","Question", new {id = Model.Id})')"><i class="icon-pencil-edit"></i></button>
 
                         <h1><a href="javascript:void(0)"> @Model.Title </a></h1>
                         <span>@Model.CreateDate.AsTimeAgo() </span>
                         <span><i> @Model.ViewCount </i> بازدید </span>
                         <span><i> @Model.Answers.Count() </i> پاسخ </span>
                         <span><i> @Model.Score </i> امتیاز </span>
-
                     </header>
+
+                    @*  @Html.AntiForgeryToken() *@
 
                     <article id="questionReload">
                         <div class="inner">

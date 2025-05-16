@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugFixer.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+934889d11cd9199029c956146648cdd784f7f25f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12fa7553557ab3f9f395c17260599f7fc84eacc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugFixer.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugFixer.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,6 +22,8 @@ namespace BugFixer.Application.Services.Interfaces
         Task<CreateScoreForQuestionResult> AddQuestionScore(long userId, long questionId, QuestionScoreType type);
         Task<bool> AddQuestionToBookMark(long userId, long questionId);
         Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId);
+        Task<EditQuestionViewModel?> FillEditQuestionViewModel(long userId, long questionId);
+        Task<bool> EditQuestionAsync(EditQuestionViewModel edit);
         #endregion
 
         #region Answer
@@ -30,6 +32,8 @@ namespace BugFixer.Application.Services.Interfaces
         Task<bool> HasUserAccessToSelectTrueAnswer(long userId, long questionId);
         Task SelectTrueAnswer(long answerId);
         Task<CreateScoreForAnswerResult> CreateScoreForAnswer(long userId, long answerId, AnswerScoreType type);
+        Task<EditAnswerViewModel> FillEditAnswerViewModel(long answerId,long userId);
+        Task<bool> EditAnswer(EditAnswerViewModel editAnswer);
         #endregion
     }
 }

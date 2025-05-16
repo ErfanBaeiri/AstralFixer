@@ -10,7 +10,9 @@ using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using System.Net.WebSockets;
+using System.Text.Json.Serialization;
 
 namespace BugFixer.Application.Services.Implementation
 {
@@ -35,7 +37,6 @@ namespace BugFixer.Application.Services.Implementation
         {
             return await _questionRepository.GetTagsAsync();
         }
-
         public async Task<CreateQuestionResult> CheckTagsAsync(List<string> tags, long userId)
         {
             if (tags != null && tags.Any())
@@ -102,7 +103,43 @@ namespace BugFixer.Application.Services.Implementation
                 Message = "تگ های ورودی نمی تواند خالی باشد"
             };
         }
+        public async Task<FilterTagViewModel> FilterTagAsync(FilterTagViewModel filterTag)
+        {
 
+            var query = await _questionRepository.GetAllTagsAsQueryableAsync();
+
+            if (!string.IsNullOrEmpty(filterTag.Title))
+            {
+                query = query.Where(s => s.Title.Contains(filterTag.Title));
+            }
+
+            switch (filterTag.Sort)
+            {
+                case FilterTagEnum.NewToOld:
+                    query = query.OrderByDescending(s => s.CreateDate);
+                    break;
+                case FilterTagEnum.OldToNew:
+                    query = query.OrderBy(s => s.CreateDate);
+                    break;
+                case FilterTagEnum.UseCountHighToLow:
+                    query = query.OrderByDescending(s => s.UseCount);
+                    break;
+                case FilterTagEnum.UseCountLowToHigh:
+                    query = query.OrderBy(s => s.UseCount);
+                    break;
+            }
+
+            await filterTag.SetPaging(query);
+
+            return filterTag;
+        }
+        public async Task<List<string>> GetTagListByQuestionIdAsync(long questionId)
+        {
+            return await _questionRepository.GetTagListByQuestionIdAsync(questionId);
+        }
+        #endregion
+
+        #region Question
         public async Task<bool> CreateQuestionAsync(CreateQuestionViewModel createQuestion)
         {
             var question = new Domain.Entities.Questions.Question
@@ -142,43 +179,6 @@ namespace BugFixer.Application.Services.Implementation
 
             return true;
         }
-        public async Task<FilterTagViewModel> FilterTagAsync(FilterTagViewModel filterTag)
-        {
-
-            var query = await _questionRepository.GetAllTagsAsQueryableAsync();
-
-            if (!string.IsNullOrEmpty(filterTag.Title))
-            {
-                query = query.Where(s => s.Title.Contains(filterTag.Title));
-            }
-
-            switch (filterTag.Sort)
-            {
-                case FilterTagEnum.NewToOld:
-                    query = query.OrderByDescending(s => s.CreateDate);
-                    break;
-                case FilterTagEnum.OldToNew:
-                    query = query.OrderBy(s => s.CreateDate);
-                    break;
-                case FilterTagEnum.UseCountHighToLow:
-                    query = query.OrderByDescending(s => s.UseCount);
-                    break;
-                case FilterTagEnum.UseCountLowToHigh:
-                    query = query.OrderBy(s => s.UseCount);
-                    break;
-            }
-
-            await filterTag.SetPaging(query);
-
-            return filterTag;
-        }
-        public async Task<List<string>> GetTagListByQuestionIdAsync(long questionId)
-        {
-            return await _questionRepository.GetTagListByQuestionIdAsync(questionId);
-        }
-        #endregion
-
-        #region Question
         public async Task<FilterQuestionViewModel> FilterQuestionAsync(FilterQuestionViewModel filterQuestion)
         {
             var query = await _questionRepository.GetAllQuestions();
@@ -232,12 +232,10 @@ namespace BugFixer.Application.Services.Implementation
             await filterQuestion.SetPaging(result);
             return filterQuestion;
         }
-
         public async Task<Question?> GetQuestionById(long questionId)
         {
             return await _questionRepository.GetQuestionByIdAsync(questionId);
         }
-
         public async Task AddViewForQuestionAsync(string userIP, Question question)
         {
             if (await _questionRepository.IsExistViewforQuestAsync(userIP, question.Id)) return;
@@ -317,35 +315,86 @@ namespace BugFixer.Application.Services.Implementation
 
             await _questionRepository.SaveChangesAsync();
             return true;
-
-            //var qustion = await _questionRepository.GetQuestionByIdAsync(questionId);
-            //if (qustion == null) return false;
-
-            //if (await _questionRepository.IsExistsQuestionInUserBookMarks(userId, questionId))
-            //{
-            //    var bookMark = await _questionRepository.GetQuestionBookMarkByQuestionAndUserId(userId, questionId);
-            //    if (bookMark == null) return false;
-            //    await _questionRepository.RemoveQuestionToBookMarkAsync(bookMark);
-            //}
-            //else
-            //{
-            //    var bookMark = new UserQuestionBookMark
-            //    {
-            //        QuestionId = questionId,
-            //        UserId = userId
-            //    };
-
-            //    await _questionRepository.AddQuestionToBookMarkAsync(bookMark);
-
-            //}
-            //await _questionRepository.SaveChangesAsync();
-            //return true;
-
         }
 
         public async Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId)
         {
             return await _questionRepository.IsExistsQuestionInUserBookMarks(userId, questionId);
+        }
+        public async Task<EditQuestionViewModel?> FillEditQuestionViewModel(long userId, long questionId)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(questionId);
+            if (question == null) return null;
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return null;
+
+            if (user.IsAdmin == false && question.UserId != user.Id) return null;
+
+            var tags = await GetTagListByQuestionIdAsync(questionId);
+
+            var result = new EditQuestionViewModel
+            {
+                Description = question.Content,
+                Title = question.Title,
+                Id = question.Id,
+                SelectedTagsJson = JsonConvert.SerializeObject(tags)
+            };
+
+            return result;
+
+        }
+        public async Task<bool> EditQuestionAsync(EditQuestionViewModel edit)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(edit.Id);
+
+            if (question == null) return false;
+
+            var user = await _userService.GetUserByIdAsync(edit.UserId);
+
+            if (user == null) return false;
+
+            if (question.UserId != edit.UserId && !user.IsAdmin) return false;
+
+            #region Delete Current Tags
+            question.Title = edit.Title;
+            question.Content = edit.Description;
+
+            var currentTags = question.SelectQuestionTags.ToList();
+
+            foreach (var tag in currentTags)
+            {
+                await _questionRepository.RemoveSelectQuestionTagAsync(tag);
+            }
+            #endregion
+
+            #region Add New Tags
+            if (edit.SelectedTags != null && edit.SelectedTags.Any())
+            {
+                foreach (var questionSelectedTag in edit.SelectedTags)
+                {
+                    var tag = await _questionRepository.GetTagByName(questionSelectedTag.SanitizeText().Trim().ToLower());
+
+                    if (tag == null) continue;
+
+                    tag.UseCount += 1;
+
+                    await _questionRepository.UpdateTagAsync(tag);
+
+                    var selectedTag = new SelectQuestionTag
+                    {
+                        QuestionId = question.Id,
+                        TagId = tag.Id
+                    };
+
+                    await _questionRepository.AddSelectQuestionTagsAsync(selectedTag);
+                }
+                await _questionRepository.SaveChangesAsync();
+            }
+            #endregion
+
+            return true;
+
         }
         #endregion
 
@@ -440,6 +489,48 @@ namespace BugFixer.Application.Services.Implementation
             await _questionRepository.SaveChangesAsync();
 
             return CreateScoreForAnswerResult.Success;
+        }
+
+        public async Task<EditAnswerViewModel> FillEditAnswerViewModel(long answerId, long userId)
+        {
+            var answer = await _questionRepository.GetAnswerByIdAsync(answerId);
+            if (answer == null) return null;
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return null;
+
+            if (user.IsAdmin == false && answer.UserId != user.Id)
+                return null;
+
+
+            return new EditAnswerViewModel
+            {
+                Answer = answer.Content,
+                AnswerId = answer.Id,
+                QuestionId=answer.QuestionId
+            };
+
+        }
+
+        public async Task<bool> EditAnswer(EditAnswerViewModel editAnswer)
+        {
+            var answer = await _questionRepository.GetAnswerByIdAsync(editAnswer.AnswerId);
+            if (answer == null) return false;
+
+            if (answer.QuestionId != editAnswer.QuestionId) return false;
+
+            var user = await _userService.GetUserByIdAsync(editAnswer.UserId);
+            if (user == null) return false;
+
+            if (user.IsAdmin == false && answer.UserId != user.Id)
+                return false;
+
+            answer.Content = editAnswer.Answer;
+
+            await _questionRepository.UpdateAnswerAsync(answer);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
         }
         #endregion
 

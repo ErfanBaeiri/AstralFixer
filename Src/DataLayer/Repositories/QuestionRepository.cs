@@ -74,7 +74,14 @@ namespace BugFixer.DataLayer.Repositories
                  .Select(s => s.Tag.Title)
                  .ToListAsync();
         }
-
+        public async Task RemoveTagAsync(Tag tag)
+        {
+            _context.Remove(tag);
+        }
+        public async Task RemoveSelectQuestionTagAsync(SelectQuestionTag selectQuestionTag)
+        {
+            _context.Remove(selectQuestionTag);
+        }
         #endregion
 
         #region Question
@@ -105,7 +112,7 @@ namespace BugFixer.DataLayer.Repositories
 
         public async Task RemoveQuestionToBookMarkAsync(UserQuestionBookMark bookMark)
         {
-             _context.Remove(bookMark);
+            _context.Remove(bookMark);
         }
 
         public async Task<bool> IsExistsQuestionInUserBookMarks(long userId, long questionId)
@@ -135,7 +142,11 @@ namespace BugFixer.DataLayer.Repositories
 
         public async Task<Question?> GetQuestionByIdAsync(long questionId)
         {
-            return await _context.Questions.Include(s => s.Answers).Include(s => s.User).FirstOrDefaultAsync(s => s.IsDelete == false && s.Id == questionId);
+            return await _context.Questions
+                .Include(s => s.Answers)
+                .Include(s => s.User)
+                .Include(s => s.SelectQuestionTags)
+                .FirstOrDefaultAsync(s => s.IsDelete == false && s.Id == questionId);
         }
 
         #endregion
