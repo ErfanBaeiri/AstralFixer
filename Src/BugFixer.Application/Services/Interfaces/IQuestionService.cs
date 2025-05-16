@@ -19,6 +19,9 @@ namespace BugFixer.Application.Services.Interfaces
         Task<Question?> GetQuestionById(long questionId);
         Task<List<string>> GetTagListByQuestionIdAsync(long questionId);
         Task AddViewForQuestionAsync(string userIP, Question question);
+        Task<CreateScoreForQuestionResult> AddQuestionScore(long userId, long questionId, QuestionScoreType type);
+        Task<bool> AddQuestionToBookMark(long userId, long questionId);
+        Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId);
         #endregion
 
         #region Answer

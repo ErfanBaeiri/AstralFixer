@@ -313,3 +313,113 @@ function ScoreDownForAnswer(answerId) {
         }
     });
 }
+
+function ScoreUpForQuestion(questionId) {
+    $.ajax({
+        type:"POST",
+        url: "/ScoreQuestionPlus",
+        data: {
+            questionId: questionId
+        },
+        beforeSend: function () {
+            StartLoading()
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#QuestionScore").load(location.href + " #QuestionScore")
+            }
+            else if (response.status === "Error") {
+                swal("خطا", "عملیات با خطا مواجه شد", "error");
+            }
+            else if (response.status === "NotEnoughScoreForDown") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "NotEnoughScoreForUp") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "UserCreateScoreBefore") {
+                swal("اعلان", "امتیاز شما برای این پاسخ ثبت گردیده است", "info");
+            }
+            else if (response.status === "UserDontLogged") {
+                swal("اعلان", "برای ثبت امتیاز ابتدا وارد حساب کاربری خود شوید", "info");
+            }
+
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    })
+}
+
+function ScoreDownForQuestion(questionId) {
+    $.ajax({
+        type: "POST",
+        url: "/ScoreQuestionMinus",
+        data: {
+            questionId: questionId
+        },
+        beforeSend: function () {
+            StartLoading()
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#QuestionScore").load(location.href + " #QuestionScore")
+            }
+            else if (response.status === "Error") {
+                swal("خطا", "عملیات با خطا مواجه شد", "error");
+            }
+            else if (response.status === "NotEnoughScoreForDown") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "NotEnoughScoreForUp") {
+                swal("اعلان", "امتیاز شما برای انجام این عملیات امکان پذیر نمیباشد", "warning");
+            }
+            else if (response.status === "UserCreateScoreBefore") {
+                swal("اعلان", "امتیاز شما برای این پاسخ ثبت گردیده است", "info");
+            }
+            else if (response.status === "UserDontLogged") {
+                swal("اعلان", "برای ثبت امتیاز ابتدا وارد حساب کاربری خود شوید", "info");
+            }
+
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    })
+}
+
+function AddQuestionToBookMark(questionId) {
+    $.ajax({
+        url: "/AddQueestionToBookMark",
+        type: "POST",
+        data: {
+            questionId: questionId
+        },
+        beforeSend: function () {
+            StartLoading();
+        },
+        success: function (response) {
+            EndLoading();
+            if (response.status === "Success") {
+                swal("اعلان", "عملیات با موفقیت انجام شد", "success");
+                $("#questionReload").load(location.href + " #questionReload")
+            }
+            else if (response.status === "Error") {
+                swal("اعلان", "خطا لطفا با پیشتیبانی در تملس بگیرید", "warning");
+            }
+            else if (response.status === "NotAuthorized") {
+                swal("اعلان", "ابتدا وارد حساب کاربری خود شوید", "info");
+            }
+        },
+        error: function () {
+            EndLoading();
+            swal("خطا", "عملیات با خطا مواجه شد", "error");
+        }
+    });
+}

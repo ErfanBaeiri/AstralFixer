@@ -23,4 +23,14 @@ namespace BugFixer.Domain.Enums
         UserCreateScoreBefore,
         UserDontLogged
     }
+    public enum CreateScoreForQuestionResult
+    {
+        Error,
+        NotEnoughScoreForDown,
+        NotEnoughScoreForUp,
+        Success,
+        UserCreateScoreBefore,
+        UserDontLogged
+    }
+
 }

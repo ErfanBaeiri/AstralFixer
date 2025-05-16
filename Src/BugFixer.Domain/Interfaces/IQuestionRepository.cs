@@ -1,6 +1,8 @@
-﻿using BugFixer.Domain.Entities.Questions;
+﻿using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.ViewModels.Question;
+using Microsoft.EntityFrameworkCore.Storage;
 using System.Threading.Tasks;
 
 namespace BugFixer.Domain.Interfaces
@@ -26,6 +28,14 @@ namespace BugFixer.Domain.Interfaces
         Task updateQuestionAsync(Question question);
         Task<IQueryable<Question>> GetAllQuestions();
         Task<Question?> GetQuestionByIdAsync(long questionId);
+        Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId);
+        Task AddScoreToQuestionByUser(QuestionUserScore questionUserScore);
+        Task AddQuestionToBookMarkAsync(UserQuestionBookMark bookMark);
+        Task RemoveQuestionToBookMarkAsync(UserQuestionBookMark bookMark);
+        Task<bool> IsExistsQuestionInUserBookMarks(long userId, long questionId);
+        Task<UserQuestionBookMark?> GetQuestionBookMarkByQuestionAndUserId(long userId, long questionId);
+        Task<IDbContextTransaction> BeginTransactionAsync();
+        void SaveChange();
         #endregion
 
         #region View

@@ -1,6 +1,7 @@
 ﻿using BugFixer.Application.Extensions;
 using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
+using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Enums;
@@ -252,6 +253,100 @@ namespace BugFixer.Application.Services.Implementation
             await _questionRepository.updateQuestionAsync(question);
             await _questionRepository.SaveChangesAsync();
         }
+        public async Task<CreateScoreForQuestionResult> AddQuestionScore(long userId, long questionId, QuestionScoreType type)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(questionId);
+            if (question == null) return CreateScoreForQuestionResult.Error;
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return CreateScoreForQuestionResult.UserDontLogged;
+
+            if (await _questionRepository.IsExistQuestionScoreByUserIdAsync(userId, questionId))
+                return CreateScoreForQuestionResult.UserCreateScoreBefore;
+
+            if (type == QuestionScoreType.Minus)
+                if (user.Score < _scoreManagement.MinScoreForDownScoreAnswer)
+                    return CreateScoreForQuestionResult.NotEnoughScoreForDown;
+
+            if (type == QuestionScoreType.Plus)
+                if (user.Score < _scoreManagement.MinScoreForUpScoreAnswer)
+                    return CreateScoreForQuestionResult.NotEnoughScoreForUp;
+
+            var score = new QuestionUserScore
+            {
+                QuestionId = questionId,
+                UserId = userId,
+                ScoreType = type
+            };
+
+            await _questionRepository.AddScoreToQuestionByUser(score);
+
+            if (type == QuestionScoreType.Plus)
+                question.Score++;
+            if (type == QuestionScoreType.Minus)
+                question.Score--;
+
+            await _questionRepository.updateQuestionAsync(question);
+
+            await _questionRepository.SaveChangesAsync();
+
+            return CreateScoreForQuestionResult.Success;
+
+        }
+        public async Task<bool> AddQuestionToBookMark(long userId, long questionId)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(questionId);
+            if (question == null) return false;
+
+            var bookMark = await _questionRepository.GetQuestionBookMarkByQuestionAndUserId(userId, questionId);
+
+            if (bookMark != null)
+            {
+                await _questionRepository.RemoveQuestionToBookMarkAsync(bookMark);
+            }
+            else
+            {
+                bookMark = new UserQuestionBookMark
+                {
+                    QuestionId = questionId,
+                    UserId = userId
+                };
+
+                await _questionRepository.AddQuestionToBookMarkAsync(bookMark);
+            }
+
+            await _questionRepository.SaveChangesAsync();
+            return true;
+
+            //var qustion = await _questionRepository.GetQuestionByIdAsync(questionId);
+            //if (qustion == null) return false;
+
+            //if (await _questionRepository.IsExistsQuestionInUserBookMarks(userId, questionId))
+            //{
+            //    var bookMark = await _questionRepository.GetQuestionBookMarkByQuestionAndUserId(userId, questionId);
+            //    if (bookMark == null) return false;
+            //    await _questionRepository.RemoveQuestionToBookMarkAsync(bookMark);
+            //}
+            //else
+            //{
+            //    var bookMark = new UserQuestionBookMark
+            //    {
+            //        QuestionId = questionId,
+            //        UserId = userId
+            //    };
+
+            //    await _questionRepository.AddQuestionToBookMarkAsync(bookMark);
+
+            //}
+            //await _questionRepository.SaveChangesAsync();
+            //return true;
+
+        }
+
+        public async Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId)
+        {
+            return await _questionRepository.IsExistsQuestionInUserBookMarks(userId, questionId);
+        }
         #endregion
 
         #region Answer
@@ -346,8 +441,6 @@ namespace BugFixer.Application.Services.Implementation
 
             return CreateScoreForAnswerResult.Success;
         }
-
-
         #endregion
 
     }

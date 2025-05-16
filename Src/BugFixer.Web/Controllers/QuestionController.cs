@@ -120,6 +120,13 @@ namespace BugFixer.Web.Controllers
 
             if (question == null) return NotFound();
 
+            ViewBag.IsBookMark = false;
+
+            if(User.Identity.IsAuthenticated && await _questionService.IsExistQuestionScoreByUserIdAsync(HttpContext.User.GetUserId(), questionId))
+            {
+                ViewBag.IsBookMark = true;
+            }
+
             var userIP = Request.HttpContext.Connection.RemoteIpAddress?.ToString();
 
             if (userIP != null) await _questionService.AddViewForQuestionAsync(userIP, question);
@@ -222,6 +229,70 @@ namespace BugFixer.Web.Controllers
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+        }
+        #endregion
+
+        #region Score Question
+        [HttpPost("ScoreQuestionPlus")]
+        public async Task<IActionResult> ScoreQuestionPlus(long questionId)
+        {
+            var result = await _questionService.AddQuestionScore(HttpContext.User.GetUserId(), questionId, QuestionScoreType.Plus);
+
+            switch (result)
+            {
+                case CreateScoreForQuestionResult.Error:
+                    return new JsonResult(new { status = "Error" });
+                case CreateScoreForQuestionResult.NotEnoughScoreForDown:
+                    return new JsonResult(new { status = "NotEnoughScoreForDown" });
+                case CreateScoreForQuestionResult.NotEnoughScoreForUp:
+                    return new JsonResult(new { status = "NotEnoughScoreForUp" });
+                case CreateScoreForQuestionResult.Success:
+                    return new JsonResult(new { status = "Success" });
+                case CreateScoreForQuestionResult.UserCreateScoreBefore:
+                    return new JsonResult(new { status = "UserCreateScoreBefore" });
+                case CreateScoreForQuestionResult.UserDontLogged:
+                    return new JsonResult(new { status = "UserDontLogged" });
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+
+        [HttpPost("ScoreQuestionMinus")]
+        public async Task<IActionResult> ScoreQuestionMinus(long questionId)
+        {
+            var result = await _questionService.AddQuestionScore(HttpContext.User.GetUserId(), questionId, QuestionScoreType.Plus);
+
+            switch (result)
+            {
+                case CreateScoreForQuestionResult.Error:
+                    return new JsonResult(new { status = "Error" });
+                case CreateScoreForQuestionResult.NotEnoughScoreForDown:
+                    return new JsonResult(new { status = "NotEnoughScoreForDown" });
+                case CreateScoreForQuestionResult.NotEnoughScoreForUp:
+                    return new JsonResult(new { status = "NotEnoughScoreForUp" });
+                case CreateScoreForQuestionResult.Success:
+                    return new JsonResult(new { status = "Success" });
+                case CreateScoreForQuestionResult.UserCreateScoreBefore:
+                    return new JsonResult(new { status = "UserCreateScoreBefore" });
+                case CreateScoreForQuestionResult.UserDontLogged:
+                    return new JsonResult(new { status = "UserDontLogged" });
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+        #endregion
+
+        #region Add Question To BookMark
+        [HttpPost("AddQueestionToBookMark")]
+        public async Task<IActionResult> AddQueestionToBookMark(long questionId)
+        {
+            if (!User.Identity.IsAuthenticated) return new JsonResult(new { status = "NotAuthorized" });
+
+            var result = await _questionService.AddQuestionToBookMark(HttpContext.User.GetUserId(), questionId);
+
+            if (result == false) return new JsonResult(new { status = "Error" });
+
+            return new JsonResult(new { status = "Success" });
         }
         #endregion
     }

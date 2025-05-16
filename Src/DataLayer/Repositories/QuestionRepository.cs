@@ -1,8 +1,10 @@
-﻿using BugFixer.Domain.Entities.Questions;
+﻿using BugFixer.Domain.Entities.Account;
+using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Interfaces;
 using DataLayer.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace BugFixer.DataLayer.Repositories
 {
@@ -88,6 +90,41 @@ namespace BugFixer.DataLayer.Repositories
         {
             _context.Questions.Update(question);
         }
+        public async Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId)
+        {
+            return await _context.QuestionUserScores.AnyAsync(s => s.UserId == userId && s.QuestionId == questionId);
+        }
+        public async Task AddScoreToQuestionByUser(QuestionUserScore questionUserScore)
+        {
+            await _context.QuestionUserScores.AddAsync(questionUserScore);
+        }
+        public async Task AddQuestionToBookMarkAsync(UserQuestionBookMark bookMark)
+        {
+            await _context.BookMarks.AddAsync(bookMark);
+        }
+
+        public async Task RemoveQuestionToBookMarkAsync(UserQuestionBookMark bookMark)
+        {
+             _context.Remove(bookMark);
+        }
+
+        public async Task<bool> IsExistsQuestionInUserBookMarks(long userId, long questionId)
+        {
+            return await _context.BookMarks.AnyAsync(s => s.UserId == userId && s.QuestionId == questionId);
+        }
+
+        public async Task<UserQuestionBookMark?> GetQuestionBookMarkByQuestionAndUserId(long userId, long questionId)
+        {
+            return await _context.BookMarks.FirstOrDefaultAsync(s => s.UserId == userId && s.QuestionId == questionId);
+        }
+        public void SaveChange()
+        {
+            _context.SaveChanges();
+        }
+        public async Task<IDbContextTransaction> BeginTransactionAsync()
+        {
+            return await _context.Database.BeginTransactionAsync();
+        }
         #endregion
 
         #region Selecte Question Tags
@@ -145,6 +182,8 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.QuestionViews.AddAsync(questionView);
         }
+
+
         #endregion
     }
 }
