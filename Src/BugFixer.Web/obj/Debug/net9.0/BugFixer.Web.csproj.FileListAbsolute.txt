@@ -10655,6 +10655,7 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\refint
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\BugFixer.Web.pdb
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\BugFixer.Web.genruntimeconfig.cache
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\ref\BugFixer.Web.dll
-C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\compressed\53d2l65u52-76o7xk3d9m.gz
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\compressed\iihhe67jgr-s8tl1lt6of.gz
-C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\compressed\fkukfqungx-9rt0qjm5fn.gz
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\compressed\53d2l65u52-dgcdtcarht.gz
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\bin\Debug\net9.0\HtmlAgilityPack.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\obj\Debug\net9.0\compressed\fkukfqungx-njsa6pdoqs.gz

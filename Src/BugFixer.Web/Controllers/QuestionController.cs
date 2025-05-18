@@ -6,6 +6,7 @@ using BugFixer.Domain.Enums;
 using BugFixer.Domain.ViewModels.Question;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace BugFixer.Web.Controllers
@@ -123,7 +124,7 @@ namespace BugFixer.Web.Controllers
         }
         #endregion
 
-        #region Get Tags
+        #region Get Tags Ajax
         [HttpGet("get-tags")]
         public async Task<IActionResult> GetTagsForSuggest(string? name)
         {
@@ -134,6 +135,20 @@ namespace BugFixer.Web.Controllers
             var filteredTags = tags.Where(u => u.Title.Contains(name)).Select(u => u.Title).ToList();
 
             return Json(filteredTags);
+        }
+        #endregion
+
+        #region Get Question Ajax
+        [HttpGet("get-questions")]
+        public async Task<IActionResult> GetQuestionsForSuggest(string name)
+        {
+            if (string.IsNullOrEmpty(name)) return Json(null);
+
+            var questions = await _questionService.GetAllQuestion();
+
+            var filterQuestions = await questions.Where(s => s.Title.Contains(name)).Select(s => s.Title).ToListAsync();
+
+            return Json(filterQuestions);
         }
         #endregion
 
@@ -232,7 +247,7 @@ namespace BugFixer.Web.Controllers
         [Authorize]
         public async Task<IActionResult> EditAnswer(long answerId)
         {
-            
+
             var result = await _questionService.FillEditAnswerViewModel(answerId, HttpContext.User.GetUserId());
 
             if (result == null) return NotFound();
@@ -248,7 +263,7 @@ namespace BugFixer.Web.Controllers
             edit.UserId = HttpContext.User.GetUserId();
 
             var result = await _questionService.EditAnswer(edit);
-           
+
             if (result)
             {
                 TempData[SuccessMessage] = "عملیات با موفقیت انجام شد";
@@ -377,7 +392,7 @@ namespace BugFixer.Web.Controllers
         #endregion
 
         #region Add Question To BookMark
-        [HttpPost("AddQueestionToBookMark")]
+        [HttpGet("AddQueestionToBookMark")]
         public async Task<IActionResult> AddQueestionToBookMark(long questionId)
         {
             if (!User.Identity.IsAuthenticated) return new JsonResult(new { status = "NotAuthorized" });

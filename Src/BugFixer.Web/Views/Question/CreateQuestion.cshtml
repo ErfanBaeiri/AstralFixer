@@ -100,12 +100,17 @@
 
 @section Scripts {
     <partial name="_JqueryValidation" />
+    <partial name="_AutocompletePartial" />
     <script src="~/js/question.js"></script>
     <script src="~/common/magicsuggest/magicsuggest.js"> </script>
     <script>
+           jQuery.fn.size = function() {
+           return this.length;
+        };
+
          $(function (){
-        var ms =  $(`#SelectedTags`).magicSuggest({
-                    data: '/get-tags',
+         var ms =  $(`#SelectedTags`).magicSuggest({
+                    data: '/Question/get-tags',
                     queryParam: 'name',
                     method: 'get',
                     minChars: 2,

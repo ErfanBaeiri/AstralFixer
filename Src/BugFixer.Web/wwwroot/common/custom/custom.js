@@ -398,8 +398,8 @@ function ScoreDownForQuestion(questionId) {
 
 function AddQuestionToBookMark(questionId) {
     $.ajax({
-        url: "/AddQueestionToBookMark",
-        type: "POST",
+        url: "/Question/AddQueestionToBookMark",
+        type: "get",
         data: {
             questionId: questionId
         },

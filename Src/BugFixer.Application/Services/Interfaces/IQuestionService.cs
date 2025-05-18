@@ -2,6 +2,7 @@
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Enums;
 using BugFixer.Domain.ViewModels.Question;
+using BugFixer.Domain.ViewModels.UserPanel.Question;
 
 namespace BugFixer.Application.Services.Interfaces
 {
@@ -24,6 +25,8 @@ namespace BugFixer.Application.Services.Interfaces
         Task<bool> IsExistQuestionScoreByUserIdAsync(long userId, long questionId);
         Task<EditQuestionViewModel?> FillEditQuestionViewModel(long userId, long questionId);
         Task<bool> EditQuestionAsync(EditQuestionViewModel edit);
+        Task<IQueryable<Question>> GetAllQuestion();
+        Task<FilterQuestionBookMarksViewModel> FilterQuestionBookMarks(FilterQuestionBookMarksViewModel filter);
         #endregion
 
         #region Answer

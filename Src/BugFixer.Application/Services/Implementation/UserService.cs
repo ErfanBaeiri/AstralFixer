@@ -166,6 +166,12 @@ namespace BugFixer.Application.Services.Implementation
         {
             var user = await _userRepository.GetUserByIdAsync(userId);
 
+            #region Delete User Avatar
+            if (user.Avatar != PathTools.DefaultUserAvatar)
+                user.Avatar.DeleteFile(PathTools.UserAvatarFullPath);
+            #endregion
+
+
             user.Avatar = avatarFileName.SanitizeText();
 
             await _userRepository.UpdateUser(user);

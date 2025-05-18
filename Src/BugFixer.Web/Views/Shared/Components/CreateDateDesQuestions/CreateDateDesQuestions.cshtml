@@ -1,0 +1,18 @@
+﻿@using BugFixer.Domain.ViewModels.Question
+@model FilterQuestionViewModel
+<article>
+    <header><h2> جدیدترین پرسش های  </h2></header>
+    <ul>
+        @if (Model != null && Model.Entities.Any())
+        {
+            foreach (var question in Model.Entities)
+            {
+                <li>
+                    <span> @question.Score <i class="icon-comment"></i></span>
+                    <h2><a asp-action="QuestionList" asp-controller="Question" asp-route-questionId="@question.QuestionId"> @question.Title </a></h2>
+                </li>
+            }
+        }
+
+    </ul>
+</article>

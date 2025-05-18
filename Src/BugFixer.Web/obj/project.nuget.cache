@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NTRGTHALyMo=",
+  "dgSpecHash": "8BTULa6+pfI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\BugFixer.Web.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Tolu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\googlerecaptcha.v3\\1.3.1\\googlerecaptcha.v3.1.3.1.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\htmlagilitypack\\1.12.1\\htmlagilitypack.1.12.1.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\htmlsanitizer\\9.0.876\\htmlsanitizer.9.0.876.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Tolu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

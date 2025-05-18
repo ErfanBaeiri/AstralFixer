@@ -17,6 +17,8 @@
         #region Static Path for upload imag in CkEditor
         // Path for save ckeditor image in wwwroot folder
         public static readonly string CkEditorImageFullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/content/ckeditor");
+        public static readonly string CkEditorReadImage = "/content/ckeditor";
+
         #endregion
     }
 }

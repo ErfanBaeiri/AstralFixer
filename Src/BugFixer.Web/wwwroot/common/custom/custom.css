@@ -6,6 +6,18 @@
     padding-bottom: 15px;
 }
 
+.ui-menu-item-wrapper {
+    font-family: 'IRANSans' !important;
+    padding: 6px !important;
+}
+
+.ui-autocomplete {
+    max-height: 150px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
 .mt-50 {
     margin-top: 50px;
 }

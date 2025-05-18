@@ -37,6 +37,7 @@ namespace BugFixer.Domain.Interfaces
         Task<bool> IsExistsQuestionInUserBookMarks(long userId, long questionId);
         Task<UserQuestionBookMark?> GetQuestionBookMarkByQuestionAndUserId(long userId, long questionId);
         Task<IDbContextTransaction> BeginTransactionAsync();
+        Task<IQueryable<UserQuestionBookMark>> GetAllBookMarks();
         void SaveChange();
         #endregion
 

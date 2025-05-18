@@ -132,6 +132,11 @@ namespace BugFixer.DataLayer.Repositories
         {
             return await _context.Database.BeginTransactionAsync();
         }
+        public async Task<IQueryable<UserQuestionBookMark>> GetAllBookMarks()
+        {
+            return _context.BookMarks.Include(s => s.Question).AsQueryable();
+        }
+
         #endregion
 
         #region Selecte Question Tags
@@ -193,6 +198,7 @@ namespace BugFixer.DataLayer.Repositories
         {
             await _context.QuestionViews.AddAsync(questionView);
         }
+
 
 
         #endregion

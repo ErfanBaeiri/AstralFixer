@@ -1,6 +1,7 @@
 ﻿using BugFixer.Application.Extensions;
 using BugFixer.Application.Security;
 using BugFixer.Application.Services.Interfaces;
+using BugFixer.Application.Statics;
 using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
@@ -8,6 +9,7 @@ using BugFixer.Domain.Enums;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.Question;
+using BugFixer.Domain.ViewModels.UserPanel.Question;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
@@ -356,6 +358,8 @@ namespace BugFixer.Application.Services.Implementation
 
             if (question.UserId != edit.UserId && !user.IsAdmin) return false;
 
+            FileExtension.ManageEditorImages(question.Content, edit.Description, PathTools.CkEditorImageFullPath);
+
             #region Delete Current Tags
             question.Title = edit.Title;
             question.Content = edit.Description;
@@ -396,6 +400,23 @@ namespace BugFixer.Application.Services.Implementation
             return true;
 
         }
+
+        public async Task<IQueryable<Question>> GetAllQuestion()
+        {
+            return await _questionRepository.GetAllQuestions();
+        }
+
+        public async Task<FilterQuestionBookMarksViewModel> FilterQuestionBookMarks(FilterQuestionBookMarksViewModel filter)
+        {
+            var query = await _questionRepository.GetAllBookMarks();
+
+            query = query.Where(s => s.UserId == filter.UserId);
+
+            await filter.SetPaging(query.Select(s => s.Question).AsQueryable());
+
+            return filter;
+        }
+
         #endregion
 
         #region Answer
@@ -507,7 +528,7 @@ namespace BugFixer.Application.Services.Implementation
             {
                 Answer = answer.Content,
                 AnswerId = answer.Id,
-                QuestionId=answer.QuestionId
+                QuestionId = answer.QuestionId
             };
 
         }
