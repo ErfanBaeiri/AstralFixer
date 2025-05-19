@@ -1,6 +1,7 @@
 ﻿using BugFixer.Domain.Entities.Questions;
 using BugFixer.Domain.Entities.Tags;
 using BugFixer.Domain.Enums;
+using BugFixer.Domain.ViewModels.Admin.Tag;
 using BugFixer.Domain.ViewModels.Question;
 using BugFixer.Domain.ViewModels.UserPanel.Question;
 
@@ -37,6 +38,10 @@ namespace BugFixer.Application.Services.Interfaces
         Task<CreateScoreForAnswerResult> CreateScoreForAnswer(long userId, long answerId, AnswerScoreType type);
         Task<EditAnswerViewModel> FillEditAnswerViewModel(long answerId,long userId);
         Task<bool> EditAnswer(EditAnswerViewModel editAnswer);
+        #endregion
+
+        #region Admin
+        Task<List<TagViewModelJson>> GetTagViewModelJson();
         #endregion
     }
 }

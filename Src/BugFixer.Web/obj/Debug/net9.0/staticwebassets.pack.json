@@ -5,6 +5,1794 @@
       "PackagePath": "staticwebassets\\BugFixer.Web.phxwaf02vi.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095-rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095-rtl.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095-rtl.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\4095.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\4095.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\400-500.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\400-500.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\accordions.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\accordions.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\alerts.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\animations.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\animations.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\body.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\body.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\breadcrumbs.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\buttons.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\charts.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\charts.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\chat.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\chat.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\checkbox-radiobox.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\checkbox-radiobox.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\colorpicker.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\colorpicker.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\colors.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\colors.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\comment.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\comment.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\dashboard.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\dashboard.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\databoxes.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\databoxes.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\datepicker.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\datepicker.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\daterangepicker.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\daterangepicker.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\dropdowns.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\dropdowns.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\dropzone.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\dropzone.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\editors.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\editors.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\fonts.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\fonts.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\forms-inputs.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\forms-inputs.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\fullcalendar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\fullcalendar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\helpers.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\helpers.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\invoice.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\invoice.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\labels-badges.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\labels-badges.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\loading.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\loading.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\lockscreen.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\lockscreen.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\login.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\login.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\mail.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\mail.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\main-container.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\main-container.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\modals.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\modals.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\navbar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\navbar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\nestable-lists.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\nestable-lists.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\notifications.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\notifications.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\orders.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\orders.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\page-content.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\page-content.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\page-header-body.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\page-header-body.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\pagination.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\popovers.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\popovers.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\pricing.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\pricing.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\profile.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\profile.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\progressbars.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\progressbars.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\register.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\register.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\search-help-bar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\search-help-bar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\select2.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\select2.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\sidebar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\sidebar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\sliders.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\sliders.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\spaces.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\spaces.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\spinners.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\spinners.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\switches.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\switches.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tables.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tables.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tabs.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tabs.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tagsinput.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tagsinput.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tasks.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tasks.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tickets.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tickets.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\timeline.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\timeline.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\timepicker.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\timepicker.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\tooltips.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\tooltips.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\treeview.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\treeview.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\typography.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\typography.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\validator.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\validator.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\variables.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\wells.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\wells.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\widget.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\widget.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-less\\wizards.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-less\\wizards.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-rtl.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond-rtlV3.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond-rtlV3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\beyond.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\beyond.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\.csscomb.json",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\.csscomb.json"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\.csslintrc",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\.csslintrc"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\alerts.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\badges.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\badges.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\bootstrap.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\bootstrap.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\breadcrumbs.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\button-groups.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\button-groups.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\buttons.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\carousel.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\carousel.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\close.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\close.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\code.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\code.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\component-animations.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\component-animations.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\dropdowns.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\dropdowns.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\forms.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\glyphicons.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\glyphicons.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\grid.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\input-groups.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\input-groups.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\jumbotron.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\jumbotron.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\labels.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\list-group.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\media.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\media.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\alerts.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\background-variant.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\background-variant.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\border-radius.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\border-radius.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\buttons.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\center-block.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\center-block.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\clearfix.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\clearfix.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\forms.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\gradients.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\gradients.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\grid-framework.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\grid-framework.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\grid.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\hide-text.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\hide-text.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\image.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\image.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\labels.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\list-group.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\nav-divider.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\nav-divider.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\nav-vertical-align.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\nav-vertical-align.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\opacity.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\opacity.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\pagination.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\panels.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\progress-bar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\progress-bar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\reset-filter.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\reset-filter.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\reset-text.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\reset-text.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\resize.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\resize.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\responsive-visibility.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\responsive-visibility.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\size.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\size.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\tab-focus.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\tab-focus.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\table-row.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\table-row.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\text-emphasis.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\text-emphasis.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\text-overflow.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\text-overflow.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\mixins\\vendor-prefixes.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\mixins\\vendor-prefixes.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\modals.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\modals.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\navbar.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\navbar.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\navs.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\navs.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\normalize.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\normalize.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\pager.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\pager.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\pagination.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\panels.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\popovers.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\popovers.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\print.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\print.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\progress-bars.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\progress-bars.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\responsive-embed.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\responsive-embed.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\responsive-utilities.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\responsive-utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\scaffolding.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\scaffolding.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\tables.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\tables.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\theme.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\theme.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\thumbnails.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\thumbnails.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\tooltip.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\tooltip.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\type.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\type.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\utilities.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\variables.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-less\\wells.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-less\\wells.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\alerts-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\alerts-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\badges-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\badges-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\button-groups-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\button-groups-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\carousel-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\carousel-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\close-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\close-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\dropdowns-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\dropdowns-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\forms-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\forms-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\grid-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\grid-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\input-groups-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\input-groups-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\list-group-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\list-group-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\media-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\media-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\merged-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\merged-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins\\gradients-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins\\gradients-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins\\grid-framework-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins\\grid-framework-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins\\grid-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins\\grid-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\mixins\\pagination-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\mixins\\pagination-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\modals-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\modals-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\navbar-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\navbar-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\navs-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\navs-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\normalize-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\normalize-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\pager-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\pager-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\pagination-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\pagination-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\panels-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\panels-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\popovers-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\popovers-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\progress-bars-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\progress-bars-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\responsive-embed-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\responsive-embed-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\tables-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\tables-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\type-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\type-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\utilities-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\utilities-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl-less\\variables-rtl.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl-less\\variables-rtl.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtl.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtlV3.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtlV3.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap-rtlV3.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-rtlV3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\bootstrapV3.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrapV3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\dataTables.bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\dataTables.bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\demo.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\demo.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\demo.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\demo.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\demo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\other-less\\LessHat.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\other-less\\LessHat.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\other-less\\lesshat.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\other-less\\lesshat.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\other-less\\lesshat.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\other-less\\lesshat.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\Blue.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\Blue.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\Blue.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\Blue.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\azure.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\azure.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\azure.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\azure.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\azure.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\azure.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\azure.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\azure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\black.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\black.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\black.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\black.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\black.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\black.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\black.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\black.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\blue.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\blue.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\blue.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\blue.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkblue.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkblue.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkblue.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkblue.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkblue.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkblue.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkblue.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkblue.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkred.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkred.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkred.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkred.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkred.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkred.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\darkred.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\darkred.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\deepblue.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\deepblue.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\deepblue.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\deepblue.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\deepblue.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\deepblue.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\deepblue.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\deepblue.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\gray.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\gray.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\gray.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\gray.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\gray.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\gray.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\gray.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\gray.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\green.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\green.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\green.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\green.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\green.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\green.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\green.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\orange.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\orange.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\orange.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\orange.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\orange.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\orange.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\orange.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\orange.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\pink.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\pink.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\pink.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\pink.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\pink.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\pink.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\pink.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\pink.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\purple.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\purple.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\purple.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\purple.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\purple.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\purple.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\purple.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\purple.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\skins-mixins.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\skins-mixins.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\skins-mixins.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\skins-mixins.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\skins-mixins.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\skins-mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\skins-mixins.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\skins-mixins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\teal.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\teal.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\teal.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\teal.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\teal.less",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\teal.less"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\skins\\teal.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\skins\\teal.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\typicons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\typicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\typicons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\typicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\weather-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\weather-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\css\\weather-icons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\weather-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\BYekan.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\BYekan.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\WeatherIcons-Regular.otf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\WeatherIcons-Regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\YekanWeb-Bold.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\YekanWeb-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\YekanWeb-Regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\YekanWeb-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\typicons.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\typicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\typicons.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\typicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\typicons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\typicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\typicons.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\typicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\fonts\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\angle-down.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\angle-down.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\app-45616.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\app-45616.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\app.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\app.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\attach-blue.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\attach-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\attach-green.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\attach-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\attach-red.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\attach-red.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\attach-yellow.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\attach-yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Javi-Jimenez.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Javi-Jimenez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\John-Smith.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\John-Smith.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Lee-Munroe.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Lee-Munroe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Matt-Cheuvront.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Matt-Cheuvront.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Nicolai-Larson.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Nicolai-Larson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Osvaldus-Valutis.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Osvaldus-Valutis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Sergey-Azovskiy.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Sergey-Azovskiy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\Stephanie-Walter.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\Stephanie-Walter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\adam-jansen.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\adam-jansen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\bing.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\bing.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\avatars\\divyia.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\divyia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\jquery.minicolors.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\jquery.minicolors.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\logo-inverted.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo-inverted.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\logo-rtl.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\logo-solo.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo-solo.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\sort_both.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\temp1.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\temp1.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\img\\tree-icons.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\tree-icons.png"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\beyond.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\beyond.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\beyond.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\beyond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\beyond.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\beyond.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\bootstrapV3.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrapV3.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\bootstrapV3.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrapV3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\bootbox\\bootbox.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\bootbox\\bootbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\bootbox\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\bootbox\\bootbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\bootbox\\bootbox.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\bootbox\\bootbox.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\chartjs\\Chart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\chartjs\\Chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\chartjs\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\chartjs\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\chartjs\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\chartjs\\chartjs-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\easypiechart\\easypiechart-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\easypiechart\\easypiechart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\easypiechart\\jquery.easypiechart.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\flot-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\flot-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.axislabels.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.axislabels.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.categories.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.categories.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.categories.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.categories.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.crosshair.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.crosshair.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.fillbetween.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.fillbetween.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.fillbetween.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.fillbetween.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.orderBars.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.orderBars.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.pie.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.selection.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.selection.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.selection.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.selection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.stack.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.stack.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.time.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.time.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.time.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\flot\\jquery.flot.tooltip.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\morris\\morris-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\morris\\morris-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\morris\\morris.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\morris\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\morris\\raphael-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\morris\\raphael-2.0.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\sparkline\\jquery.sparkline.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\sparkline\\jquery.sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\charts\\sparkline\\sparkline-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts\\sparkline\\sparkline-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\colorpicker\\jquery.minicolors.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\colorpicker\\jquery.minicolors.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\colorpicker\\jquery.minicolors.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\colorpicker\\jquery.minicolors.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\ZeroClipboard.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\ZeroClipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.tableTools.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.tableTools.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.tableTools.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.tableTools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\dataTables.tableTools.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\dataTables.tableTools.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\datatables-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\datatables-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datatable\\jquery.dataTables.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatable\\jquery.dataTables.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\bootstrap-timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\bootstrap-timepicker.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\bootstrap-timepicker.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\moment.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\datetime\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datetime\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\editors\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\editors\\summernote\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\editors\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\editors\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\editors\\wysiwyg\\bootstrap-wysiwyg.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\editors\\wysiwyg\\bootstrap-wysiwyg.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\editors\\wysiwyg\\jquery.hotkeys.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\editors\\wysiwyg\\jquery.hotkeys.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\editors\\wysiwyg\\prettify.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\editors\\wysiwyg\\prettify.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\spinbox\\fuelux.spinbox.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\treeview\\tree-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\treeview\\tree-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\treeview\\tree-custom.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\treeview\\tree-custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\treeview\\tree-custom.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\treeview\\tree-custom.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\treeview\\treeview-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\treeview\\treeview-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\wizard\\wizard-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\wizard\\wizard-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\wizard\\wizard-custom.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\wizard\\wizard-custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fuelux\\wizard\\wizard-custom.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\fuelux\\wizard\\wizard-custom.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fullcalendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fullcalendar\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\fullcalendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\inputmask\\jasny-bootstrap.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\inputmask\\jasny-bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\inputmask\\jasny-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\inputmask\\jasny-bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\jquery-ui-1.10.4.custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-ui-1.10.4.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\jquery-ui-1.10.4.custom.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-ui-1.10.4.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\knob\\jquery.knob.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\nestable\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\nestable\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\select2\\select2.full.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select2\\select2.full.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\skins.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\skins.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\skins.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\skins.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\skins.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\skins.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slider\\jQRangeSlider\\jQAllRangeSliders-withRuler-min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slider\\jQRangeSlider\\jQAllRangeSliders-withRuler-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slider\\jQRangeSlider\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slider\\jQRangeSlider\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slider\\jquery.nouislider.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slider\\jquery.nouislider.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\slimscroll\\jquery.slimscroll.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\slimscroll\\jquery.slimscroll.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\tagsinput\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tagsinput\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\tagsinput\\bootstrap-tagsinput.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\tagsinput\\bootstrap-tagsinput.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\textarea\\jquery.autosize.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\textarea\\jquery.autosize.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\textarea\\jquery.autosize.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\textarea\\jquery.autosize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\toastr\\toastr.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\toastr\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\toastr\\toastr.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\toastr\\toastr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\validation\\bootstrapValidator.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\validation\\bootstrapValidator.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\validation\\bootstrapValidator.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\validation\\bootstrapValidator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\js\\validation\\bootstrapValidator.min.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\validation\\bootstrapValidator.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\sound\\alert.mp3",
+      "PackagePath": "staticwebassets\\Admin\\sound\\alert.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\swf\\copy_csv_xls.swf",
+      "PackagePath": "staticwebassets\\Admin\\swf\\copy_csv_xls.swf"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Admin\\swf\\copy_csv_xls_pdf.swf",
+      "PackagePath": "staticwebassets\\Admin\\swf\\copy_csv_xls_pdf.swf"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\bugfixer.css",
       "PackagePath": "staticwebassets\\Font package\\bugfixer.css"
     },
@@ -59,6 +1847,14 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\Font package\\fonts\\bugfixer.woff",
       "PackagePath": "staticwebassets\\Font package\\fonts\\bugfixer.woff"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\chart-js\\chart-js-plugin.js",
+      "PackagePath": "staticwebassets\\common\\chart-js\\chart-js-plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\chart-js\\chart-js.js",
+      "PackagePath": "staticwebassets\\common\\chart-js\\chart-js.js"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\ckeditor\\$R1ANF02.json",
@@ -353,12 +2149,20 @@
       "PackagePath": "staticwebassets\\common\\ckeditor\\webpack.config.js"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom-chart.js",
+      "PackagePath": "staticwebassets\\common\\custom\\custom-chart.js"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
       "PackagePath": "staticwebassets\\common\\custom\\custom.css"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom.js",
       "PackagePath": "staticwebassets\\common\\custom\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\manage-tags.js",
+      "PackagePath": "staticwebassets\\common\\custom\\manage-tags.js"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\jquery-validation\\jquery.unobtrusive-ajax.js",
@@ -433,8 +2237,16 @@
       "PackagePath": "staticwebassets\\content\\ckeditor\\703f60ab-721a-4110-b2c1-0168a2e028e4photo_2025-04-13_11-15-46.jpg"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\7cd615d3-5782-4084-9e1a-06af47c82f93f4078b3de65997e142f0e106269d495c.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\7cd615d3-5782-4084-9e1a-06af47c82f93f4078b3de65997e142f0e106269d495c.jpg"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\87a7255e-952c-4eed-aca3-83512a871e24f4078b3de65997e142f0e106269d495c.jpg",
       "PackagePath": "staticwebassets\\content\\ckeditor\\87a7255e-952c-4eed-aca3-83512a871e24f4078b3de65997e142f0e106269d495c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\9543dedc-6ee0-4e4f-b8d7-60153172b9931.jpg",
+      "PackagePath": "staticwebassets\\content\\ckeditor\\9543dedc-6ee0-4e4f-b8d7-60153172b9931.jpg"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\content\\ckeditor\\984c32d8-25dd-45ca-8133-da1a2b21c68ff4078b3de65997e142f0e106269d495c.jpg",
