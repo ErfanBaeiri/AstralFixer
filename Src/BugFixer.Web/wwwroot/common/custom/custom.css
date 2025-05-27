@@ -18,12 +18,21 @@
     overflow-x: hidden;
 }
 
+.admin-error-style {
+    color: tomato;
+    font-size: 13px;
+}
+
 .vertical-align-middle {
     vertical-align: middle !important;
 }
 
 .mt-50 {
     margin-top: 50px;
+}
+
+.mt-30 {
+    margin-bottom: 30px !important;
 }
 
 .mb-15 {

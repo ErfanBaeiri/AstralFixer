@@ -32,8 +32,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/_CreateTagPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfQ3JlYXRlVGFnUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/_EditTagPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfRWRpdFRhZ1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/_FilterTagsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfRmlsdGVyVGFnc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/_NotFoundDataPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfTm90Rm91bmREYXRhUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
@@ -46,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbk5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminPaging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblBhZ2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminScripts.cshtml]

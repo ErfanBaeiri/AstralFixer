@@ -567,6 +567,92 @@ namespace BugFixer.Application.Services.Implementation
                 UseCount = s.UseCount
             }).ToList();
         }
+        public async Task<FilterTagAdminViewModel> FilterTagAdmin(FilterTagAdminViewModel filter)
+        {
+            var query = await _questionRepository.GetAllTagsAsQueryableAsync();
+
+            if (!string.IsNullOrEmpty(filter.Title))
+            {
+                query = query.Where(s => s.Title.Contains(filter.Title));
+            }
+
+            switch (filter.Status)
+            {
+                case FilterTagAdminStatus.All:
+                    query = query.OrderByDescending(s => s.CreateDate);
+                    break;
+                case FilterTagAdminStatus.HasDescription:
+                    query = query.Where(s => !string.IsNullOrEmpty(s.Description));
+                    break;
+                case FilterTagAdminStatus.NoDescription:
+                    query = query.Where(s => string.IsNullOrEmpty(s.Description));
+                    break;
+            }
+
+            await filter.SetPaging(query);
+
+            return filter;
+        }
+        public async Task CreateTagAdmin(CreateTagAdminViewModel createTagAdminViewModel)
+        {
+            var tag = new Tag
+            {
+                Description = createTagAdminViewModel.Description,
+                Title = createTagAdminViewModel.Title,
+            };
+
+            await _questionRepository.AddTagAsync(tag);
+            await _questionRepository.SaveChangesAsync();
+        }
+
+        public async Task<EditTagAdminViewModel?> FillEditTagAdminViewModel(long id)
+        {
+            var tag = await _questionRepository.GetTagById(id);
+
+            if (tag == null || tag.IsDelete)
+                return null;
+
+            var result = new EditTagAdminViewModel
+            {
+                Description = tag.Description,
+                Id = tag.Id,
+                Title = tag.Title
+            };
+
+            return result;
+        }
+
+        public async Task<bool> EditTagAdmin(EditTagAdminViewModel edit)
+        {
+            var tag = await _questionRepository.GetTagById(edit.Id);
+
+            if (tag == null || tag.IsDelete)
+                return false;
+
+            tag.Title = edit.Title;
+            tag.Description = edit.Description;
+
+            await _questionRepository.UpdateTagAsync(tag);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<bool> DeleteTagAdmin(long id)
+        {
+            var tag = await _questionRepository.GetTagById(id);
+
+            if (tag == null || tag.IsDelete == true)
+                return false;
+
+            tag.IsDelete = true;
+
+            await _questionRepository.UpdateTagAsync(tag);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
+        }
+
         #endregion
 
     }

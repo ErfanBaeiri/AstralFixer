@@ -62,6 +62,10 @@ namespace BugFixer.DataLayer.Repositories
         {
             return _context.Tags.FirstOrDefaultAsync(u => u.Title == tag && !u.IsDelete);
         }
+        public async Task<Tag?> GetTagById(long tag)
+        {
+            return await _context.Tags.FirstOrDefaultAsync(s => s.Id == tag);
+        }
         public async Task UpdateTagAsync(Tag tag)
         {
             _context.Update(tag);

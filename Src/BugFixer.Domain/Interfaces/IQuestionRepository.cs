@@ -14,6 +14,7 @@ namespace BugFixer.Domain.Interfaces
         Task<IQueryable<Tag>> GetAllTagsAsQueryableAsync();
         Task<List<string>> GetTagListByQuestionIdAsync(long questionId);
         Task<Tag?> GetTagByName(string tag);
+        Task<Tag?> GetTagById(long tag);
         Task<bool> IsExistsTagByNameAsync(string tag);
         Task<int> RequestCountForTagAsync(string tag);
         Task AddTagAsync(Tag tag);

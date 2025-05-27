@@ -36,12 +36,17 @@ namespace BugFixer.Application.Services.Interfaces
         Task<bool> HasUserAccessToSelectTrueAnswer(long userId, long questionId);
         Task SelectTrueAnswer(long answerId);
         Task<CreateScoreForAnswerResult> CreateScoreForAnswer(long userId, long answerId, AnswerScoreType type);
-        Task<EditAnswerViewModel> FillEditAnswerViewModel(long answerId,long userId);
+        Task<EditAnswerViewModel> FillEditAnswerViewModel(long answerId, long userId);
         Task<bool> EditAnswer(EditAnswerViewModel editAnswer);
         #endregion
 
         #region Admin
         Task<List<TagViewModelJson>> GetTagViewModelJson();
+        Task<FilterTagAdminViewModel> FilterTagAdmin(FilterTagAdminViewModel filter);
+        Task CreateTagAdmin(CreateTagAdminViewModel createTagAdminViewModel);
+        Task<EditTagAdminViewModel?> FillEditTagAdminViewModel(long id);
+        Task<bool> EditTagAdmin(EditTagAdminViewModel edit);
+        Task<bool> DeleteTagAdmin(long id);
         #endregion
     }
 }
