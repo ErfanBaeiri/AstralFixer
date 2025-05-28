@@ -7,6 +7,7 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using BugFixer.Domain.ViewModels.Common;
+using BugFixer.Web.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<ICaptchaValidator, GoogleReCaptchaValidator>();
 
 builder.Services.Configure<ScoreManagementViewModel>(builder.Configuration.GetSection("ScoreManagement"));
+
+// configuration SignalR
+builder.Services.AddSignalR();
 
 
 // DbContext
@@ -47,7 +51,6 @@ builder.Services.AddSingleton<HtmlEncoder>(
 DependencyContainer.RegisterDependencies(builder.Services);
 #endregion
 
-
 #region MiddleWares
 var app = builder.Build();
 
@@ -60,38 +63,26 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseRouting();
 
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapStaticAssets();
-
-//app.UseEndpoints(endpoints =>
-//{
-//    // Register area routes
-//    endpoints.MapControllerRoute(
-//        name: "areas",
-//        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-
-//    // Default route
-//    endpoints.MapControllerRoute(
-//        name: "default",
-//        pattern: "{controller=Home}/{action=Index}/{id?}");
-//});
-
 
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.MapHub<OnlineUsersHub>("/hubs/online-users");
 
 app.Run();
 #endregion

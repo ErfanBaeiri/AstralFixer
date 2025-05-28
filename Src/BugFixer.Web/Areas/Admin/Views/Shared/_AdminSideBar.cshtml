@@ -11,6 +11,28 @@
         </li>
 
         <li>
+            <a asp-action="FilterUser" asp-controller="User" asp-area="Admin">
+                <i class="menu-icon fa fa-users"></i>
+                <span class="menu-text"> لیست کاربران </span>
+            </a>
+        </li>
+
+
+        <li>
+            <a asp-action="QuestionsList" asp-controller="Question" asp-area="Admin">
+                <i class="menu-icon fa fa-question"></i>
+                <span class="menu-text"> لیست سوالات </span>
+            </a>
+        </li>
+
+        <li>
+            <a asp-action="ShowOnlineUsers" asp-controller="Home" asp-area="Admin">
+                <i class="menu-icon fa fa-users"></i>
+                <span class="menu-text"> کاربران آنلاین </span>
+            </a>
+        </li>
+
+        <li>
             <a href="#" onclick="loadTagsModal('@Url.Action("LoadFilterTagsPartial","Home",new {area ="Admin"})')">
                 <i class="menu-icon glyphicon glyphicon-home"></i>
                 <span class="menu-text"> مدیریت تگ ها  </span>

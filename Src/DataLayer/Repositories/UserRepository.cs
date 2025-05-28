@@ -2,6 +2,7 @@
 using BugFixer.Domain.Interfaces;
 using DataLayer.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace BugFixer.DataLayer.Repositories
 {
@@ -53,5 +54,11 @@ namespace BugFixer.DataLayer.Repositories
                 .AsNoTracking() // Use AsNoTracking for read-only operations to improve performance
                 .FirstOrDefaultAsync(u => u.Id == id && !u.IsDelete);
         }
+
+        public IQueryable<User> GetAllUsers()
+        {
+            return _dbcontext.Users.Where(s => s.IsDelete == false).AsQueryable();
+        }
+
     }
 }

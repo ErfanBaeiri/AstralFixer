@@ -194,6 +194,18 @@ namespace BugFixer.Application.Services.Implementation
             }
             #endregion
 
+            switch (filterQuestion.CheckedStatus)
+            {
+                case FilterQuestionCheckedStatus.All:
+                    break;
+                case FilterQuestionCheckedStatus.IsChecked:
+                    query = query.Where(s => s.IsChecked);
+                    break;
+                case FilterQuestionCheckedStatus.NotChecked:
+                    query = query.Where(s => !s.IsChecked);
+                    break;
+            }
+
             switch (filterQuestion.Sort)
             {
                 case FilterQuestionEnum.NewToOld:
@@ -223,6 +235,7 @@ namespace BugFixer.Application.Services.Implementation
                     QuestionId = s.Id,
                     Score = s.Score,
                     Title = s.Title,
+                    IsChecked = s.IsChecked,
                     ViewCount = s.ViewCount,
                     UserQuestionName = s.User.GetUserDisplayName(),
                     Tags = s.SelectQuestionTags.Where(a => !a.Tag.IsDelete).Select(a => a.Tag.Title).ToList(),
@@ -653,6 +666,37 @@ namespace BugFixer.Application.Services.Implementation
             return true;
         }
 
+        #region Question
+
+        public async Task<bool> DeleteQuestion(long id)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(id);
+
+            if (question == null) return false;
+
+            question.IsDelete = true;
+
+            await _questionRepository.updateQuestionAsync(question);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<bool> ChangeQuestionIsCheck(long id)
+        {
+            var question = await _questionRepository.GetQuestionByIdAsync(id);
+
+            if (question == null) return false;
+
+            question.IsChecked = true;
+
+            await _questionRepository.updateQuestionAsync(question);
+            await _questionRepository.SaveChangesAsync();
+
+            return true;
+        }
+
+        #endregion
         #endregion
 
     }

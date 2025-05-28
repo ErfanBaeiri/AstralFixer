@@ -199,10 +199,12 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\js\modernizr.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\js\page.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\fuelux\treeview\tree-custom.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\ckeditor\LICENSE.md
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\signalr\admin-online-users.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\css\typicons.css
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\inputmask\jasny-bootstrap.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\ckeditor\build\translations\es.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\css\skins\darkblue.css
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\signalr\signalr.min.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\ckeditor\build\translations\en-au.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\tagsinput\bootstrap-tagsinput.min.js.map
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\toastr\toastr.min.js
@@ -230,6 +232,7 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\ckeditor
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\css\skins\deepblue.css
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\datatable\ZeroClipboard.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\js\home.js
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\signalr\client-online-users.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\css\skins\green.css.map
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\slimscroll\jquery.slimscroll.min.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\datatable\dataTables.tableTools.min.js.map
@@ -275,6 +278,7 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\charts
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\ckeditor\build\translations\ku.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\bootstrap.min.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\editors\wysiwyg\prettify.js
+C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\common\custom\admin-question.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\charts\bootbox\bootbox.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\js\select2\select2.min.js
 C:\Users\Tolu\Documents\GitHub\BugFixer\Src\BugFixer.Web\wwwroot\Admin\css\bootstrap-rtl-less\bootstrap-rtl.css.map
@@ -856,6 +860,7 @@ wwwroot\common\ckeditor\package-lock.json
 wwwroot\common\ckeditor\README.md
 wwwroot\common\ckeditor\src\ckeditor.js
 wwwroot\common\ckeditor\webpack.config.js
+wwwroot\common\custom\admin-question.js
 wwwroot\common\custom\custom.css
 wwwroot\common\custom\custom.js
 wwwroot\common\custom\custom-chart.js
@@ -870,6 +875,9 @@ wwwroot\common\kamadatepicker\kamadatepicker.min.css
 wwwroot\common\kamadatepicker\kamadatepicker.min.js
 wwwroot\common\magicsuggest\magicsuggest.css
 wwwroot\common\magicsuggest\magicsuggest.js
+wwwroot\common\signalr\admin-online-users.js
+wwwroot\common\signalr\client-online-users.js
+wwwroot\common\signalr\signalr.min.js
 wwwroot\common\sweetalert\sweetalert.js
 wwwroot\common\waitme\waitMe.min.css
 wwwroot\common\waitme\waitMe.min.js

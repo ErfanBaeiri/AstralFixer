@@ -1,5 +1,6 @@
 ﻿using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.ViewModels.Account;
+using BugFixer.Domain.ViewModels.Admin.User;
 using BugFixer.Domain.ViewModels.UserPanel.Account;
 
 namespace BugFixer.Application.Services.Interfaces
@@ -40,6 +41,10 @@ namespace BugFixer.Application.Services.Interfaces
 
         #region User Question / User Score and Medal
         Task UpdateUserScoreAndMedalAsync(long userId, int score);
+        #endregion
+
+        #region Admin
+        Task<FilterUserAdminViewModel> FilterUserAdmin(FilterUserAdminViewModel flter);
         #endregion
     }
 }

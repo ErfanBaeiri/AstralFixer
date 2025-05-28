@@ -95,5 +95,12 @@ namespace BugFixer.Web.Areas.Admin.Controllers
         }
         #endregion
 
+        #region Online Users
+        public IActionResult ShowOnlineUsers()
+        {
+            return View();
+        }
+        #endregion
+
     }
 }

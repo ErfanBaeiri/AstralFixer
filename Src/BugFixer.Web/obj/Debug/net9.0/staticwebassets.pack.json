@@ -2149,6 +2149,10 @@
       "PackagePath": "staticwebassets\\common\\ckeditor\\webpack.config.js"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\admin-question.js",
+      "PackagePath": "staticwebassets\\common\\custom\\admin-question.js"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\custom\\custom-chart.js",
       "PackagePath": "staticwebassets\\common\\custom\\custom-chart.js"
     },
@@ -2203,6 +2207,18 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\magicsuggest\\magicsuggest.js",
       "PackagePath": "staticwebassets\\common\\magicsuggest\\magicsuggest.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\signalr\\admin-online-users.js",
+      "PackagePath": "staticwebassets\\common\\signalr\\admin-online-users.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\signalr\\client-online-users.js",
+      "PackagePath": "staticwebassets\\common\\signalr\\client-online-users.js"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\common\\signalr\\signalr.min.js"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\Src\\BugFixer.Web\\wwwroot\\common\\sweetalert\\sweetalert.js",

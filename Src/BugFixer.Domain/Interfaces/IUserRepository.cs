@@ -15,6 +15,7 @@ namespace BugFixer.Domain.Interfaces
         Task<User?> GetUserByEmailAsync(string email);
 
         Task<User?> GetUserByActivationCode(string activationCode);
+        IQueryable<User> GetAllUsers();
 
         Task<User?> GetUserByIdAsync(long id);
     }

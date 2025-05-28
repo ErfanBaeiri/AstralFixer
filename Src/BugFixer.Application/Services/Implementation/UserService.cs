@@ -7,6 +7,7 @@ using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.Enums;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Account;
+using BugFixer.Domain.ViewModels.Admin.User;
 using BugFixer.Domain.ViewModels.Common;
 using BugFixer.Domain.ViewModels.UserPanel.Account;
 using Microsoft.Extensions.Options;
@@ -252,7 +253,6 @@ namespace BugFixer.Application.Services.Implementation
 
         #endregion
 
-
         #region User Question / User Score and Medal
         public async Task UpdateUserScoreAndMedalAsync(long userId, int score)
         {
@@ -295,6 +295,36 @@ namespace BugFixer.Application.Services.Implementation
             }
 
         }
+        #endregion
+
+        #region Admin
+        public async Task<FilterUserAdminViewModel> FilterUserAdmin(FilterUserAdminViewModel filter)
+        {
+            var query = _userRepository.GetAllUsers();
+
+            if (!string.IsNullOrEmpty(filter.UserSearch))
+            {
+                query = query.Where(s => (s.FirstName + " " + s.LastName).Trim().Contains(filter.UserSearch)
+                || s.Email.Contains(filter.UserSearch));
+            }
+
+            switch (filter.ActivationStatus)
+            {
+                case AccountActivationStatus.All:
+                    break;
+                case AccountActivationStatus.IsActive:
+                    query = query.Where(s => s.IsEmailConfirmed);
+                    break;
+                case AccountActivationStatus.NotActive:
+                    query = query.Where(s => !s.IsEmailConfirmed);
+                    break;
+            }
+
+            await filter.SetPaging(query);
+
+            return filter;
+        }
+
         #endregion
 
 

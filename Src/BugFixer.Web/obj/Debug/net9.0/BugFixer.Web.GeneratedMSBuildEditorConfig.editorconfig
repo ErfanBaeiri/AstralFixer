@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/ShowOnlineUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxTaG93T25saW5lVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Home/_CreateTagPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfQ3JlYXRlVGFnUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfTm90Rm91bmREYXRhUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Question/QuestionsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVlc3Rpb25cUXVlc3Rpb25zTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbk5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminNormalPaging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbk5vcm1hbFBhZ2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminPaging.cshtml]
@@ -74,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/Shared/_AdminStyles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblN0eWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/User/FilterUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxGaWx0ZXJVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/BugFixer/Src/BugFixer.Web/Areas/Admin/Views/_ViewImports.cshtml]
