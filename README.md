@@ -1,6 +1,6 @@
 # 💡 BugFixer - A Modern Q&A Platform Built with .NET 9
 
-AskHub is a full-featured, modern Question & Answer web application inspired by [Stack Overflow](https://stackoverflow.com/), developed using **.NET 9** and following **Clean Architecture** principles.
+BugFixer is a full-featured, modern Question & Answer web application inspired by [Stack Overflow](https://stackoverflow.com/), developed using **.NET 9** and following **Clean Architecture** principles.
 
 Whether you're seeking knowledge or helping others grow, BugFixer provides a rich, interactive platform that brings developers together.
 
